@@ -8,9 +8,9 @@ S:
   color: 5D9801
 M:
   name: size/M
-  lines: 30
+  lines: 100
   color: 7F7203
 L:
   name: size/L
-  lines: 100
+  lines: 200
   color: A14C05
