@@ -1,0 +1,38 @@
+{
+  "projectType": "library",
+  "sourceRoot": "libs/ag-forms/src",
+  "prefix": "ag-forms",
+  "targets": {
+    "build": {
+      "executor": "@nrwl/angular:package",
+      "outputs": ["dist/libs/ag-forms"],
+      "options": {
+        "project": "libs/ag-forms/ng-package.json"
+      },
+      "configurations": {
+        "production": {
+          "tsConfig": "libs/ag-forms/tsconfig.lib.prod.json"
+        },
+        "development": {
+          "tsConfig": "libs/ag-forms/tsconfig.lib.json"
+        }
+      },
+      "defaultConfiguration": "production"
+    },
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/libs/ag-forms"],
+      "options": {
+        "jestConfig": "libs/ag-forms/jest.config.ts",
+        "passWithNoTests": true
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "options": {
+        "lintFilePatterns": ["libs/ag-forms/**/*.ts", "libs/ag-forms/**/*.html"]
+      }
+    }
+  },
+  "tags": []
+}

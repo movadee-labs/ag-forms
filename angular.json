@@ -2,7 +2,8 @@
   "$schema": "./node_modules/nx/schemas/workspace-schema.json",
   "version": 2,
   "projects": {
-    "example": "apps/example",
-    "example-e2e": "apps/example-e2e"
+    "ag-forms": "libs/ag-forms",
+    "example": "demo/example",
+    "example-e2e": "demo/example-e2e"
   }
 }
