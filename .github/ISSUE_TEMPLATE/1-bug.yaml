@@ -1,0 +1,19 @@
+name: 🐞 Bug
+description: File a bug/issue
+
+body:
+  - type: dropdown
+    id: label
+    attributes:
+      label: Source of the bug
+      options:
+        - (build) build system or dependencies
+        - [ci] CI configs
+        - (docs) documentation
+        - (fix) functionality
+        - (perf) performance
+        - (refactor) code improvement
+        - (test) missing tests
+        - (other) don't known
+    validations:
+      required: true
