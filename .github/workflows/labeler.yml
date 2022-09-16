@@ -11,5 +11,5 @@ jobs:
     - uses: github/issue-labeler@v2.5 #May not be the latest version
       with:
         repo-token: "${{ secrets.ADD_TO_PROJECT_PAT }}"
-        configuration-path: .github/label-issue.yml
+        configuration-path: .github/workflows/label-issue.yml
         enable-versioned-regex: 0
