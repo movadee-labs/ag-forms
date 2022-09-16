@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Questions
+    url: https://github.com/movadee-open-source/ag-forms/discussions
+    about: Questions and requests for support
+  - name: Tutorials
+    url: https://medium.com/
+    about: Read our Medium blog tutorials
