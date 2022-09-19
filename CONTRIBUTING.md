@@ -13,3 +13,5 @@ ag-forms/
 │   └──  ag-forms/		# ag-forms source code
 └── ...
 ```
+
+- recommended VSCode plugins
