@@ -21,7 +21,7 @@
     "build": "nx build --configuration=production",
     "ci": "yarn build && yarn lint && yarn test && yarn e2e --configuration=ci-production",
     "decorate-angular-cli": "node ./decorate-angular-cli.js",
-    "e2e": "nx e2e example",
+    "e2e": "nx e2e example-e2e",
     "lint": "nx run-many --target=lint --all --max-warnings=0",
     "lint-fix": "nx run-many --target=lint --all --fix",
     "ng": "nx",
