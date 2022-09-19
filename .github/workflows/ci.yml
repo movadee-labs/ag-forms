@@ -49,7 +49,7 @@ jobs:
           'Derive appropriate SHAs for base and head for `nx affected` commands'
         uses: nrwl/nx-set-shas@v2
       - name: Set up dependencies
-        uses: ./.github/actions/setup-dependencies
+        uses: ./.github/actions
 
       - name: 'PR: Build application if affected by changes in feature branch'
         if: env.is-pull-request == 'true'
@@ -72,7 +72,7 @@ jobs:
           'Derive appropriate SHAs for base and head for `nx affected` commands'
         uses: nrwl/nx-set-shas@v2
       - name: Set up dependencies
-        uses: ./.github/actions/setup-dependencies
+        uses: ./.github/actions
 
       - name: Lint Nx workspace
         run: yarn nx workspace-lint
@@ -97,7 +97,7 @@ jobs:
           'Derive appropriate SHAs for base and head for `nx affected` commands'
         uses: nrwl/nx-set-shas@v2
       - name: Set up dependencies
-        uses: ./.github/actions/setup-dependencies
+        uses: ./.github/actions
 
       - name: 'PR: Test affected projects'
         if: env.is-pull-request == 'true'
@@ -120,7 +120,7 @@ jobs:
           'Derive appropriate SHAs for base and head for `nx affected` commands'
         uses: nrwl/nx-set-shas@v2
       - name: Set up dependencies
-        uses: ./.github/actions/setup-dependencies
+        uses: ./.github/actions
 
       - name:
           'PR: End-to-end test application if affected by changes in feature
