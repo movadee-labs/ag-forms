@@ -17,3 +17,5 @@ ag-forms/
 ```
 
 - recommended VSCode plugins
+- sonarcloud: https://sonarcloud.io/project/overview?id=movadee-open-source_ag-forms
+- semantic release: https://github.com/TheUnderScorer/nx-semantic-release
