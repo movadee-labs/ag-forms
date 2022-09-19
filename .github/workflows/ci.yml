@@ -27,3 +27,19 @@ jobs:
     uses: nrwl/ci/.github/workflows/nx-cloud-agents.yml@v0.6
     with:
       number-of-agents: 3
+
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: configure git
+        run: |
+          git config user.name "${GITHUB_ACTOR}"
+          git config user.email "${GITHUB_ACTOR}@users.noreply.github.com"
+
+      - run: npm ci
+
+      - run: npx nx run ag-forms:semantic-release
+        env:
+          GITHUB_TOKEN: ${{ secrets.ADD_TO_PROJECT_PAT }}
