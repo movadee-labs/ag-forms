@@ -2,12 +2,34 @@
   "name": "ag-forms",
   "version": "0.0.0",
   "license": "MIT",
+  "engines": {
+    "npm": "Use Yarn instead of NPM",
+    "node": "16.17.0",
+    "yarn": "1.22.19"
+  },
+  "volta": {
+    "node": "16.17.0",
+    "yarn": "1.22.19"
+  },
   "scripts": {
+    "postinstall": "npm run decorate-angular-cli && npm run ngcc",
+    "affected:build": "nx affected:build --configuration=production",
+    "affected:ci": "yarn affected:build && yarn affected:lint && yarn affected:test && yarn affected:e2e --configuration=ci-production",
+    "affected:e2e": "nx affected:e2e",
+    "affected:lint": "nx affected:lint --max-warnings=0",
+    "affected:test": "nx affected:test",
+    "build": "nx build --configuration=production",
+    "ci": "yarn build && yarn lint && yarn test && yarn e2e --configuration=ci-production",
+    "decorate-angular-cli": "node ./decorate-angular-cli.js",
+    "e2e": "nx e2e energy-insights-app-e2e",
+    "lint": "nx run-many --target=lint --all --max-warnings=0",
+    "lint-fix": "nx run-many --target=lint --all --fix",
     "ng": "nx",
-    "postinstall": "node ./decorate-angular-cli.js && ngcc --properties es2020 browser module main",
+    "ngcc": "ngcc --properties es2015 browser module main",
+    "ngcc:app": "npm run ngcc -- --tsconfig apps/energy-insights-app/tsconfig.app.json --use-program-dependencies",
+    "nx": "nx",
     "start": "nx serve",
-    "build": "nx build",
-    "test": "nx test"
+    "test": "nx run-many --target=test --all"
   },
   "private": true,
   "dependencies": {
