@@ -1,6 +1,8 @@
 # Contributing to `ag-forms`
 
-We would love for you to contribute! Read this document to see how to do it.
+:+1::tada: First off, thanks for taking the time to contribute! :tada::+1:
+
+The following contains architecture, design decisions, code of conduct and more. It should help you with onboarding and contributing :)
 
 ## Folder Structure
 
