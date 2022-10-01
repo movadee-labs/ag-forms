@@ -26,7 +26,7 @@
     "lint-fix": "nx run-many --target=lint --all --fix",
     "ng": "nx",
     "ngcc": "ngcc --properties es2015 browser module main",
-    "ngcc:app": "npm run ngcc -- --tsconfig apps/energy-insights-app/tsconfig.app.json --use-program-dependencies",
+    "ngcc:app": "npm run ngcc -- --tsconfig demo/energy-insights-app/tsconfig.app.json --use-program-dependencies",
     "nx": "nx",
     "start": "nx serve",
     "test": "nx run-many --target=test --all"
