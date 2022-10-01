@@ -4,6 +4,7 @@
   "projects": {
     "ag-forms": "libs/ag-forms",
     "example": "demo/example",
-    "example-e2e": "demo/example-e2e"
+    "example-e2e": "demo/example-e2e",
+    "tailwindcss-forms": "libs/tailwindcss-forms"
   }
 }
