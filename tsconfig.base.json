@@ -18,6 +18,7 @@
     "noImplicitAny": false,
     "baseUrl": ".",
     "paths": {
+      "@ag-forms/core": ["libs/core/src/index.ts"],
       "@ag-forms/tailwindcss-forms": ["libs/tailwindcss-forms/src/index.ts"],
       "ag-forms": ["libs/ag-forms/src/index.ts"]
     }
