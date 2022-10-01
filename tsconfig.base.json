@@ -19,8 +19,7 @@
     "baseUrl": ".",
     "paths": {
       "@ag-forms/core": ["libs/core/src/index.ts"],
-      "@ag-forms/tailwind-forms": ["libs/tailwind-forms/src/index.ts"],
-      "ag-forms": ["libs/ag-forms/src/index.ts"]
+      "@ag-forms/tailwind-forms": ["libs/tailwind-forms/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
