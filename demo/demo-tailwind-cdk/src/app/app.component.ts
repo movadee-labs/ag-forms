@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'ag-forms-root',
+  selector: 'agf-demo-tailwind-cdk',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss'],
 })

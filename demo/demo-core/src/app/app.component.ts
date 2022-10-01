@@ -3,7 +3,7 @@ import { Component } from '@angular/core';
 import { FormArray, FormGroup } from '@angular/forms';
 
 @Component({
-  selector: 'ag-forms-root',
+  selector: 'agf-demo-core',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss'],
 })

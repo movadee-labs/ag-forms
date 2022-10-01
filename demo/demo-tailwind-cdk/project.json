@@ -1,24 +1,24 @@
 {
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
   "projectType": "application",
-  "sourceRoot": "apps/demo-tailwind-cdk/src",
+  "sourceRoot": "demo/demo-tailwind-cdk/src",
   "prefix": "ag-forms",
   "targets": {
     "build": {
       "executor": "@angular-devkit/build-angular:browser",
       "outputs": ["{options.outputPath}"],
       "options": {
-        "outputPath": "dist/apps/demo-tailwind-cdk",
-        "index": "apps/demo-tailwind-cdk/src/index.html",
-        "main": "apps/demo-tailwind-cdk/src/main.ts",
-        "polyfills": "apps/demo-tailwind-cdk/src/polyfills.ts",
-        "tsConfig": "apps/demo-tailwind-cdk/tsconfig.app.json",
+        "outputPath": "dist/demo/demo-tailwind-cdk",
+        "index": "demo/demo-tailwind-cdk/src/index.html",
+        "main": "demo/demo-tailwind-cdk/src/main.ts",
+        "polyfills": "demo/demo-tailwind-cdk/src/polyfills.ts",
+        "tsConfig": "demo/demo-tailwind-cdk/tsconfig.app.json",
         "inlineStyleLanguage": "scss",
         "assets": [
-          "apps/demo-tailwind-cdk/src/favicon.ico",
-          "apps/demo-tailwind-cdk/src/assets"
+          "demo/demo-tailwind-cdk/src/favicon.ico",
+          "demo/demo-tailwind-cdk/src/assets"
         ],
-        "styles": ["apps/demo-tailwind-cdk/src/styles.scss"],
+        "styles": ["demo/demo-tailwind-cdk/src/styles.scss"],
         "scripts": []
       },
       "configurations": {
@@ -37,8 +37,8 @@
           ],
           "fileReplacements": [
             {
-              "replace": "apps/demo-tailwind-cdk/src/environments/environment.ts",
-              "with": "apps/demo-tailwind-cdk/src/environments/environment.prod.ts"
+              "replace": "demo/demo-tailwind-cdk/src/environments/environment.ts",
+              "with": "demo/demo-tailwind-cdk/src/environments/environment.prod.ts"
             }
           ],
           "outputHashing": "all"
@@ -79,16 +79,16 @@
       "executor": "@nrwl/linter:eslint",
       "options": {
         "lintFilePatterns": [
-          "apps/demo-tailwind-cdk/**/*.ts",
-          "apps/demo-tailwind-cdk/**/*.html"
+          "demo/demo-tailwind-cdk/**/*.ts",
+          "demo/demo-tailwind-cdk/**/*.html"
         ]
       }
     },
     "test": {
       "executor": "@nrwl/jest:jest",
-      "outputs": ["coverage/apps/demo-tailwind-cdk"],
+      "outputs": ["coverage/demo/demo-tailwind-cdk"],
       "options": {
-        "jestConfig": "apps/demo-tailwind-cdk/jest.config.ts",
+        "jestConfig": "demo/demo-tailwind-cdk/jest.config.ts",
         "passWithNoTests": true
       }
     }

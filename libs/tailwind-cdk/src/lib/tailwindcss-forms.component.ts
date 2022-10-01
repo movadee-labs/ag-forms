@@ -1,12 +1,5 @@
 import { agFormService } from '@ag-forms/core';
-import {
-  ChangeDetectionStrategy,
-  Component,
-  Input,
-  OnInit,
-  ViewChild,
-  ViewContainerRef,
-} from '@angular/core';
+import { ChangeDetectionStrategy, Component, Input, OnInit, ViewChild, ViewContainerRef } from '@angular/core';
 import { FormControl, FormGroup } from '@angular/forms';
 
 import { FORM_ELEMENTS } from './form-elements';
