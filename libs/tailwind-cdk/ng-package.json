@@ -1,6 +1,6 @@
 {
   "$schema": "../../node_modules/ng-packagr/ng-package.schema.json",
-  "dest": "../../dist/libs/tailwind-forms",
+  "dest": "../../dist/libs/tailwind-cdk",
   "lib": {
     "entryFile": "src/index.ts"
   }

@@ -3,11 +3,11 @@ import { NgModule } from '@angular/core';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 import { InputComponent } from './input/input.component';
-import { TailwindFormsComponent } from './tailwindcss-forms.component';
+import { TailwindCdkComponent } from './tailwindcss-forms.component';
 
 @NgModule({
   imports: [CommonModule, FormsModule, ReactiveFormsModule],
-  declarations: [TailwindFormsComponent, InputComponent],
-  exports: [TailwindFormsComponent],
+  declarations: [TailwindCdkComponent, InputComponent],
+  exports: [TailwindCdkComponent],
 })
-export class TailwindFormsModule {}
+export class TailwindCdkModule {}

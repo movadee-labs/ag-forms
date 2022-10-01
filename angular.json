@@ -5,8 +5,8 @@
     "core": "libs/core",
     "demo-core": "demo/demo-core",
     "demo-core-e2e": "demo/demo-core-e2e",
-    "demo-tailwind-forms": "demo/demo-tailwind-forms",
-    "demo-tailwind-forms-e2e": "demo/demo-tailwind-forms-e2e",
-    "tailwind-forms": "libs/tailwind-forms"
+    "demo-tailwind-cdk": "apps/demo-tailwind-cdk",
+    "demo-tailwind-cdk-e2e": "apps/demo-tailwind-cdk-e2e",
+    "tailwind-cdk": "libs/tailwind-cdk"
   }
 }

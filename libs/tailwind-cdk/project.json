@@ -1,31 +1,31 @@
 {
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
   "projectType": "library",
-  "sourceRoot": "libs/tailwind-forms/src",
+  "sourceRoot": "libs/tailwind-cdk/src",
   "prefix": "ag-forms",
   "targets": {
     "build": {
       "executor": "@nrwl/angular:package",
-      "outputs": ["dist/libs/tailwind-forms"],
+      "outputs": ["dist/libs/tailwind-cdk"],
       "options": {
-        "project": "libs/tailwind-forms/ng-package.json",
-        "tailwindConfig": "libs/tailwind-forms/tailwind.config.js"
+        "project": "libs/tailwind-cdk/ng-package.json",
+        "tailwindConfig": "libs/tailwind-cdk/tailwind.config.js"
       },
       "configurations": {
         "production": {
-          "tsConfig": "libs/tailwind-forms/tsconfig.lib.prod.json"
+          "tsConfig": "libs/tailwind-cdk/tsconfig.lib.prod.json"
         },
         "development": {
-          "tsConfig": "libs/tailwind-forms/tsconfig.lib.json"
+          "tsConfig": "libs/tailwind-cdk/tsconfig.lib.json"
         }
       },
       "defaultConfiguration": "production"
     },
     "test": {
       "executor": "@nrwl/jest:jest",
-      "outputs": ["coverage/libs/tailwind-forms"],
+      "outputs": ["coverage/libs/tailwind-cdk"],
       "options": {
-        "jestConfig": "libs/tailwind-forms/jest.config.ts",
+        "jestConfig": "libs/tailwind-cdk/jest.config.ts",
         "passWithNoTests": true
       }
     },
@@ -33,8 +33,8 @@
       "executor": "@nrwl/linter:eslint",
       "options": {
         "lintFilePatterns": [
-          "libs/tailwind-forms/**/*.ts",
-          "libs/tailwind-forms/**/*.html"
+          "libs/tailwind-cdk/**/*.ts",
+          "libs/tailwind-cdk/**/*.html"
         ]
       }
     }

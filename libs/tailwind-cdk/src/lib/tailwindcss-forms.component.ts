@@ -18,7 +18,7 @@ import { FORM_ELEMENTS } from './form-elements';
   styleUrls: ['./tailwindcss-forms.component.scss'],
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class TailwindFormsComponent implements OnInit {
+export class TailwindCdkComponent implements OnInit {
   @ViewChild('formElement', { static: true, read: ViewContainerRef })
   formElement: ViewContainerRef;
   @Input() schema: any;

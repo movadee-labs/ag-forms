@@ -1,24 +1,24 @@
 {
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
   "projectType": "application",
-  "sourceRoot": "demo/demo-tailwind-forms/src",
+  "sourceRoot": "apps/demo-tailwind-cdk/src",
   "prefix": "ag-forms",
   "targets": {
     "build": {
       "executor": "@angular-devkit/build-angular:browser",
       "outputs": ["{options.outputPath}"],
       "options": {
-        "outputPath": "dist/demo/demo-tailwind-forms",
-        "index": "demo/demo-tailwind-forms/src/index.html",
-        "main": "demo/demo-tailwind-forms/src/main.ts",
-        "polyfills": "demo/demo-tailwind-forms/src/polyfills.ts",
-        "tsConfig": "demo/demo-tailwind-forms/tsconfig.app.json",
+        "outputPath": "dist/apps/demo-tailwind-cdk",
+        "index": "apps/demo-tailwind-cdk/src/index.html",
+        "main": "apps/demo-tailwind-cdk/src/main.ts",
+        "polyfills": "apps/demo-tailwind-cdk/src/polyfills.ts",
+        "tsConfig": "apps/demo-tailwind-cdk/tsconfig.app.json",
         "inlineStyleLanguage": "scss",
         "assets": [
-          "demo/demo-tailwind-forms/src/favicon.ico",
-          "demo/demo-tailwind-forms/src/assets"
+          "apps/demo-tailwind-cdk/src/favicon.ico",
+          "apps/demo-tailwind-cdk/src/assets"
         ],
-        "styles": ["demo/demo-tailwind-forms/src/styles.scss"],
+        "styles": ["apps/demo-tailwind-cdk/src/styles.scss"],
         "scripts": []
       },
       "configurations": {
@@ -37,8 +37,8 @@
           ],
           "fileReplacements": [
             {
-              "replace": "demo/demo-tailwind-forms/src/environments/environment.ts",
-              "with": "demo/demo-tailwind-forms/src/environments/environment.prod.ts"
+              "replace": "apps/demo-tailwind-cdk/src/environments/environment.ts",
+              "with": "apps/demo-tailwind-cdk/src/environments/environment.prod.ts"
             }
           ],
           "outputHashing": "all"
@@ -58,10 +58,10 @@
       "executor": "@angular-devkit/build-angular:dev-server",
       "configurations": {
         "production": {
-          "browserTarget": "demo-tailwind-forms:build:production"
+          "browserTarget": "demo-tailwind-cdk:build:production"
         },
         "development": {
-          "browserTarget": "demo-tailwind-forms:build:development"
+          "browserTarget": "demo-tailwind-cdk:build:development"
         }
       },
       "defaultConfiguration": "development",
@@ -72,23 +72,23 @@
     "extract-i18n": {
       "executor": "@angular-devkit/build-angular:extract-i18n",
       "options": {
-        "browserTarget": "demo-tailwind-forms:build"
+        "browserTarget": "demo-tailwind-cdk:build"
       }
     },
     "lint": {
       "executor": "@nrwl/linter:eslint",
       "options": {
         "lintFilePatterns": [
-          "demo/demo-tailwind-forms/**/*.ts",
-          "demo/demo-tailwind-forms/**/*.html"
+          "apps/demo-tailwind-cdk/**/*.ts",
+          "apps/demo-tailwind-cdk/**/*.html"
         ]
       }
     },
     "test": {
       "executor": "@nrwl/jest:jest",
-      "outputs": ["coverage/demo/demo-tailwind-forms"],
+      "outputs": ["coverage/apps/demo-tailwind-cdk"],
       "options": {
-        "jestConfig": "demo/demo-tailwind-forms/jest.config.ts",
+        "jestConfig": "apps/demo-tailwind-cdk/jest.config.ts",
         "passWithNoTests": true
       }
     }

@@ -1,6 +1,6 @@
 /* eslint-disable */
 export default {
-  displayName: 'demo-tailwind-forms',
+  displayName: 'tailwind-cdk',
   preset: '../../jest.preset.js',
   setupFilesAfterEnv: ['<rootDir>/src/test-setup.ts'],
   globals: {
@@ -9,7 +9,7 @@ export default {
       stringifyContentPathRegex: '\\.(html|svg)$',
     },
   },
-  coverageDirectory: '../../coverage/demo/demo-tailwind-forms',
+  coverageDirectory: '../../coverage/libs/tailwind-cdk',
   transform: {
     '^.+\\.(ts|mjs|js|html)$': 'jest-preset-angular',
   },

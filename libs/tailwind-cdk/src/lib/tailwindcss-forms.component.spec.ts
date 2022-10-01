@@ -1,17 +1,17 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { TailwindFormsComponent } from './tailwindcss-forms.component';
+import { TailwindCdkComponent } from './tailwindcss-forms.component';
 
-describe('TailwindFormsComponent', () => {
-  let component: TailwindFormsComponent;
-  let fixture: ComponentFixture<TailwindFormsComponent>;
+describe('TailwindCdkComponent', () => {
+  let component: TailwindCdkComponent;
+  let fixture: ComponentFixture<TailwindCdkComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [TailwindFormsComponent],
+      declarations: [TailwindCdkComponent],
     }).compileComponents();
 
-    fixture = TestBed.createComponent(TailwindFormsComponent);
+    fixture = TestBed.createComponent(TailwindCdkComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

@@ -1,5 +1,5 @@
 {
-  "name": "@ag-forms/tailwind-forms",
+  "name": "@ag-forms/tailwind-cdk",
   "version": "0.0.1",
   "peerDependencies": {
     "@angular/common": "^14.2.0",
