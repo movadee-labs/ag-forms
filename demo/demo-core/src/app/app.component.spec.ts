@@ -15,11 +15,6 @@ describe('AppComponent - Demo Core', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'demo-core'`, () => {
-    const fixture = TestBed.createComponent(AppComponent);
-    const app = fixture.componentInstance;
-  });
-
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
