@@ -8,7 +8,6 @@ import { FORM_ELEMENTS } from './form-elements';
   // eslint-disable-next-line @angular-eslint/component-selector
   selector: 'ag-form',
   templateUrl: './tailwindcss-forms.component.html',
-  styleUrls: ['./tailwindcss-forms.component.scss'],
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class TailwindCdkComponent implements OnInit {

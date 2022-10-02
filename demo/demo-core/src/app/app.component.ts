@@ -4,8 +4,7 @@ import { FormArray, FormGroup } from '@angular/forms';
 
 @Component({
   selector: 'agf-demo-core',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss'],
+  templateUrl: './app.component.html'
 })
 export class AppComponent {
   public form: FormGroup;
