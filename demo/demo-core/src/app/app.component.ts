@@ -4,15 +4,14 @@ import { FormArray, FormGroup } from '@angular/forms';
 
 @Component({
   selector: 'agf-demo-core',
-  templateUrl: './app.component.html'
+  templateUrl: './app.component.html',
 })
 export class AppComponent {
   public form: FormGroup;
   public formMultiStep: FormArray;
-  private schema = [{"type": "input"}, {"type": 'email'}];
-  
-  constructor(public fs: AgFormService){
+  private schema = [{ type: 'input' }, { type: 'email' }];
+
+  constructor(public fs: AgFormService) {
     this.form = this.fs.buildForm(this.schema);
-    console.log("demo core - form", this.form)
   }
 }
