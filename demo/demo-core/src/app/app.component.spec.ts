@@ -1,11 +1,11 @@
 import { TestBed } from '@angular/core/testing';
-import { AppComponent } from './app.component';
-import { NxWelcomeComponent } from './nx-welcome.component';
 
-describe('AppComponent', () => {
+import { AppComponent } from './app.component';
+
+describe('AppComponent - Demo Core', () => {
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [AppComponent, NxWelcomeComponent],
+      declarations: [AppComponent],
     }).compileComponents();
   });
 
@@ -18,7 +18,6 @@ describe('AppComponent', () => {
   it(`should have as title 'demo-core'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('demo-core');
   });
 
   it('should render title', () => {

@@ -1,4 +1,4 @@
-import { agFormService } from '@ag-forms/core';
+import { AgFormService } from '@ag-forms/core';
 import { TailwindCdkModule } from '@ag-forms/tailwind-cdk';
 import { NgModule } from '@angular/core';
 import { ReactiveFormsModule } from '@angular/forms';
@@ -9,7 +9,7 @@ import { AppComponent } from './app.component';
 @NgModule({
   declarations: [AppComponent],
   imports: [BrowserModule, ReactiveFormsModule, TailwindCdkModule],
-  providers: [agFormService],
+  providers: [AgFormService],
   bootstrap: [AppComponent],
 })
 export class AppModule {}

@@ -2,7 +2,7 @@ import { Injectable } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 
 @Injectable()
-export class agFormService {
+export class AgFormService {
   private _agForm: FormGroup;
 	
 	public get agForm(): FormGroup {
