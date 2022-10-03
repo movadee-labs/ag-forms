@@ -1,22 +1,27 @@
-import { ComponentFixture, TestBed } from '@angular/core/testing';
+import { AgFormService } from '@ag-forms/core';
+import { createComponentFactory, Spectator } from '@ngneat/spectator';
+import { MockComponent, MockProvider } from 'ng-mocks';
 
+import { InputComponent } from './input/input.component';
 import { TailwindCdkComponent } from './tailwindcss-forms.component';
 
+const schema = [];
+
 describe('TailwindCdkComponent', () => {
-  let component: TailwindCdkComponent;
-  let fixture: ComponentFixture<TailwindCdkComponent>;
+  let spectator: Spectator<TailwindCdkComponent>;
 
-  beforeEach(async () => {
-    await TestBed.configureTestingModule({
-      declarations: [TailwindCdkComponent],
-    }).compileComponents();
+  const createComponent = createComponentFactory({
+    component: TailwindCdkComponent,
+    declarations: [MockComponent(InputComponent)],
+    providers: [MockProvider(AgFormService)],
+    shallow: true,
+  });
 
-    fixture = TestBed.createComponent(TailwindCdkComponent);
-    component = fixture.componentInstance;
-    fixture.detectChanges();
+  beforeEach(() => {
+    spectator = createComponent({ props: { schema } });
   });
 
   it('should create', () => {
-    expect(component).toBeTruthy();
+    expect(spectator.component).toBeTruthy();
   });
 });

@@ -1,26 +1,24 @@
-import { TestBed } from '@angular/core/testing';
+import { AgFormService } from '@ag-forms/core';
+import { createComponentFactory, Spectator } from '@ngneat/spectator';
+import { MockProvider } from 'ng-mocks';
 
 import { AppComponent } from './app.component';
 
 describe('AppComponent - Demo Core', () => {
-  beforeEach(async () => {
-    await TestBed.configureTestingModule({
-      declarations: [AppComponent],
-    }).compileComponents();
+  let spectator: Spectator<AppComponent>;
+
+  const createComponent = createComponentFactory({
+    component: AppComponent,
+    providers: [MockProvider(AgFormService)],
+    shallow: true,
+  });
+
+  beforeEach(() => {
+    spectator = createComponent();
   });
 
   it('should create the app', () => {
-    const fixture = TestBed.createComponent(AppComponent);
-    const app = fixture.componentInstance;
-    expect(app).toBeTruthy();
+    expect(spectator.component).toBeTruthy();
   });
 
-  it('should render title', () => {
-    const fixture = TestBed.createComponent(AppComponent);
-    fixture.detectChanges();
-    const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('h1')?.textContent).toContain(
-      'Welcome demo-core'
-    );
-  });
 });

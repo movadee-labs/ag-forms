@@ -4,6 +4,4 @@ import { Component } from '@angular/core';
   selector: 'agf-demo-tailwind-cdk',
   templateUrl: './app.component.html',
 })
-export class AppComponent {
-  title = 'demo-tailwindcss-forms';
-}
+export class AppComponent {}
