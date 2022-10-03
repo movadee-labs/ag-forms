@@ -28,7 +28,7 @@
     "ngcc": "ngcc --properties es2015 browser module main",
     "nx": "nx",
     "start": "nx serve",
-    "test": "nx run-many --target=test --all --parallel --coverage --coverageReporters=lcov && node ./coverage.util.js"
+    "test": "nx run-many --target=test --all  --skip-nx-cache --parallel --coverage --coverageReporters=lcov && node ./coverage.util.js"
   },
   "private": true,
   "dependencies": {
