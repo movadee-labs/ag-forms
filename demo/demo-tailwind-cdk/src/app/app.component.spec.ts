@@ -17,5 +17,4 @@ describe('AppComponent - Demo Tailwind CDK', () => {
   it('should create the app', () => {
     expect(spectator.component).toBeTruthy();
   });
-
 });

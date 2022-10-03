@@ -20,5 +20,4 @@ describe('AppComponent - Demo Core', () => {
   it('should create the app', () => {
     expect(spectator.component).toBeTruthy();
   });
-
 });
