@@ -9,7 +9,7 @@ import { TailwindCdkComponent } from './tailwindcss-forms.component';
 const schema = [{ type: 'input' }];
 
 const testForm = new FormGroup({
-  test: new FormControl('abc')
+  test: new FormControl('abc'),
 });
 
 describe('TailwindCdkComponent', () => {
@@ -18,9 +18,11 @@ describe('TailwindCdkComponent', () => {
   const createComponent = createComponentFactory({
     component: TailwindCdkComponent,
     declarations: [MockComponent(InputComponent)],
-    providers: [MockProvider(AgFormService, {
-      buildForm: () => testForm,
-    })],
+    providers: [
+      MockProvider(AgFormService, {
+        buildForm: () => testForm,
+      }),
+    ],
     shallow: true,
   });
 
@@ -33,6 +35,6 @@ describe('TailwindCdkComponent', () => {
   });
 
   it('should create 2', () => {
-    expect(spectator.component.form.controls["test"].value).toEqual("abc");
+    expect(spectator.component.form.controls['test'].value).toEqual('abc');
   });
 });

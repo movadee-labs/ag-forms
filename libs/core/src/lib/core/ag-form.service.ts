@@ -17,7 +17,7 @@ export class AgFormService {
 
   public buildForm(schema: any): FormGroup {
     this.agForm = this.fb.group({
-      test: ['test field', [Validators.required]]
+      test: ['test field', [Validators.required]],
     });
     return this.agForm;
   }

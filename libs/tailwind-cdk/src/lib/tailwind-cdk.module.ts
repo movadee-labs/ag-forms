@@ -10,6 +10,6 @@ import { TailwindCdkComponent } from './tailwindcss-forms.component';
   imports: [CommonModule, FormsModule, ReactiveFormsModule],
   declarations: [TailwindCdkComponent, InputComponent],
   exports: [TailwindCdkComponent],
-  providers: [AgFormService]
+  providers: [AgFormService],
 })
 export class TailwindCdkModule {}
