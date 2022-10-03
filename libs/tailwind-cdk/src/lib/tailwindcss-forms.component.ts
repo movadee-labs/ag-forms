@@ -1,12 +1,5 @@
 import { AgFormService } from '@ag-forms/core';
-import {
-  ChangeDetectionStrategy,
-  Component,
-  Input,
-  OnInit,
-  ViewChild,
-  ViewContainerRef,
-} from '@angular/core';
+import { ChangeDetectionStrategy, Component, Input, OnInit, ViewChild, ViewContainerRef } from '@angular/core';
 import { FormControl, FormGroup } from '@angular/forms';
 
 import { FORM_ELEMENTS } from './form-elements';
@@ -28,9 +21,8 @@ export class TailwindCdkComponent implements OnInit {
   ngOnInit(): void {
     if (this.schema.length) {
       this.form = this.fs.buildForm(this.schema);
-      this.formElement.createComponent(FORM_ELEMENTS.input).instance.control = <
-        FormControl
-      >this.fs.agForm.controls['test'];
+      this.formElement.createComponent(FORM_ELEMENTS.input).instance.control = 
+      <FormControl>this.form.controls['test'];
     }
   }
 }

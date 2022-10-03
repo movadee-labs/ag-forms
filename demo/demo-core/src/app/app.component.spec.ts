@@ -1,5 +1,5 @@
 import { AgFormService } from '@ag-forms/core';
-import { createComponentFactory, Spectator } from '@ngneat/spectator';
+import { createComponentFactory, Spectator } from '@ngneat/spectator/jest';
 import { MockProvider } from 'ng-mocks';
 
 import { AppComponent } from './app.component';
