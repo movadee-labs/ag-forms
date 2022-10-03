@@ -28,7 +28,7 @@
     "ngcc": "ngcc --properties es2015 browser module main",
     "nx": "nx",
     "start": "nx serve",
-    "test": "nx run-many --target=test --all --code-coverage"
+    "test": "nx run-many --target=test --all --parallel --coverage --coverageReporters=lcov && node ./coverage.util.js"
   },
   "private": true,
   "dependencies": {
@@ -71,6 +71,7 @@
     "eslint": "~8.15.0",
     "eslint-config-prettier": "8.1.0",
     "eslint-plugin-cypress": "^2.10.3",
+    "glob": "^8.0.3",
     "jest": "28.1.1",
     "jest-environment-jsdom": "28.1.1",
     "jest-preset-angular": "~12.2.0",
