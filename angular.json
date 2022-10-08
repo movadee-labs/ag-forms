@@ -4,9 +4,7 @@
   "projects": {
     "core": "libs/core",
     "demo-core": "demo/demo-core",
-    "demo-core-e2e": "demo/demo-core-e2e",
     "demo-tailwind-cdk": "demo/demo-tailwind-cdk",
-    "demo-tailwind-cdk-e2e": "demo/demo-tailwind-cdk-e2e",
     "tailwind-cdk": "libs/tailwind-cdk"
   }
 }
