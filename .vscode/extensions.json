@@ -5,6 +5,10 @@
     "esbenp.prettier-vscode",
     "firsttris.vscode-jest-runner",
     "dbaeumer.vscode-eslint",
-    "redhat.vscode-yaml"
+    "redhat.vscode-yaml",
+    "rbbit.typescript-hero",
+    "orta.vscode-jest",
+    "bradlc.vscode-tailwindcss",
+    "SonarSource.sonarlint-vscode"
   ]
 }
