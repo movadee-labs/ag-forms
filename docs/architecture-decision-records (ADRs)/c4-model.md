@@ -1,4 +1,4 @@
-###### ADR-003 / 2022-10-03 / Accepted
+###### ADR-003 / 2022-10-03 / In Progress
 
 # C4 model for visualising software architecture
 

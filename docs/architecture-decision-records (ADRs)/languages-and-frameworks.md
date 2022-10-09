@@ -10,7 +10,7 @@ https://blog.nrwl.io/set-up-tailwind-css-with-angular-in-an-nx-workspace-6f039a0
 
 tailwind + angular cdk reason
 
-###### ADR-004 / 2022-10-03 / Accepted
+###### ADR-004 / 2022-10-03 / In Progress
 
 # Languages
 

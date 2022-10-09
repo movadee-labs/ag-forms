@@ -1,4 +1,4 @@
-###### ADR-005 / 2022-10-06 / Accepted
+###### ADR-005 / 2022-10-06 / In Progress
 
 # Software Testing
 

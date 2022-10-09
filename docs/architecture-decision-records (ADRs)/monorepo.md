@@ -1,4 +1,4 @@
-###### ADR-002 / 2022-10-03 / Accepted
+###### ADR-002 / 2022-10-03 / In Progress
 
 # Monorepo Architecture
 
