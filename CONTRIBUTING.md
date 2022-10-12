@@ -91,6 +91,23 @@ bundle management https://bundlephobia.com/
 		<td></td>
 		<td></td>
   </tr>
+	<!-- Documentation -->
+  <tr>
+    <td><a href="">Documentation</a></td>
+    <td><a href="">Storybook</a></td>
+    <td>
+			<a href=""><code>@nrwl/storybook</code></a>
+			<a href=""><code>@storybook/addon-essentials</code></a>
+			<a href=""><code>@storybook/angular</code></a>
+			<a href=""><code>@storybook/builder-webpack5</code></a>
+			<a href=""><code>@storybook/core-server</code></a>
+			<a href=""><code>@storybook/manager-webpack5</code></a>
+			<a href=""><code>@storybook/test-runner</code></a>
+			<a href=""><code>webpack</code></a>
+		</td>
+		<td></td>
+		<td></td>
+  </tr>
 	<!-- DevOps -->
 	<tr>
     <td rowspan="2"><a href="">DevOps</a></td>
