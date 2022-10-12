@@ -1,10 +1,14 @@
-import { CommonModule } from '@angular/common';
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
-  standalone: true,
-  imports: [CommonModule],
-  template: ` <p>storybook works!</p> `,
+  // eslint-disable-next-line @angular-eslint/component-selector
+  selector: 'app-task',
+  // standalone: true,
+  // imports: [CommonModule],
+  templateUrl: './storybook.component.html',
   styles: [],
 })
-export class StorybookComponent {}
+export class StorybookComponent {
+  @Input() form_schema: any;
+  @Input() framework: any;
+}
