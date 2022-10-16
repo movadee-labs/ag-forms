@@ -1,14 +1,14 @@
 blank_issues_enabled: false
 contact_links:
-  - name: Idea
+  - name: 💡 Idea
     url: https://github.com/movadee/ag-forms/discussions/new?category=ideas
     about: Share ideas for new features
-  - name: Q&A
+  - name: 🙏 Q&A
     url: https://github.com/movadee/ag-forms/discussions/new?category=q-a
     about: Ask us and the community for help
-  - name: Show & tell
+  - name: 🙌 Show & tell
     url: https://github.com/movadee/ag-forms/discussions/new?category=show-tell
     about: checkout our tutorials/examples or show off something you've made
-  - name: General
+  - name: 💬 General
     url: https://github.com/movadee/ag-forms/discussions/new?category=general
     about: Chat about anything and everything here
