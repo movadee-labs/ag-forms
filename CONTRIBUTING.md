@@ -1,8 +1,31 @@
-# Contributing to `ag-forms`
+<details>
+	<summary>Table of Contents</summary></br>
+	Please use automatically generated table of contents in the top left corner of the README. The table of contents is interactive and links to the selected section. </br></br>
+	<img src="https://i0.wp.com/user-images.githubusercontent.com/7900087/113821370-df915480-9730-11eb-8aed-bdc50e2212d5.gif?ssl=1" alt="Italian Trulli">
+</details>
+
+## Contributing
 
 :+1::tada: First off, thanks for taking the time to contribute! :tada::+1:
 
-The following contains architecture, design decisions, code of conduct and more. It should help you with onboarding and contributing :)
+Have a look at existing [Issues]() and [Pull Requests]() that you could help with. If you found a bug or got a feature idea, and you want to work on it, please request a [Feature]() or report a [Bug]() first. We will review it within 48 hours.
+
+We auto-add all contributors to README.md and package.json
+
+<details>
+	<summary><i>See implementation details</i></summary>
+	<p>
+	GitHub Action jobs are setup in <a href=".github/workflows/contributors.yml"><code>contributors.yml</code></a> to run every Sunday midnight. It updates contributors on README.md and package.json files, so that our contributors could be visible project pages of: GitHub, NPM, PNPM, and YARN.
+	</p>
+</details>
+
+## Development setup
+
+## Release History
+
+## Versioning
+
+We use [Semantic Versioning](https://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/PurpleBooth/a-good-readme-template/tags).
 
 ## Folder Structure
 
@@ -41,6 +64,8 @@ builsing and testing https://github.com/angular/angular/blob/main/docs/DEVELOPER
 bundle management https://bundlephobia.com/
 
 <a href=""><code></code></a>
+
+https://github.com/nhn/tui.editor#-packages
 
 <table>
   <tr>
@@ -264,3 +289,10 @@ bundle management https://bundlephobia.com/
 		<td></td>
   </tr>
 </table>
+
+references:
+
+- https://choosealicense.com/
+  https://github.com/amitmerchant1990/electron-markdownify#readme
+  https://www.makeareadme.com/
+  https://keepachangelog.com/en/1.0.0/

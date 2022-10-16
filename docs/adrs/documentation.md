@@ -12,31 +12,30 @@ Project documentation is important for us because:
 
 The following is a list of all project documents:
 
-- [README.md]()
-  This document is a summary of a prject mainly created for lib consumers, which in our case developers who need to use `ag-forms` inside their project. Here we talk abpot the purpose of the project, problems it solves,
-  how to install `ag-forms` libs and use them in projects, etc.
+1. [README.md]()
+   This document is a summary of a prject mainly created for lib consumers, which in our case developers who need to use `ag-forms` inside their project. Here we talk abpot the purpose of the project, problems it solves,
+   how to install `ag-forms` libs and use them in projects, etc.
 
-- [README.md]() for demo projects
-  For every `ag-forms` lib we have demo project that shows lib setup and usage example. In README for demo projects we explain how to setup and run demo projects, and how to understand package.json (it's different from regular Angular project because we use Monorepo setup).
+2. [Storybook](ag-forms.com) hosted on ag-forms.com
+   Storybook is used to demo libs and help users build form specs for they project using GUI. It is hosted on ag-forms.com and presented as a demo site with a link to GitHub documentation.
 
-- [Storybook](ag-forms.com) hosted on ag-forms.com
-  Storybook is used to demo libs and help users build form specs for they project using GUI. It is hosted on ag-forms.com and presented as a demo site with a link to GitHub documentation.
+3. [CONTRIBUTING.md]() https://github.com/angular/angular/blob/main/CONTRIBUTING.md
 
-- [CONTRIBUTING.md]() https://github.com/angular/angular/blob/main/CONTRIBUTING.md
+   - getting started
+   - Coding Rules
+   - Commit Message Format
+   - **Software Architecture**
+     We think it's important to communicate how we are planning to build a software system or how an existing software system works. If software development team doesn't think about architecture all sort of problems can appear (inconsistent approaches to solving the same problems, deployment problems, maintenance issues, code that hard to scale, etc).
+     We document our software system architecture using **[C4 Model](https://c4model.com/)** approach and **[Structurizr](https://structurizr.com/)** tool.
+   - Code Structure (folder structure)
+   - [README.md]() for demo projects
+     For every `ag-forms` lib we have demo project that shows lib setup and usage example. In README for demo projects we explain how to setup and run demo projects, and how to understand package.json (it's different from regular Angular project because we use Monorepo setup).
+   - **[Architecture Decision Records]()**
 
-  - getting started
-  - Coding Rules
-  - Commit Message Format
-  - **Software Architecture**
-    We think it's important to communicate how we are planning to build a software system or how an existing software system works. If software development team doesn't think about architecture all sort of problems can appear (inconsistent approaches to solving the same problems, deployment problems, maintenance issues, code that hard to scale, etc).
-    We document our software system architecture using **[C4 Model](https://c4model.com/)** approach and **[Structurizr](https://structurizr.com/)** tool.
-  - Code Structure (folder structure)
-  - **[Architecture Decision Records]()**
-
-- [LICENSE.md]()
-  It is an open source license of `ag-forms` repository that makes it easier for other people to contribute.
-- [Issues]() organized in [GitHub Projects]()
-  It is.
+4. [LICENSE.md]()
+   It is an open source license of `ag-forms` repository that makes it easier for other people to contribute.
+5. [Issues]() organized in [GitHub Projects]()
+   It is.
 
 ## Details
 
