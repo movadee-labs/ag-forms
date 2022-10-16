@@ -302,8 +302,38 @@ references:
   https://github.com/amitmerchant1990/electron-markdownify#readme
   https://www.makeareadme.com/
   https://keepachangelog.com/en/1.0.0/
-
+  https://cloud.google.com/identity-platform/docs/multi-tenancy-authentication
   emoji https://github.com/gofiber/fiber#readme
   https://github.com/Stack-in-a-box/triumphmayflowerclub.com#versions
-
+  https://firebase.google.com/products/app-check
+  https://firebase.google.com/products/performance
+  https://firebase.google.com/products/analytics
   https://stackblitz.com/membership
+
+  https://github.com/PurpleBooth/a-good-readme-template/tags
+  https://keepachangelog.com/en/1.0.0/
+  https://docs.github.com/en/get-started
+  https://github.com/Stack-in-a-box/triumphmayflowerclub.com#versions
+  https://github.com/matiassingers/awesome-readme
+  https://www.mariokandut.com/how-to-check-unused-npm-packages/
+  https://github.com/angular/components
+
+  storybook
+  https://www.chromatic.com/blog/storybook-composition/
+  https://blog.logrocket.com/next-level-component-showcasing-with-storybook-controls/
+  https://atanasstoyanov.medium.com/custom-documentation-pages-for-storybookjs-13eb9637d6ab
+  https://mistica-web.vercel.app/?path=/story/components-popover--default
+  https://www.apideck.design/?path=/story/card--with-icons
+  https://github.com/xavierlefevre/shared-react-components-example
+  https://github.com/lauthieb/awesome-storybook
+
+bundle size:
+https://www.taskade.com/new/from/QhdTdxcBoGWEWpgd?share=view&view=QGFMgLncup1Lwazw&as=list
+https://levelup.gitconnected.com/improving-angular-initial-load-time-fba8b1289c48
+https://angular.io/guide/lightweight-injection-tokens
+https://blog.sentry.io/2022/07/19/javascript-sdk-package-reduced/
+https://www.xenonstack.com/blog/performance-optimization-in-angular
+https://akhromieiev.com/how-to-use-webpack-bundle-analyzer-in-angular-project/
+https://medium.com/devops-dudes/angular-bundle-size-optimization-75294e83c149
+https://www.npmjs.com/package/webpack-bundle-analyzer
+https://medium.com/globant/screening-npm-packages-best-practices-a24930b2624e

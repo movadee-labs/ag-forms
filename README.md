@@ -34,25 +34,24 @@
 WHY?
 The [Triumph Mayflower Club](https://www.triumphmayflowerclub.com/) is an organisation dedicated to the preservation of classic 1950s car, the Mayflower, by British car manufacturer Triumph. The club itself formed in 1974 and made its initial, limited foray into the World Wide Web back in [2005](https://legacy.triumphmayflowerclub.com/), and then I ([Andi](https://www.github.com/andiemmadavies), project maintainer) was commissioned in 2017 to create them a new website from scratch when my parents became members. Click [here](https://www.triumphmayflowerclub.com/about) if you’re interested in reading more about the car and the club.
 
+Features
+
 ## 👀 Live demo
 
-**Form, no framework** [demo]()
-
-**With Tailwind** [demo]()
-
-**With Material** [demo]()
-
-**With Bootstrap** [demo]()
-
-## :sparkles: Features
+- ag-forms, no framework [demo]()
+- With Tailwind [demo]()
+- With Material [demo]()
+- With Bootstrap [demo]()
 
 ## 🚀&nbsp; Getting started
 
-@ag-forms/core
-[![Bundle Phobia](https://badgen.net/bundlephobia/minzip/ag-grid-community)](https://bundlephobia.com/result?p=ag-grid-community) [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=ag-grid-community&metric=alert_status)](https://sonarcloud.io/dashboard?id=ag-grid-community)
+The `ag-forms` team builds and maintains several packages that helps build Angular Reactive Forms controls and optionally UI view.
+
+</br>
+<span><h4 style="display: inline"><code>@ag-forms/core</code></h3> dynamically builds form controls, subscribes to value changes, etc.</span>
 
 <details>
-<summary>Getting started with @ag-forms/core</summary>
+<summary>Implementation and usage details</summary>
 
 ##### Step 1: Install dependencies
 
