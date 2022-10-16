@@ -36,18 +36,13 @@ The [Triumph Mayflower Club](https://www.triumphmayflowerclub.com/) is an organi
 
 Features
 
-## 👀 Live demo
-
-- ag-forms, no framework [demo]()
-- With Tailwind [demo]()
-- With Material [demo]()
-- With Bootstrap [demo]()
-
 ## 🚀&nbsp; Getting started
 
 The `ag-forms` team builds and maintains several packages that helps build Angular Reactive Forms controls and optionally UI view.
 
-<span style="display: inline; font-size: 18px"><b><code>@ag-forms/core</code></b></span> dynamically builds form controls, subscribes to value changes, etc.
+<span style="display: inline; font-size: 18px"><b>Option 1: <code>@ag-forms/core</code></b></span> <span style="padding-left: 20px;">:eyes: [Live demo]()</span>
+
+Dynamically builds form controls, subscribes to value changes, etc.
 
 <details>
 <summary>Implementation and usage details</summary>
