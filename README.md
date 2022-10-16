@@ -40,9 +40,9 @@ Features
 
 The `ag-forms` team builds and maintains several packages that helps build Angular Reactive Forms controls and optionally UI view.
 
-<span style="display: inline; font-size: 18px"><b>Option 1: <code>@ag-forms/core</code></b></span> <span style="padding-left: 20px;">:eyes: [Live demo]()</span>
-
-Dynamically builds form controls, subscribes to value changes, etc.
+<span style="display: inline; font-size: 18px"><b>Option 1: form controls only, no framework</b></span>
+:eyes: [Live Demo on StackBlitz]()
+:gear: [Live configure tool]()
 
 <details>
 <summary>Implementation and usage details</summary>
@@ -112,6 +112,16 @@ That's it, the above example will render...
 
 </details>
 
+</br>
+<span style="display: inline; font-size: 18px"><b>Option 2: form with Tailwind</b></span>
+
+:eyes: [Live Demo on StackBlitz]()
+:gear: [Live configure tool]()
+
+<details>
+<summary>Implementation and usage details</summary>
+</details>
+
 ## 💬 Support
 
 Tell people where they can go to for help. It can be any combination of an issue tracker, a chat room, an email address, etc
@@ -119,7 +129,7 @@ Your Name - @your_twitter - email@example.com
 
 ## :computer: Contributing
 
-Contributions are welcome! Please see our [Contributing Guide](./CONTRIBUTING.md) for more details. Thanks to all our contributors!
+Contributions are welcome! Please see our [CONTRIBUTING.md](./CONTRIBUTING.md) for more details. Thanks to all our contributors!
 
 ## :page_facing_up: License
 
