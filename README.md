@@ -138,8 +138,11 @@ That's it, the above example will render...
 
 ## 💬 Support
 
-Tell people where they can go to for help. It can be any combination of an issue tracker, a chat room, an email address, etc
-Your Name - @your_twitter - email@example.com
+🐞 [Bug](): file a bug/issue
+💡 [Idea](https://github.com/movadee/ag-forms/discussions/categories/ideas): share ideas for new features
+🙏 [Q&A](https://github.com/movadee/ag-forms/discussions/categories/q-a): ask us and the community for help
+🙌 [Show & tell](https://github.com/movadee/ag-forms/discussions/categories/show-tell): checkout our tutorials/examples or show off something you've made
+💬 [General](https://github.com/movadee/ag-forms/discussions/categories/general): chat about anything and everything here
 
 ## :computer: Contributing
 
