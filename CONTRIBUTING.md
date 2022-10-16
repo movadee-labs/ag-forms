@@ -27,6 +27,10 @@ We auto-add all contributors to README.md and package.json
 
 We use [Semantic Versioning](https://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/PurpleBooth/a-good-readme-template/tags).
 
+## How it all fits together
+
+https://github.com/sidneycadot/oeis#how-it-all-fits-together
+
 ## Folder Structure
 
 https://github.com/ma-shamshiri/Human-Activity-Recognition#-cactus-folder-structure
@@ -298,3 +302,6 @@ references:
   https://github.com/amitmerchant1990/electron-markdownify#readme
   https://www.makeareadme.com/
   https://keepachangelog.com/en/1.0.0/
+
+  emoji https://github.com/gofiber/fiber#readme
+  https://github.com/Stack-in-a-box/triumphmayflowerclub.com#versions

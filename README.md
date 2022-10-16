@@ -1,22 +1,55 @@
-[![GitHub Stars](https://img.shields.io/github/stars/IgorAntun/node-chat.svg)](https://github.com/IgorAntun/node-chat/stargazers) [![GitHub Issues](https://img.shields.io/github/issues/IgorAntun/node-chat.svg)](https://github.com/IgorAntun/node-chat/issues) [![Current Version](https://img.shields.io/badge/version-1.0.7-green.svg)](https://github.com/IgorAntun/node-chat) [![Live Demo](https://img.shields.io/badge/demo-online-green.svg)](https://igorantun.com/chat) [![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/IgorAntun/node-chat?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
-
-This is a node.js chat application powered by SockJS and Express that provides the main functions you'd expect from a chat, such as emojis, private messages, an admin system, etc.
-
-⭐ Star us on GitHub — it motivates us a lot!
+<div align="center">
+    <h3>
+        <img src="logo.png">
+    </h3>
+    <h4><b>New website for the Triumph Mayflower Club, launched in March 2018</b></h4>
+		⭐ Star us on GitHub — it motivates us a lot!
+    <h3>
+        <a href="https://www.github.com/andiemmadavies">
+            <img src="https://img.shields.io/badge/maintainer-%40andiemmadavies-yellow">
+        </a>
+        <a href="https://www.triumphmayflowerclub.com/">
+            <img src="https://img.shields.io/website?url=http%3A%2F%2Fwww.triumphmayflowerclub.com%2F">
+        </a>
+        <a href="https://www.triumphmayflowerclub.com/news/2018/03/launchofthenewclubwebsite">
+            <img src="https://img.shields.io/badge/launched-march%202018-teal">
+        </a>
+        <a href="https://www.github.com/Stack-in-a-box/triumphmayflowerclub.com/commits/master">
+            <img src="https://img.shields.io/github/last-commit/Stack-in-a-box/triumphmayflowerclub.com?color=blue&label=updated">
+        </a>
+        <a href="https://www.github.com/Stack-in-a-box/triumphmayflowerclub.com/releases/latest">
+            <img src="https://img.shields.io/github/v/release/Stack-in-a-box/triumphmayflowerclub.com?color=blueviolet&label=version">
+        </a>
+        <a href="#copyright">
+            <img src="https://img.shields.io/badge/licence-%C2%A9-crimson">
+        </a>
+        <a href="https://www.facebook.com/triumphmayflowerclub">
+            <img src="https://img.shields.io/badge/social-facebook-darkred">
+        </a>
+    </h3>
+</div>
 
 ![Chat Preview](http://i.imgur.com/lgRe8z4.png)
 
-## Demo
+WHY?
+The [Triumph Mayflower Club](https://www.triumphmayflowerclub.com/) is an organisation dedicated to the preservation of classic 1950s car, the Mayflower, by British car manufacturer Triumph. The club itself formed in 1974 and made its initial, limited foray into the World Wide Web back in [2005](https://legacy.triumphmayflowerclub.com/), and then I ([Andi](https://www.github.com/andiemmadavies), project maintainer) was commissioned in 2017 to create them a new website from scratch when my parents became members. Click [here](https://www.triumphmayflowerclub.com/about) if you’re interested in reading more about the car and the club.
 
-Here is a working live demo : https://iharsh234.github.io/WebApp/
+## 👀 Live demo
 
-## Why
+**Form, no framework** [demo]()
 
-https://github.com/alichtman/shallow-backup#why
+**With Tailwind** [demo]()
 
-## Features
+**With Material** [demo]()
 
-## Getting started
+**With Bootstrap** [demo]()
+
+## :sparkles: Features
+
+## 🚀&nbsp; Getting started
+
+@ag-forms/core
+[![Bundle Phobia](https://badgen.net/bundlephobia/minzip/ag-grid-community)](https://bundlephobia.com/result?p=ag-grid-community) [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=ag-grid-community&metric=alert_status)](https://sonarcloud.io/dashboard?id=ag-grid-community)
 
 <details>
 <summary>Getting started with @ag-forms/core</summary>
@@ -86,15 +119,15 @@ That's it, the above example will render...
 
 </details>
 
-## Support
+## 💬 Support
 
 Tell people where they can go to for help. It can be any combination of an issue tracker, a chat room, an email address, etc
 Your Name - @your_twitter - email@example.com
 
-## Contributing
+## :computer: Contributing
 
 Contributions are welcome! Please see our [Contributing Guide](./CONTRIBUTING.md) for more details. Thanks to all our contributors!
 
-## License
+## :page_facing_up: License
 
 This project is licensed under [MIT License](https://license.md/licenses/mit-license/) - see the [`LICENSE.md`](./LICENSE.md) file for details.
