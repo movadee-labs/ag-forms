@@ -317,6 +317,7 @@ references:
   https://github.com/matiassingers/awesome-readme
   https://www.mariokandut.com/how-to-check-unused-npm-packages/
   https://github.com/angular/components
+  https://github.com/jspsych/jsPsych/discussions/categories/show-and-tell
 
   storybook
   https://www.chromatic.com/blog/storybook-composition/
