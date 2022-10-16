@@ -1,0 +1,36 @@
+# GitHub Action - Update Contributors in: 
+# package.json: https://github.com/marketplace/actions/update-contributors
+# readme.md:    https://github.com/marketplace/actions/auto-add-contributors
+
+name: Contributors
+on:
+  schedule:
+    - cron: '0 1 * * 0' # At 01:00 on Sunday.
+  push:
+    branches:
+      - master
+jobs:
+  readme-update-contributors:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+      - uses: wow-actions/update-contributors@v1
+        with:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN_CONTRIBUTORS }}
+          commit_message: 'chore(package.json): update contributors'
+  package-update-contributors:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - uses: BobAnkh/add-contributors@master
+      with:
+        CONTRIBUTOR: '## Contributors'
+        COLUMN_PER_ROW: '6'
+        ACCESS_TOKEN: ${{secrets.GITHUB_TOKEN_CONTRIBUTORS}}
+        IMG_WIDTH: '100'
+        FONT_SIZE: '14'
+        PATH: '/README.md'
+        COMMIT_MESSAGE: 'chore(README): update contributors'
+        AVATAR_SHAPE: 'round'
