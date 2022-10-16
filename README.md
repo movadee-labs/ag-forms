@@ -112,7 +112,6 @@ That's it, the above example will render...
 
 </details>
 
-</br>
 <div style="font-size: 18px"><b>Option 2: form with Tailwind</b></div>
 <div>👀 <a href="url">Live Demo on StackBlitz</a></div>
 <div>⚙️ <a href="url">Live configure tool</a></div>
