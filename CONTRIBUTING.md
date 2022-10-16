@@ -29,6 +29,8 @@ We use [Semantic Versioning](https://semver.org/) for versioning. For the versio
 
 ## Folder Structure
 
+https://github.com/ma-shamshiri/Human-Activity-Recognition#-cactus-folder-structure
+
 ```treeview
 ag-forms/
 ├── demo/			# example app that uses ag-forms
