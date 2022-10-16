@@ -1,3 +1,5 @@
+# add later: yarn nx-cloud record -- yarn nx format:check
+
 name: CI
 
 on:
@@ -16,7 +18,6 @@ jobs:
         yarn nx-cloud start-ci-run --stop-agents-after="semantic-release" --agent-count=4
       parallel-commands: |
         yarn nx-cloud record -- yarn nx workspace-lint
-        # yarn nx-cloud record -- yarn nx format:check
       parallel-commands-on-agents: |
         yarn nx affected --target=lint --parallel=4
         yarn nx affected --target=test --parallel=4 --ci --code-coverage
