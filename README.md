@@ -40,9 +40,9 @@ Features
 
 The `ag-forms` team builds and maintains several packages that helps build Angular Reactive Forms controls and optionally UI view.
 
-<span style="display: inline; font-size: 18px"><b>Option 1: form controls only, no framework</b></span>
-:eyes: [Live Demo on StackBlitz]()
-:gear: [Live configure tool]()
+<div style="font-size: 18px"><b>Option 1: form controls only, no framework</b></div>
+<div>👀 <a href="url">Live Demo on StackBlitz</a></div>
+<div>⚙️ <a href="url">Live configure tool</a></div>
 
 <details>
 <summary>Implementation and usage details</summary>
@@ -113,10 +113,9 @@ That's it, the above example will render...
 </details>
 
 </br>
-<span style="display: inline; font-size: 18px"><b>Option 2: form with Tailwind</b></span>
-
-:eyes: [Live Demo on StackBlitz]()
-:gear: [Live configure tool]()
+<div style="font-size: 18px"><b>Option 2: form with Tailwind</b></div>
+<div>👀 <a href="url">Live Demo on StackBlitz</a></div>
+<div>⚙️ <a href="url">Live configure tool</a></div>
 
 <details>
 <summary>Implementation and usage details</summary>
