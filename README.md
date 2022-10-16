@@ -1,12 +1,6 @@
 # AgForms COMING SOON!
 
-## Contributors
+## Contributing
 
-<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
-<!-- prettier-ignore-start -->
-<!-- markdownlint-disable -->
+Contributions are welcome! Please see our [Contributing Guide](./CONTRIBUTING.md) for more details. Thanks to all our contributors!
 
-<!-- markdownlint-restore -->
-<!-- prettier-ignore-end -->
-
-<!-- ALL-CONTRIBUTORS-LIST:END -->
