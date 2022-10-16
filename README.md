@@ -137,7 +137,7 @@ That's it, the above example will render...
 
 ## 💬 Support
 
-- 🐞 [Issue](): file a bug/issue
+- 🐞 [Bug](): file a bug/issue
 - 💡 [Idea](https://github.com/movadee/ag-forms/discussions/categories/ideas): share ideas for new features
 - 🙏 [Q&A](https://github.com/movadee/ag-forms/discussions/categories/q-a): ask us and the community for help
 - 🙌 [Tutorials (Show & tell)](https://github.com/movadee/ag-forms/discussions/categories/show-tell): checkout our tutorials/examples or show off something you've made
@@ -145,7 +145,7 @@ That's it, the above example will render...
 
 ## :computer: Contributing
 
-Contributions are welcome! Please see [CONTRIBUTING.md](./CONTRIBUTING.md) for more details. Thanks to all our contributors!
+Contributions are welcome! Please see [CONTRIBUTING.md](./CONTRIBUTING.md) for more details. Thanks to all our contributors :heart:
 
 ## :page_facing_up: License
 
