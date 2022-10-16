@@ -120,6 +120,22 @@ That's it, the above example will render...
 <summary>Implementation and usage details</summary>
 </details>
 
+<div style="font-size: 18px"><b>Option 3: form with Material</b></div>
+<div>👀 <a href="url">Live Demo on StackBlitz</a></div>
+<div>⚙️ <a href="url">Live configure tool</a></div>
+
+<details>
+<summary>Implementation and usage details</summary>
+</details>
+
+<div style="font-size: 18px"><b>Option 4: form with Bootstrap</b></div>
+<div>👀 <a href="url">Live Demo on StackBlitz</a></div>
+<div>⚙️ <a href="url">Live configure tool</a></div>
+
+<details>
+<summary>Implementation and usage details</summary>
+</details>
+
 ## 💬 Support
 
 Tell people where they can go to for help. It can be any combination of an issue tracker, a chat room, an email address, etc
