@@ -47,8 +47,7 @@ Features
 
 The `ag-forms` team builds and maintains several packages that helps build Angular Reactive Forms controls and optionally UI view.
 
-</br>
-<span><h4 style="display: inline"><code>@ag-forms/core</code></h3> dynamically builds form controls, subscribes to value changes, etc.</span>
+<h4 style="display: inline"><code>@ag-forms/core</code></h3> <span style="display: inline">dynamically builds form controls, subscribes to value changes, etc.</span>
 
 <details>
 <summary>Implementation and usage details</summary>
