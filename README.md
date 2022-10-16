@@ -138,11 +138,11 @@ That's it, the above example will render...
 
 ## 💬 Support
 
-🐞 [Bug](): file a bug/issue
-💡 [Idea](https://github.com/movadee/ag-forms/discussions/categories/ideas): share ideas for new features
-🙏 [Q&A](https://github.com/movadee/ag-forms/discussions/categories/q-a): ask us and the community for help
-🙌 [Show & tell](https://github.com/movadee/ag-forms/discussions/categories/show-tell): checkout our tutorials/examples or show off something you've made
-💬 [General](https://github.com/movadee/ag-forms/discussions/categories/general): chat about anything and everything here
+- 🐞 [Bug](): file a bug/issue
+- 💡 [Idea](https://github.com/movadee/ag-forms/discussions/categories/ideas): share ideas for new features
+- 🙏 [Q&A](https://github.com/movadee/ag-forms/discussions/categories/q-a): ask us and the community for help
+- 🙌 [Tutorials (Show & tell)](https://github.com/movadee/ag-forms/discussions/categories/show-tell): checkout our tutorials/examples or show off something you've made
+- 💬 [General](https://github.com/movadee/ag-forms/discussions/categories/general): chat about anything and everything here
 
 ## :computer: Contributing
 
