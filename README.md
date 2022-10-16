@@ -1,7 +1,7 @@
 <div align="center">
-    <h3>
+    <h1>
         <img src="logo.png">
-    </h3>
+    </h1>
     <h4><b>New website for the Triumph Mayflower Club, launched in March 2018</b></h4>
 		⭐ Star us on GitHub — it motivates us a lot!
     <h3>
