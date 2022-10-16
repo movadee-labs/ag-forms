@@ -146,7 +146,7 @@ That's it, the above example will render...
 
 ## :computer: Contributing
 
-Contributions are welcome! Please see our [CONTRIBUTING.md](./CONTRIBUTING.md) for more details. Thanks to all our contributors!
+Contributions are welcome! Please see [CONTRIBUTING.md](./CONTRIBUTING.md) for more details. Thanks to all our contributors!
 
 ## :page_facing_up: License
 
