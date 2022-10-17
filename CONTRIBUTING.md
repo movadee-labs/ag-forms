@@ -92,9 +92,14 @@ Option 2: Local
 
 ## Software Architecture
 
+clickable diagram
+
 <details>
 <summary>Read more</summary></br>
+
+https://github.com/angular/angular/blob/main/docs/DEVELOPER.md
 https://github.com/sidneycadot/oeis#how-it-all-fits-together
+
 </details>
 
 ## Code Architecture
@@ -198,7 +203,11 @@ app modules vs standalone components
 
 We need to choose programming language for our software. We have a major need: front-end programming language suitable for web applications. We are writing library specifically for Angular applications. Angular is written in TypeScript.
 
-- HTML, CSS, JavaScript, TypeScript
+- HTML, CSS, SASS
+- JavaScript, TypeScript
+- Angular
+- angular cdk reason
+- Tailwind, Angular Material, Bootstrap
 
 <details>
 <summary>Read more</summary></br>
@@ -224,25 +233,25 @@ We need to choose programming language for our software. We have a major need: f
 -
 
 https://github.com/joelparkerhenderson/architecture-decision-record/blob/main/examples/css-framework/index.md
-tailwindcss
-angular material
-html, scss
 https://blog.nrwl.io/set-up-tailwind-css-with-angular-in-an-nx-workspace-6f039a0f4479
-tailwind + angular cdk reason
 
 </details>
 
-## Code Standards
+## Coding Standards
 
-<details>
-<summary>Read more</summary></br>
-https://github.com/angular/angular/blob/main/docs/CODING_STANDARDS.md
+Code style
+Write useful comments
+etc https://github.com/angular/angular/blob/main/docs/CODING_STANDARDS.md
 Avoid ANY types https://backstage.io/docs/architecture-decisions/adrs-adr003
 Timestamp format https://github.com/joelparkerhenderson/architecture-decision-record/blob/main/examples/timestamp-format/index.md
 Naming Conventions https://github.com/angular/angular/blob/main/docs/NAMING.md
+
+<details>
+<summary>Read more</summary></br>
+
 </details>
 
-## Testing
+## Testing & Debugging
 
 <details>
 <summary>Read more</summary></br>
@@ -295,6 +304,9 @@ unit tests in libs
 integration tests in libs
 language tests in libs
 https://github.com/marketplace/accesslint
+https://github.com/angular/angular/blob/main/docs/DEBUG.md
+https://github.com/angular/angular/blob/main/docs/DEBUG_COMPONENTS_REPO_IVY.md
+https://github.com/angular/angular/blob/main/docs/TOOLS.md
 
 🛠 **Tools:**
 
@@ -349,6 +361,18 @@ https://github.com/marketplace/accesslint
 - [Angular Testing Overview: Unit, Integration & E2E Tests](https://onthecode.co.uk/blog/angular-testing-overview/)
 
 </details>
+
+## GITHUB_PROCESS
+
+https://github.com/angular/angular/blob/main/docs/COMMITTER.md
+https://github.com/angular/angular/blob/main/docs/BRANCHES.md
+https://github.com/angular/angular/blob/main/.pullapprove.yml
+https://github.com/angular/angular/blob/main/docs/FIXUP_COMMITS.md
+https://github.com/angular/angular/blob/main/docs/GITHUB_PROCESS.md
+https://github.com/angular/angular/blob/main/docs/PUBLIC_API.md
+https://github.com/angular/angular/blob/main/docs/RELEASE_SCHEDULE.md
+https://github.com/angular/angular/blob/main/docs/SAVED_REPLIES.md
+https://github.com/angular/angular/blob/main/docs/TRIAGE_AND_LABELS.md
 
 ## Releases
 

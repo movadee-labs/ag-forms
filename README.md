@@ -139,8 +139,9 @@ That's it, the above example will render...
 <summary>Implementation and usage details</summary>
 </details>
 
-## 🦋 Releases
+## 🦋 Release notes
 
+check the release notes to see what's changed in the latest releases, and how that affects your builds. https://github.com/bazelbuild/bazel/releases
 For release list, see the [tags on this repository]()
 
 ## 💬 Support
