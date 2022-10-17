@@ -6,28 +6,77 @@
 
 ## Contributing
 
-:+1::tada: First off, thanks for taking the time to contribute! :tada::+1:
+:+1::tada: First off, thanks for taking the time to contribute! :tada::+1: We automatically adding every contributor to Contributors list!
 
-Have a look at existing [Issues]() and [Pull Requests]() that you could help with. If you found a bug or got a feature idea, and you want to work on it, please request a [Feature]() or report a [Bug]() first. We will review it within 48 hours.
+Have a look at existing [Issues]() and [Pull Requests]() that you could help with. If you found a bug or got a feature idea, and you want to work on it, please request a [Feature]() or report a [Bug]() first.
 
-We auto-add all contributors to README.md and package.json
+## Documentation
+
+We use several tools and files to document `ag-forms`.
+
+> :exclamation: Important To learn how ag-forms project works please refer to this document, which describes project architecture and our decision details, as well as:
+>
+> - :world_map: [Code Tour](https://marketplace.visualstudio.com/items?itemName=vsls-contrib.codetour#recording-tours) (VSCode Extension): to quickly review step-by-step code implementation. [Learn how to use]()
+> - :computer: [StackBlitz]() (online IDE): to open codebase online. [Learn how to use]()
+> - :closed_book: ag-forms.com: for documentation and examples. [Learn how to use]()
 
 <details>
-	<summary><i>See implementation details</i></summary>
-	<p>
-	GitHub Action jobs are setup in <a href=".github/workflows/contributors.yml"><code>contributors.yml</code></a> to run every Sunday midnight. It updates contributors on README.md and package.json files, so that our contributors could be visible project pages of: GitHub, NPM, PNPM, and YARN.
-	</p>
+<summary>Read more</summary></br>
+
+Full list of documents we use in this project:
+
+1. README.md
+   This document is a summary of a prject mainly created for lib consumers, which in our case developers who need to use `ag-forms` inside their project. Here we talk abpot the purpose of the project, problems it solves,
+   how to install `ag-forms` libs and use them in projects, etc.
+
+2. ag-forms.com created with Storybook
+   Storybook is used to demo libs and help users build form specs for they project using GUI. It is hosted on ag-forms.com and presented as a demo site with a link to GitHub documentation.
+
+3. CONTRIBUTING.md
+
+   - getting started
+   - Coding Rules
+   - Commit Message Format
+   - **Software Architecture**
+     We think it's important to communicate how we are planning to build a software system or how an existing software system works. If software development team doesn't think about architecture all sort of problems can appear (inconsistent approaches to solving the same problems, deployment problems, maintenance issues, code that hard to scale, etc).
+     We document our software system architecture using **[C4 Model](https://c4model.com/)** approach and **[Structurizr](https://structurizr.com/)** tool.
+   - Code Structure (folder structure)
+   - [README.md]() for demo projects
+     For every `ag-forms` lib we have demo project that shows lib setup and usage example. In README for demo projects we explain how to setup and run demo projects, and how to understand package.json (it's different from regular Angular project because we use Monorepo setup).
+   - **[Architecture Decision Records]()**
+
+4. [LICENSE.md]()
+   It is an open source license of `ag-forms` repository that makes it easier for other people to contribute.
+5. [Issues]() organized in [GitHub Projects]()
+   It is.
+6. Tutorials
+7. Code Tour
+8. StackBlitz
+
+🛠 **Tools:**
+
+- [Storybook](https://storybook.js.org/)
+
+📚 **References:**
+
+- [C4 Model site](https://c4model.com/)
+- [Simon Brown site (author of C4 Model)](https://simonbrown.je/)
+- [Documenting architecture decisions](https://cognitect.com/blog/2011/11/15/documenting-architecture-decisions) by Michael Nygard
+- [Architecture decision record](https://github.com/joelparkerhenderson/architecture-decision-record) by Joel Parker Henderson
+- [Architectural Decision Records](https://adr.github.io/) by ADR GitHub organization
+- [arachne-framework/architecture/adr-001-use-adrs.md](https://github.com/arachne-framework/architecture/blob/master/adr-001-use-adrs.md)
+- [Choose an open source license](https://license.md/)
+- [Video Tutorial: Storybook for React Apps](https://www.newline.co/courses/storybook-for-react-apps/theming-the-storybook-app)
+
 </details>
 
-## Development setup
+## Developer setup
 
-## Release History
+Option 1: Online IDE
 
-## Versioning
+Option 2: Local
 
-We use [Semantic Versioning](https://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/PurpleBooth/a-good-readme-template/tags).
-
-## How it all fits together
+## Software Architecture
 
 https://github.com/sidneycadot/oeis#how-it-all-fits-together
 
@@ -45,41 +94,13 @@ ag-forms/
 └── ...
 ```
 
-- recommended VSCode plugins
-- sonarcloud: https://sonarcloud.io/project/overview?id=movadee-open-source_ag-forms
-- semantic release: https://github.com/TheUnderScorer/nx-semantic-release
-
-| type                      | package                  | path to code        | description            |
-| ------------------------- | ------------------------ | ------------------- | ---------------------- |
-| package [npm, yarn, pnpm] | `@ag-forms/core`         | `libs/core`         | Library that helps you |
-| package [npm, yarn, pnpm] | `@ag-forms/tailwind-cdk` | `libs/tailwind-cdk` |                        |
-| demo project              | `demo-core`              | `demo/core`         |                        |
-| demo project              | `demo-tailwind-cdk`      | `demo/tailwind-cdk` |                        |
-
-ADRs:
-Error Reporting https://github.com/arachne-framework/architecture/blob/master/adr-013-error-reporting.md
-localization https://backstage.io/docs/architecture-decisions/adrs-adr012
-github commits names, pr's etc
-use moment lib? https://backstage.io/docs/architecture-decisions/adrs-adr010
-pre-commit
-color palette
-git flow https://docs.aws.amazon.com/prescriptive-guidance/latest/architectural-decision-records/appendix.html
-supported browsers
-Branching and Versioning https://github.com/angular/angular/blob/main/docs/BRANCHES.md
-builsing and testing https://github.com/angular/angular/blob/main/docs/DEVELOPER.md
-bundle management https://bundlephobia.com/
-
-<a href=""><code></code></a>
-
-https://github.com/nhn/tui.editor#-packages
-
 <table>
   <tr>
     <th>Category with link to <a href="/docs/architecture/decision_record/use-adrs.md">ADRs</a></th>
     <th>Tools</th>
     <th>Supporting Packages</th>
 		<th>VSCode Extensions</th>
-		<th>DevOps</th>
+		<th>GitHub Actions</th>
   </tr>
 	<!-- Languages -->
   <tr>
@@ -295,6 +316,29 @@ https://github.com/nhn/tui.editor#-packages
 		<td></td>
   </tr>
 </table>
+
+## Releases
+
+We use [Semantic Versioning](https://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/PurpleBooth/a-good-readme-template/tags).
+
+https://github.com/nhn/tui.editor#-packages
+
+- recommended VSCode plugins
+- sonarcloud: https://sonarcloud.io/project/overview?id=movadee-open-source_ag-forms
+- semantic release: https://github.com/TheUnderScorer/nx-semantic-release
+
+ADRs:
+Error Reporting https://github.com/arachne-framework/architecture/blob/master/adr-013-error-reporting.md
+localization https://backstage.io/docs/architecture-decisions/adrs-adr012
+github commits names, pr's etc
+use moment lib? https://backstage.io/docs/architecture-decisions/adrs-adr010
+pre-commit
+color palette
+git flow https://docs.aws.amazon.com/prescriptive-guidance/latest/architectural-decision-records/appendix.html
+supported browsers
+Branching and Versioning https://github.com/angular/angular/blob/main/docs/BRANCHES.md
+builsing and testing https://github.com/angular/angular/blob/main/docs/DEVELOPER.md
+bundle management https://bundlephobia.com/
 
 references:
 

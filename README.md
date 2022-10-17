@@ -135,6 +135,10 @@ That's it, the above example will render...
 <summary>Implementation and usage details</summary>
 </details>
 
+## :label: Releases
+
+For release list, see the [tags on this repository]()
+
 ## 💬 Support
 
 - 🐞 [Bug](): file a bug/issue
