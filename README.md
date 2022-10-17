@@ -154,3 +154,4 @@ Contributions are welcome! Please see [CONTRIBUTING.md](./CONTRIBUTING.md) for m
 ## :page_facing_up: License
 
 This project is licensed under [MIT License](https://license.md/licenses/mit-license/) - see the [`LICENSE.md`](./LICENSE.md) file for details.
+https://choosealicense.com/

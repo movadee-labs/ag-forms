@@ -84,6 +84,15 @@ We use several tools and files to document `ag-forms`.
 - [Choose an open source license](https://license.md/)
 - [Video Tutorial: Storybook for React Apps](https://www.newline.co/courses/storybook-for-react-apps/theming-the-storybook-app)
 
+storybook
+https://www.chromatic.com/blog/storybook-composition/
+https://blog.logrocket.com/next-level-component-showcasing-with-storybook-controls/
+https://atanasstoyanov.medium.com/custom-documentation-pages-for-storybookjs-13eb9637d6ab
+https://mistica-web.vercel.app/?path=/story/components-popover--default
+https://www.apideck.design/?path=/story/card--with-icons
+https://github.com/xavierlefevre/shared-react-components-example
+https://github.com/lauthieb/awesome-storybook
+
 </details>
 
 ## Developer setup
@@ -244,7 +253,117 @@ Timestamp format https://github.com/joelparkerhenderson/architecture-decision-re
 Naming Conventions https://github.com/angular/angular/blob/main/docs/NAMING.md
 </details>
 
+## Testing
+
+<details>
+<summary>Read more</summary></br>
+
+📋 **Details:** In order to be confident that our software is of a good quality we need to test it. There are different types and techniques of software testing, and not all of them are needed for `ag-forms` library.
+
+- **Static Testing**
+  Does not involve software execution and often implicit, like proofreading, plus when programming tools/text editors check source code structure or compilers (pre-compilers) check syntax.
+  :hammer_and_wrench: [ESLint](https://eslint.org/) catches inconsistent code formatting, styling, and possible errors
+  :hammer_and_wrench: [Prettier](https://prettier.io/) making code’s formatting more consistent; it only addresses style and formatting rules
+  :hammer_and_wrench: [SonarCloud](https://www.sonarsource.com/products/sonarcloud/) assesses codebase’s quality across a wide range of measures: reliability, security, maintainability, code coverage, and duplicate code.
+  :hammer_and_wrench: [Dependabot](https://github.com/features/security/) addresses security vulnerabilities from out-of-date dependencies.
+- **Dynamic Testing**
+  Testing of the dynamic behavior of code, executed with a given set of test cases.
+
+  - **Functional Testing**
+    Focuses on the business requirements of an application. Tend to answer the question of "can the user do this" or "does this particular feature work."
+
+    - **Unit Test**
+      Tests that verify the functionality of a specific section of code, usually at the function level.
+      :hammer_and_wrench: [Jest](https://jestjs.io/) testing framework
+      :hammer_and_wrench: [Spectator](https://ngneat.github.io/spectator/) that helps with all the boilerplate grunt work and allows to create tests faster and easier-to-maintain
+      :hammer_and_wrench: [ng-mocks](https://ng-mocks.sudo.eu/) helps with mocking services, components, directives, pipes and modules.
+    - **Integration Test**
+      Conducted to evaluate the compliance of a system or component with specified functional requirements. Individual software modules are combined and tested as a group. `@ag-forms/core` will use same tools that are used for unit testing, because it is non-ui library. `@ag-forms/__-cdk` ui libraries will use:
+      :hammer_and_wrench: [Cypress](https://docs.cypress.io/guides/component-testing/quickstart-angular#Configuring-Component-Testing) provides a testable component workbench to quickly build and test components.
+    - **E2E Test**
+      Used to test whether the flow of a software from initial stage to final stage is behaving as expected. The purpose of end-to-end testing is to identify system dependencies and to make sure that the data integrity is maintained between various system components and systems.
+      :heavy_multiplication_x: `@ag-forms` has no use case for E2E testing, hence no e2e tests will be performed.
+    - **Acceptance Test**
+      We are going to ask developers we know to test libraries and documentation to make sure they are esy to read and of a good quality.
+      :hammer_and_wrench: users (devs who code in angular)
+
+  - **Non-Functional Testing**
+    - **Performance Testing**
+    - **Security Testing**
+      Uncovers vulnerabilities, threats and risks in a software application.
+      :hammer_and_wrench: [SonarCloud](https://www.sonarqube.org/features/security/) In addition to exposing vulnerabilities, it is used to measure the source code quality including: Cross-site scripting, Denial of Service (DoS) attacks, HTTP response splitting, Memory corruption, SQL injection.
+    - **Usability (UX) Testing**
+      Measuring how easy and user-friendly a software application is.
+      - **Accessibility Testing**
+        Making your web and mobile apps usable to as many people as possible. It makes apps accessible to those with disabilities, such as vision impairment, hearing disabilities, and other physical or cognitive conditions. `@ag-forms/core` will test accessibility from within `@ag-forms/__-cdk` ui libraries using:
+        :hammer_and_wrench: [Axe](https://www.deque.com/axe/) (using [axe-core](https://github.com/dequelabs/axe-core) with cypress) is an accessibility testing engine for websites and other HTML-based user interfaces.
+        :hammer_and_wrench: [Lighthouse](https://developer.chrome.com/docs/lighthouse/overview/) (using [cypress-audit](https://www.npmjs.com/package/cypress-audit)) automated Chrome DevTool for accessibility testing.
+        :hammer_and_wrench: [Pa11y](https://pa11y.org/) (using [cypress-audit](https://www.npmjs.com/package/cypress-audit)) tests web pages for accessibility.
+      - **Internationalization & Localization (i18n) Testing**
+    - **Compatibility Testing**
+
+unit tests in libs
+integration tests in libs
+language tests in libs
+etc
+
+🛠 **Tools:**
+
+- [ESLint](https://eslint.org/)
+  📦 [`eslint`](https://www.npmjs.com/package/eslint) [`eslint-plugin-cypress`](https://www.npmjs.com/package/eslint-plugin-cypress) [`@typescript-eslint/eslint-plugin`](https://www.npmjs.com/package/@typescript-eslint/eslint-plugin) [`@typescript-eslint/parser`](https://www.npmjs.com/package/@typescript-eslint/parser) [`@angular-eslint/eslint-plugin`](https://www.npmjs.com/package/@angular-eslint/eslint-plugin) [`@angular-eslint/eslint-plugin-template`](https://www.npmjs.com/package/@angular-eslint/eslint-plugin-template) [`@angular-eslint/template-parser`](https://www.npmjs.com/package/@angular-eslint/template-parser) [`@nrwl/eslint-plugin-nx`](https://www.npmjs.com/package/@nrwl/eslint-plugin-nx) [`@nrwl/linter`](https://nx.dev/packages/linter)
+
+- [Prettier](https://prettier.io/)
+  📦 [`prettier`](https://www.npmjs.com/package/prettier) [`eslint-config-prettier`](https://www.npmjs.com/package/eslint-config-prettier)
+
+- [Cypress](https://docs.cypress.io/)
+  📦 [`cypress`](https://www.npmjs.com/package/cypress) [`@nrwl/cypress`](https://www.npmjs.com/package/@nrwl/cypress)
+
+- [SonarCloud](https://www.sonarsource.com/products/sonarcloud/) https://sonarcloud.io/project/overview?id=movadee-open-source_ag-forms
+  📦 [``]() [``]()
+
+- [Dependabot](https://github.com/features/security/)
+  📦 [``]() [``]()
+
+- [Jest](https://jestjs.io/)
+  📦 [`jest`](https://www.npmjs.com/package/jest) [`jest-environment-jsdom`](https://www.npmjs.com/package/jest-environment-jsdom) [`jest-preset-angular`](https://www.npmjs.com/package/jest-preset-angular) [`ts-jest`](https://www.npmjs.com/package/ts-jest) [`@types/jest`](https://www.npmjs.com/package/@types/jest) [`@nrwl/jest`](https://www.npmjs.com/package/@nrwl/jest)
+
+- [Spectator](https://ngneat.github.io/spectator/)
+  📦 [`@ngneat/spectator`](https://www.npmjs.com/package/@ngneat/spectator)
+
+- [ng-mocks](https://ng-mocks.sudo.eu/)
+  📦 [`ng-mocks`](https://www.npmjs.com/package/ng-mocks)
+
+- [Axe](https://www.deque.com/axe/)
+  📦 [``]() [``]()
+
+- [Lighthouse](https://developer.chrome.com/docs/lighthouse/overview/)
+  📦 [``]() [``]()
+
+- [Pa11y](https://pa11y.org/)
+  📦 [``]() [``]()
+
+📚 **References:**
+
+- [Software Testing Wiki](https://en.wikipedia.org/wiki/Software_testing#Accessibility_testing)
+- [Testing Components with Spectator](https://testing-angular.com/testing-components-with-spectator/#testing-components-with-spectator)
+- [Testing Angular: A Guide to Robust Angular Applications](https://testing-angular.com/introduction/#introduction)
+- [How to Test Accessibility With Axe in Cypress](https://www.wearecogworks.com/blog/how-to-test-accessibility-with-axe-in-cypress/)
+- [Cypress Component Testing in Nx](https://nx.dev/cypress/cypress-component-testing)
+- [Nx support for Cypress 10](https://youtu.be/QDWN4C7T-Ck?t=320)
+- [Web Performance Testing With Cypress and Google Lighthouse](https://www.lambdatest.com/blog/using-cypress-google-lighthouse-performance-testing/)
+- [How to Automate Accessibility Tests with Cypress](https://www.freecodecamp.org/news/automating-accessibility-tests-with-cypress/)
+- [How to test for accessibility with Cypress](https://www.deque.com/blog/how-to-test-for-accessibility-with-cypress/)
+- [Accessible Rich Internet Applications (WAI-ARIA)](https://www.w3.org/TR/wai-aria/#authoring_testing)
+- [Accessibility in Angular](https://angular.io/guide/accessibility)
+- [Build more accessible Angular apps](https://blog.angular.io/build-more-accessible-angular-apps-1aca4fc39aff)
+- [Why you should use open-source component libraries in your Design System](https://backlight.dev/mastery/why-you-should-use-open-source-component-libraries-in-your-design-system)
+- [Angular Testing Overview: Unit, Integration & E2E Tests](https://onthecode.co.uk/blog/angular-testing-overview/)
+
+</details>
+
 ## Releases
+
+We use [Semantic Versioning](https://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/PurpleBooth/a-good-readme-template/tags).
 
 <details>
 <summary>Read more</summary></br>
@@ -259,6 +378,11 @@ Naming Conventions https://github.com/angular/angular/blob/main/docs/NAMING.md
 📚 **References:**
 
 -
+
+https://keepachangelog.com/en/1.0.0/
+github commits names, pr's etc
+semantic release: https://github.com/TheUnderScorer/nx-semantic-release
+https://github.com/nhn/tui.editor#-packages
 
 </details>
 
@@ -297,156 +421,32 @@ https://github.com/joelparkerhenderson/architecture-decision-record/blob/main/ex
 <details>
 <summary>Read more</summary></br>
 project management (github projects, issues, issue templates)
+https://github.com/jspsych/jsPsych/discussions/categories/show-and-tell
 </details>
 
-<table>
-	<!-- Software Testing -->
-	<tr>
-    <td rowspan="11"><a href="/docs/architecture/decision_record/code/software-testing.md">Software Testing</a></td>
-		<td><a href="https://eslint.org/">ESLint</a></td>
-    <td>
-			<a href="https://www.npmjs.com/package/eslint"><code>eslint</code></a>
-			<a href="https://www.npmjs.com/package/eslint-plugin-cypress"><code>eslint-plugin-cypress</code></a>
-			<a href="https://www.npmjs.com/package/@typescript-eslint/eslint-plugin"><code>@typescript-eslint/eslint-plugin</code></a>
-			<a href="https://www.npmjs.com/package/@typescript-eslint/parser"><code>@typescript-eslint/parser</code></a>
-			<a href="https://www.npmjs.com/package/@angular-eslint/eslint-plugin"><code>@angular-eslint/eslint-plugin</code></a>
-			<a href="https://www.npmjs.com/package/@angular-eslint/eslint-plugin-template"><code>@angular-eslint/eslint-plugin-template</code></a>
-			<a href="https://www.npmjs.com/package/@angular-eslint/template-parser"><code>@angular-eslint/template-parser</code></a>
-			<a href="https://www.npmjs.com/package/@nrwl/eslint-plugin-nx"><code>@nrwl/eslint-plugin-nx</code></a>
-			<a href="https://nx.dev/packages/linter"><code>@nrwl/linter</code></a>
-		</td>
-		<td></td>
-		<td></td>
-  </tr>
-	<tr>
-    <td><a href="https://prettier.io/">Prettier</a></td>
-    <td>
-			<a href="https://www.npmjs.com/package/prettier"><code>prettier</code></a>
-			<a href="https://www.npmjs.com/package/eslint-config-prettier"><code>eslint-config-prettier</code></a>
-		</td>
-		<td></td>
-		<td></td>
-  </tr>
-	<tr>
-    <td><a href="https://docs.cypress.io/">Cypress</a></td>
-    <td>
-			<a href="https://www.npmjs.com/package/cypress"><code>cypress</code></a>
-			<a href="https://www.npmjs.com/package/@nrwl/cypress"><code>@nrwl/cypress</code></a>
-		</td>
-		<td></td>
-		<td></td>
-  </tr>
-	<tr>
-    <td><a href="https://www.sonarsource.com/products/sonarcloud/">SonarCloud</a></td>
-    <td><a href=""><code></code></a></td>
-		<td></td>
-		<td></td>
-  </tr>
-	<tr>
-    <td><a href="https://github.com/features/security/">Dependabot</a></td>
-    <td><a href=""><code></code></a></td>
-		<td></td>
-		<td></td>
-  </tr>
-	<tr>
-    <td><a href="https://jestjs.io/">Jest</a></td>
-    <td>
-			<a href="https://www.npmjs.com/package/jest"><code>jest</code></a>
-			<a href="https://www.npmjs.com/package/jest-environment-jsdom"><code>jest-environment-jsdom</code></a>
-			<a href="https://www.npmjs.com/package/jest-preset-angular"><code>jest-preset-angular</code></a>
-			<a href="https://www.npmjs.com/package/ts-jest"><code>ts-jest</code></a>
-			<a href="https://www.npmjs.com/package/@types/jest"><code>@types/jest</code></a>
-			<a href="https://www.npmjs.com/package/@nrwl/jest"><code>@nrwl/jest</code></a>
-		</td>
-		<td></td>
-		<td></td>
-  </tr>
-	<tr>
-    <td><a href="https://ngneat.github.io/spectator/">Spectator</a></td>
-    <td><a href="https://www.npmjs.com/package/@ngneat/spectator"><code>@ngneat/spectator</code></a></td>
-		<td></td>
-		<td></td>
-  </tr>
-	<tr>
-    <td><a href="https://ng-mocks.sudo.eu/">ng-mocks</a></td>
-    <td><a href="https://www.npmjs.com/package/ng-mocks"><code>ng-mocks</code></a></td>
-		<td></td>
-		<td></td>
-  </tr>
-	<tr>
-    <td><a href="https://www.deque.com/axe/">Axe</a></td>
-    <td><a href=""><code></code></a></td>
-		<td></td>
-		<td></td>
-  </tr>
-	<tr>
-    <td><a href="https://developer.chrome.com/docs/lighthouse/overview/">Lighthouse</a></td>
-    <td><a href=""><code></code></a></td>
-		<td></td>
-		<td></td>
-  </tr>
-	<tr>
-    <td><a href="https://pa11y.org/">Pa11y</a></td>
-    <td><a href=""><code></code></a></td>
-		<td></td>
-		<td></td>
-  </tr>
-</table>
+https://github.com/amitmerchant1990/electron-markdownify#readme
+https://www.makeareadme.com/
+https://github.com/Stack-in-a-box/triumphmayflowerclub.com#versions
+https://firebase.google.com/products/app-check
+https://firebase.google.com/products/performance
+https://firebase.google.com/products/analytics
+https://github.com/PurpleBooth/a-good-readme-template/tags
+https://docs.github.com/en/get-started
+https://github.com/Stack-in-a-box/triumphmayflowerclub.com#versions
+https://github.com/matiassingers/awesome-readme
+https://www.mariokandut.com/how-to-check-unused-npm-packages/
+https://github.com/angular/components
 
-## Releases
-
-We use [Semantic Versioning](https://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/PurpleBooth/a-good-readme-template/tags).
-
-https://github.com/nhn/tui.editor#-packages
-
-- recommended VSCode plugins
-- sonarcloud: https://sonarcloud.io/project/overview?id=movadee-open-source_ag-forms
-- semantic release: https://github.com/TheUnderScorer/nx-semantic-release
-
-ADRs:
-Error Reporting https://github.com/arachne-framework/architecture/blob/master/adr-013-error-reporting.md
-localization https://backstage.io/docs/architecture-decisions/adrs-adr012
-github commits names, pr's etc
+recommended VSCode plugins
 use moment lib? https://backstage.io/docs/architecture-decisions/adrs-adr010
 pre-commit
 color palette
 git flow https://docs.aws.amazon.com/prescriptive-guidance/latest/architectural-decision-records/appendix.html
 supported browsers
+Error Reporting https://github.com/arachne-framework/architecture/blob/master/adr-013-error-reporting.md
+localization https://backstage.io/docs/architecture-decisions/adrs-adr012
 Branching and Versioning https://github.com/angular/angular/blob/main/docs/BRANCHES.md
 builsing and testing https://github.com/angular/angular/blob/main/docs/DEVELOPER.md
-bundle management https://bundlephobia.com/
-
-references:
-
-- https://choosealicense.com/
-  https://github.com/amitmerchant1990/electron-markdownify#readme
-  https://www.makeareadme.com/
-  https://keepachangelog.com/en/1.0.0/
-  https://cloud.google.com/identity-platform/docs/multi-tenancy-authentication
-  emoji https://github.com/gofiber/fiber#readme
-  https://github.com/Stack-in-a-box/triumphmayflowerclub.com#versions
-  https://firebase.google.com/products/app-check
-  https://firebase.google.com/products/performance
-  https://firebase.google.com/products/analytics
-  https://stackblitz.com/membership
-
-  https://github.com/PurpleBooth/a-good-readme-template/tags
-  https://keepachangelog.com/en/1.0.0/
-  https://docs.github.com/en/get-started
-  https://github.com/Stack-in-a-box/triumphmayflowerclub.com#versions
-  https://github.com/matiassingers/awesome-readme
-  https://www.mariokandut.com/how-to-check-unused-npm-packages/
-  https://github.com/angular/components
-  https://github.com/jspsych/jsPsych/discussions/categories/show-and-tell
-
-  storybook
-  https://www.chromatic.com/blog/storybook-composition/
-  https://blog.logrocket.com/next-level-component-showcasing-with-storybook-controls/
-  https://atanasstoyanov.medium.com/custom-documentation-pages-for-storybookjs-13eb9637d6ab
-  https://mistica-web.vercel.app/?path=/story/components-popover--default
-  https://www.apideck.design/?path=/story/card--with-icons
-  https://github.com/xavierlefevre/shared-react-components-example
-  https://github.com/lauthieb/awesome-storybook
 
 bundle size:
 https://www.taskade.com/new/from/QhdTdxcBoGWEWpgd?share=view&view=QGFMgLncup1Lwazw&as=list
@@ -458,3 +458,4 @@ https://akhromieiev.com/how-to-use-webpack-bundle-analyzer-in-angular-project/
 https://medium.com/devops-dudes/angular-bundle-size-optimization-75294e83c149
 https://www.npmjs.com/package/webpack-bundle-analyzer
 https://medium.com/globant/screening-npm-packages-best-practices-a24930b2624e
+bundle management https://bundlephobia.com/
