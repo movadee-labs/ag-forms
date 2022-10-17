@@ -84,7 +84,7 @@ https://github.com/lauthieb/awesome-storybook
 
 </details>
 
-## <span style="color:maroon">Developer setup</span>
+## <span style="color:maroon">Developer setup</span> <span style="color:red">This is a paragraph.</span>
 
 Option 1: Online IDE
 
