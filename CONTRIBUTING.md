@@ -4,7 +4,7 @@
 	<img src="https://i0.wp.com/user-images.githubusercontent.com/7900087/113821370-df915480-9730-11eb-8aed-bdc50e2212d5.gif?ssl=1" alt="Italian Trulli">
 </details>
 
-## Contributing
+## <span class="color:red">Contributing</span>
 
 :+1::tada: First off, thanks for taking the time to contribute! :tada::+1: We automatically adding every contributor to Contributors list!
 

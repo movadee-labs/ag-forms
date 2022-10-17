@@ -153,7 +153,7 @@ For release list, see the [tags on this repository]()
 🎓 [Tutorials](): checkout our tutorials </br>
 💬 [General](https://github.com/movadee/ag-forms/discussions/categories/general): chat about anything and everything here
 
-## :woman_technologist: Contributing
+## :computer: Contributing
 
 Contributions are welcome! Please see [CONTRIBUTING.md](./CONTRIBUTING.md) for more details. Thanks to all our contributors :heart:
 
