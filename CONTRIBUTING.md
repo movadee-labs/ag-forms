@@ -9,7 +9,7 @@
 :+1::tada: First off, thanks for taking the time to contribute! :tada::+1: We automatically adding every contributor to Contributors list!
 
 Have a look at existing [Issues]() and [Pull Requests]() that you could help with. If you found a bug or got a feature idea, and you want to work on it, please request a [Feature]() or report a [Bug]() first.
-</br>
+</br></br>
 
 ## Documentation
 
@@ -91,6 +91,10 @@ https://github.com/lauthieb/awesome-storybook
 Option 1: Online IDE
 
 Option 2: Local
+
+<details>
+<summary>Read more</summary></br>
+</details>
 </br>
 
 ## Software Architecture
@@ -372,6 +376,9 @@ https://github.com/angular/angular/blob/main/docs/TOOLS.md
 
 ## GitHub Process
 
+<details>
+<summary>Read more</summary></br>
+
 https://github.com/angular/angular/blob/main/docs/COMMITTER.md
 https://github.com/angular/angular/blob/main/docs/BRANCHES.md
 https://github.com/angular/angular/blob/main/.pullapprove.yml
@@ -381,6 +388,8 @@ https://github.com/angular/angular/blob/main/docs/PUBLIC_API.md
 https://github.com/angular/angular/blob/main/docs/RELEASE_SCHEDULE.md
 https://github.com/angular/angular/blob/main/docs/SAVED_REPLIES.md
 https://github.com/angular/angular/blob/main/docs/TRIAGE_AND_LABELS.md
+
+</details>
 </br>
 
 ## Shipping
