@@ -4,14 +4,13 @@
 	<img src="https://i0.wp.com/user-images.githubusercontent.com/7900087/113821370-df915480-9730-11eb-8aed-bdc50e2212d5.gif?ssl=1" alt="Italian Trulli">
 </details>
 
-## <span class="color:red">Contributing</span>
+## <span style="color:darkgreen">Contributing</span>
 
 :+1::tada: First off, thanks for taking the time to contribute! :tada::+1: We automatically adding every contributor to Contributors list!
 
 Have a look at existing [Issues]() and [Pull Requests]() that you could help with. If you found a bug or got a feature idea, and you want to work on it, please request a [Feature]() or report a [Bug]() first.
-</br>
 
-## Documentation
+## <span style="color:darkred">Documentation</span>
 
 To learn how project works please refer to:
 
@@ -84,14 +83,12 @@ https://github.com/xavierlefevre/shared-react-components-example
 https://github.com/lauthieb/awesome-storybook
 
 </details>
-</br>
 
-## Developer setup
+## <span style="color:maroon">Developer setup</span>
 
 Option 1: Online IDE
 
 Option 2: Local
-</br>
 
 ## Software Architecture
 
@@ -104,7 +101,6 @@ https://github.com/angular/angular/blob/main/docs/DEVELOPER.md
 https://github.com/sidneycadot/oeis#how-it-all-fits-together
 
 </details>
-</br>
 
 ## Code Architecture
 
@@ -202,7 +198,6 @@ demo projects
 app modules vs standalone components
 
 </details>
-</br>
 
 ## Languages and Frameworks
 
@@ -241,7 +236,6 @@ https://github.com/joelparkerhenderson/architecture-decision-record/blob/main/ex
 https://blog.nrwl.io/set-up-tailwind-css-with-angular-in-an-nx-workspace-6f039a0f4479
 
 </details>
-</br>
 
 ## Coding Standards
 
@@ -256,7 +250,6 @@ Naming Conventions https://github.com/angular/angular/blob/main/docs/NAMING.md
 <summary>Read more</summary></br>
 
 </details>
-</br>
 
 ## Testing & Debugging
 
@@ -368,7 +361,6 @@ https://github.com/angular/angular/blob/main/docs/TOOLS.md
 - [Angular Testing Overview: Unit, Integration & E2E Tests](https://onthecode.co.uk/blog/angular-testing-overview/)
 
 </details>
-</br>
 
 ## GitHub Process
 
@@ -381,7 +373,6 @@ https://github.com/angular/angular/blob/main/docs/PUBLIC_API.md
 https://github.com/angular/angular/blob/main/docs/RELEASE_SCHEDULE.md
 https://github.com/angular/angular/blob/main/docs/SAVED_REPLIES.md
 https://github.com/angular/angular/blob/main/docs/TRIAGE_AND_LABELS.md
-</br>
 
 ## Shipping
 
@@ -412,7 +403,6 @@ semantic release: https://github.com/TheUnderScorer/nx-semantic-release
 https://github.com/nhn/tui.editor#-packages
 
 </details>
-</br>
 
 ## CI/CD
 
@@ -447,7 +437,6 @@ https://www.redhat.com/en/topics/devops
 https://blog.nrwl.io/more-time-saved-for-free-with-nx-cloud-d7079b95f7ca
 
 </details>
-</br>
 
 ## Metrics, monitors, alerts
 
@@ -455,7 +444,6 @@ https://blog.nrwl.io/more-time-saved-for-free-with-nx-cloud-d7079b95f7ca
 <summary>Read more</summary></br>
 https://github.com/joelparkerhenderson/architecture-decision-record/blob/main/examples/metrics-monitors-alerts/index.md
 </details>
-</br>
 
 ## Project Management
 
