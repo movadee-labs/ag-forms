@@ -28,7 +28,7 @@
       "inputs": [
         "default",
         "^production",
-        "{workspaceRoot}/docs/storybook/.storybook/**/*"
+        "{workspaceRoot}/storybook/.storybook/**/*"
       ]
     }
   },

@@ -4,21 +4,6 @@
 	<img src="https://i0.wp.com/user-images.githubusercontent.com/7900087/113821370-df915480-9730-11eb-8aed-bdc50e2212d5.gif?ssl=1" alt="Italian Trulli">
 </details>
 
-<details>
-<summary>Read more</summary></br>
-
-📋 **Details:**
-
-🛠 **Tools:**
-
--
-
-📚 **References:**
-
--
-
-</details>
-
 ## Contributing
 
 :+1::tada: First off, thanks for taking the time to contribute! :tada::+1: We automatically adding every contributor to Contributors list!
@@ -27,13 +12,11 @@ Have a look at existing [Issues]() and [Pull Requests]() that you could help wit
 
 ## Documentation
 
-We use several tools and files to document `ag-forms`.
+:exclamation: Important To learn how ag-forms project works please refer to this document, which describes project architecture and our decision details, as well as:
 
-> :exclamation: Important To learn how ag-forms project works please refer to this document, which describes project architecture and our decision details, as well as:
->
-> - :world_map: [Code Tour](https://marketplace.visualstudio.com/items?itemName=vsls-contrib.codetour#recording-tours) (VSCode Extension): to quickly review step-by-step code implementation. [Learn how to use]()
-> - :computer: [StackBlitz]() (online IDE): to open codebase online. [Learn how to use]()
-> - :closed_book: ag-forms.com: for documentation and examples. [Learn how to use]()
+- :world_map: [Code Tour](https://marketplace.visualstudio.com/items?itemName=vsls-contrib.codetour#recording-tours) (VSCode Extension): to quickly review step-by-step code implementation. [Learn how to use]()
+- :computer: [StackBlitz]() (online IDE): to open codebase online. [Learn how to use]()
+- :closed_book: ag-forms.com: for documentation and examples. [Learn how to use]()
 
 <details>
 <summary>Read more</summary></br>

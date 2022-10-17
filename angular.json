@@ -5,7 +5,7 @@
     "core": "libs/core",
     "demo-core": "demo/demo-core",
     "demo-tailwind-cdk": "demo/demo-tailwind-cdk",
-    "storybook": "docs/storybook",
+    "storybook": "storybook",
     "tailwind-cdk": "libs/tailwind-cdk"
   }
 }
