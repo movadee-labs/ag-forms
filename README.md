@@ -39,14 +39,15 @@ Features
 
 The `ag-forms` team builds and maintains several packages that helps build Angular Reactive Forms controls and optionally UI view.
 
-<div style="font-size: 18px"><b>Option 1: form controls only, no framework</b></div>
+##### Option 1: `@ng-forms/core` (form controls only, no framework)
+
 <div>👀 <a href="url">Live Demo on StackBlitz</a></div>
 <div>⚙️ <a href="url">Live configure tool</a></div>
 
 <details>
-<summary>Implementation and usage details</summary>
+<summary>Implementation and usage details</summary></br>
 
-##### Step 1: Install dependencies
+**Step 1: Install dependencies**
 
 _Option 1:_ using <a href="">npm</a>
 `npm i @angular/forms @ngx-formly/core @ngx-formly/bootstrap --save`
@@ -58,7 +59,7 @@ _Option 3:_ <a href="">yarn</a>
 `yarn add @angular/forms @ngx-formly/core @ngx-formly/bootstrap`
 </br>
 
-##### Step 2: In your app provide access to AgFormService
+**Step 2: In your app provide access to AgFormService**
 
 _Option 1:_ provide in @NgModule()
 
@@ -86,7 +87,7 @@ import { AgFormService } from '@ag-forms/core';
 })
 ```
 
-##### Step 3: Configure & build form
+**Step 3: Configure & build form**
 
 ```ts
 import { AgFormService } from '@ag-forms/core';
@@ -111,7 +112,8 @@ That's it, the above example will render...
 
 </details>
 
-<div style="font-size: 18px"><b>Option 2: form with Tailwind</b></div>
+##### Option 2: `@ng-forms/tailwind` (form with Tailwind)
+
 <div>👀 <a href="url">Live Demo on StackBlitz</a></div>
 <div>⚙️ <a href="url">Live configure tool</a></div>
 
@@ -119,7 +121,8 @@ That's it, the above example will render...
 <summary>Implementation and usage details</summary>
 </details>
 
-<div style="font-size: 18px"><b>Option 3: form with Material</b></div>
+##### Option 3: `@ng-forms/material` (form with Material)
+
 <div>👀 <a href="url">Live Demo on StackBlitz</a></div>
 <div>⚙️ <a href="url">Live configure tool</a></div>
 
@@ -127,7 +130,8 @@ That's it, the above example will render...
 <summary>Implementation and usage details</summary>
 </details>
 
-<div style="font-size: 18px"><b>Option 4: form with Bootstrap</b></div>
+##### Option 4: `@ng-forms/bootstrap` (form with Bootstrap)
+
 <div>👀 <a href="url">Live Demo on StackBlitz</a></div>
 <div>⚙️ <a href="url">Live configure tool</a></div>
 
