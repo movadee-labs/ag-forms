@@ -291,7 +291,7 @@ Naming Conventions https://github.com/angular/angular/blob/main/docs/NAMING.md
 unit tests in libs
 integration tests in libs
 language tests in libs
-etc
+https://github.com/marketplace/accesslint
 
 🛠 **Tools:**
 
@@ -361,6 +361,11 @@ We use [Semantic Versioning](https://semver.org/) for versioning. For the versio
 - [Semantic Release](https://github.com/semantic-release/semantic-release)
   📦 _packages:_ [`@theunderscorer/nx-semantic-release`](https://github.com/TheUnderScorer/nx-semantic-release) [`ng-packagr`](https://www.npmjs.com/package/ng-packagr)
 
+  https://nx.dev/more-concepts/buildable-and-publishable-libraries
+  https://yonatankra.com/how-to-deploy-npm-modules-in-an-nx-monorepo-and-github-actions/
+  https://dev.to/dianjuar/publish-your-libraries-to-npm-with-one-command-angular-and-nx-4lao
+  https://tane.dev/2020/05/publishing-npm-libraries-using-nx-and-github-actions/
+
 📚 **References:**
 
 -
@@ -384,9 +389,20 @@ https://github.com/nhn/tui.editor#-packages
 
 - [GitHub Actions](https://github.com/features/actions)
 
+https://github.com/marketplace/devbots-lock-pull-request
+https://github.com/marketplace/devbots-lock-issue
+
+https://github.com/marketplace/percy
+https://github.com/marketplace/stale
+https://github.com/marketplace/imgbot
+https://app.codecov.io/gh/dkhmelenko/autoapproval/pull/726
+https://github.com/dkhmelenko/autoapproval/pull/726
+https://github.com/marketplace/pr-valet
+https://github.com/google/closure-compiler
 https://github.com/arachne-framework/architecture/blob/master/adr-011-asset-pipeline.md
 github actions
 nx-cloud
+pre-commit
 https://github.com/joelparkerhenderson/architecture-decision-record/blob/main/examples/microsoft-azure-devops/index.md
 https://github.com/joelparkerhenderson/architecture-decision-record/blob/main/examples/environment-variable-configuration/index.md
 https://www.redhat.com/en/topics/devops/what-is-ci-cd
@@ -445,3 +461,4 @@ https://medium.com/devops-dudes/angular-bundle-size-optimization-75294e83c149
 https://www.npmjs.com/package/webpack-bundle-analyzer
 https://medium.com/globant/screening-npm-packages-best-practices-a24930b2624e
 bundle management https://bundlephobia.com/
+https://duncanhunter.gitbook.io/enterprise-angular-applications-with-ngrx-and-nx/introduction/19-deploying-an-nx-monorepo

@@ -2,7 +2,7 @@
     <h1>
         <img src="logo.png" height="100px">
     </h1>
-    <h4><b>New website for the Triumph Mayflower Club, launched in March 2018</b></h4>
+    <p><b>New website for the Triumph Mayflower Club, launched in March 2018</b></p>
 		⭐ Star us on GitHub — it motivates us a lot!
     <h3>
         <a href="https://www.github.com/andiemmadavies">
