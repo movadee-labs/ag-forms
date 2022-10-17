@@ -4,13 +4,13 @@
 	<img src="https://i0.wp.com/user-images.githubusercontent.com/7900087/113821370-df915480-9730-11eb-8aed-bdc50e2212d5.gif?ssl=1" alt="Italian Trulli">
 </details>
 
-## <span style="color:darkgreen">Contributing</span>
+<h2><span style="color:darkgreen">Contributing</span></h2>
 
 :+1::tada: First off, thanks for taking the time to contribute! :tada::+1: We automatically adding every contributor to Contributors list!
 
 Have a look at existing [Issues]() and [Pull Requests]() that you could help with. If you found a bug or got a feature idea, and you want to work on it, please request a [Feature]() or report a [Bug]() first.
 
-## <span style="color:darkred">Documentation</span>
+<h2><span style="color:darkred">Documentation</span></h2>
 
 To learn how project works please refer to:
 
@@ -84,7 +84,7 @@ https://github.com/lauthieb/awesome-storybook
 
 </details>
 
-## <span style="color:maroon">Developer setup</span> <span style="color:red">This is a paragraph.</span>
+<h2><span style="color:maroon">Developer setup</span></h2>
 
 Option 1: Online IDE
 
