@@ -54,7 +54,10 @@ Have a look at existing [Issues]() and [Pull Requests]() that you could help wit
 🛠 **Tools:**
 
 - [Storybook](https://storybook.js.org/)
-  📦 [`@nrwl/storybook`]() [`@storybook/addon-essentials`]() [`@storybook/angular`]() [`@storybook/builder-webpack5`]() [`@storybook/core-server`]() [`@storybook/manager-webpack5`]() [`@storybook/test-runner`]() [`webpack`]()
+  📦 _packages:_ [`@nrwl/storybook`]() [`@storybook/addon-essentials`]() [`@storybook/angular`]() [`@storybook/builder-webpack5`]() [`@storybook/core-server`]() [`@storybook/manager-webpack5`]() [`@storybook/test-runner`]() [`webpack`]()
+
+- [Code Tour](https://github.com/microsoft/codetour)
+  🔌 _vscode plugins:_ [`CodeTour`](https://marketplace.visualstudio.com/items?itemName=vsls-contrib.codetour#recording-tours)
 
 📚 **References:**
 
@@ -165,7 +168,7 @@ For more please see https://github.com/joelparkerhenderson/monorepo-vs-polyrepo
 🛠 **Tools:**
 
 - [NX](https://nx.dev/)
-  📦 [`nx`](https://www.npmjs.com/package/nx) [`@nrwl/cli`](https://www.npmjs.com/package/@nrwl/cli) [`@nrwl/workspace`](https://www.npmjs.com/package/@nrwl/workspace)
+  📦 _packages:_ [`nx`](https://www.npmjs.com/package/nx) [`@nrwl/cli`](https://www.npmjs.com/package/@nrwl/cli) [`@nrwl/workspace`](https://www.npmjs.com/package/@nrwl/workspace)
 
 📚 **References:**
 
@@ -202,16 +205,16 @@ We need to choose programming language for our software. We have a major need: f
 🛠 **Tools:**
 
 - [SASS]()
-  📦 [`postcss`]() [`postcss-import`]() [`postcss-preset-env`]() [`postcss-url`]() [`autoprefixer`]()
+  📦 _packages:_ [`postcss`]() [`postcss-import`]() [`postcss-preset-env`]() [`postcss-url`]() [`autoprefixer`]()
 
 - [TypeScript](https://www.typescriptlang.org/)
-  📦 [`typescript`](https://www.npmjs.com/package/typescript) [`tslib`](https://www.npmjs.com/package/tslib) [`ts-node`](https://www.npmjs.com/package/ts-node)
+  📦 _packages:_ [`typescript`](https://www.npmjs.com/package/typescript) [`tslib`](https://www.npmjs.com/package/tslib) [`ts-node`](https://www.npmjs.com/package/ts-node)
 
 - [Angular](https://angular.io/)
-  📦 [`@angular/common`](https://angular.io/api/common) [`@angular/core`](https://angular.io/api/core) [`@angular/forms`](https://angular.io/api/forms) [`@angular/platform-browser`](https://angular.io/api/platform-browser) [`@angular/platform-browser-dynamic`](https://angular.io/api/platform-browser-dynamic) [`@angular/router`](https://angular.io/api/router) [`@angular/compiler`](https://www.npmjs.com/package/@angular/compiler) [`@angular-devkit/build-angular`](https://www.npmjs.com/package/@angular-devkit/build-angular) [`@angular/cli`](https://www.npmjs.com/package/@angular/cli) [`@angular/compiler-cli`](https://www.npmjs.com/package/@angular/compiler-cli) [`@angular/language-service`](https://www.npmjs.com/package/@angular/language-service) [`@nrwl/angular`](https://nx.dev/packages/angular) [`zone.js`](https://www.npmjs.com/package/zone.js?activeTab=readme) [`@types/node`]() [`glob`]()
+  📦 _packages:_ [`@angular/common`](https://angular.io/api/common) [`@angular/core`](https://angular.io/api/core) [`@angular/forms`](https://angular.io/api/forms) [`@angular/platform-browser`](https://angular.io/api/platform-browser) [`@angular/platform-browser-dynamic`](https://angular.io/api/platform-browser-dynamic) [`@angular/router`](https://angular.io/api/router) [`@angular/compiler`](https://www.npmjs.com/package/@angular/compiler) [`@angular-devkit/build-angular`](https://www.npmjs.com/package/@angular-devkit/build-angular) [`@angular/cli`](https://www.npmjs.com/package/@angular/cli) [`@angular/compiler-cli`](https://www.npmjs.com/package/@angular/compiler-cli) [`@angular/language-service`](https://www.npmjs.com/package/@angular/language-service) [`@nrwl/angular`](https://nx.dev/packages/angular) [`zone.js`](https://www.npmjs.com/package/zone.js?activeTab=readme) [`@types/node`]() [`glob`]()
 
 - [TailwindCSS](https://tailwindcss.com/)
-  📦 [`tailwindcss`](https://www.npmjs.com/package/tailwindcss)
+  📦 _packages:_ [`tailwindcss`](https://www.npmjs.com/package/tailwindcss)
 
 📚 **References:**
 
@@ -293,37 +296,37 @@ etc
 🛠 **Tools:**
 
 - [ESLint](https://eslint.org/)
-  📦 [`eslint`](https://www.npmjs.com/package/eslint) [`eslint-plugin-cypress`](https://www.npmjs.com/package/eslint-plugin-cypress) [`@typescript-eslint/eslint-plugin`](https://www.npmjs.com/package/@typescript-eslint/eslint-plugin) [`@typescript-eslint/parser`](https://www.npmjs.com/package/@typescript-eslint/parser) [`@angular-eslint/eslint-plugin`](https://www.npmjs.com/package/@angular-eslint/eslint-plugin) [`@angular-eslint/eslint-plugin-template`](https://www.npmjs.com/package/@angular-eslint/eslint-plugin-template) [`@angular-eslint/template-parser`](https://www.npmjs.com/package/@angular-eslint/template-parser) [`@nrwl/eslint-plugin-nx`](https://www.npmjs.com/package/@nrwl/eslint-plugin-nx) [`@nrwl/linter`](https://nx.dev/packages/linter)
+  📦 _packages:_ [`eslint`](https://www.npmjs.com/package/eslint) [`eslint-plugin-cypress`](https://www.npmjs.com/package/eslint-plugin-cypress) [`@typescript-eslint/eslint-plugin`](https://www.npmjs.com/package/@typescript-eslint/eslint-plugin) [`@typescript-eslint/parser`](https://www.npmjs.com/package/@typescript-eslint/parser) [`@angular-eslint/eslint-plugin`](https://www.npmjs.com/package/@angular-eslint/eslint-plugin) [`@angular-eslint/eslint-plugin-template`](https://www.npmjs.com/package/@angular-eslint/eslint-plugin-template) [`@angular-eslint/template-parser`](https://www.npmjs.com/package/@angular-eslint/template-parser) [`@nrwl/eslint-plugin-nx`](https://www.npmjs.com/package/@nrwl/eslint-plugin-nx) [`@nrwl/linter`](https://nx.dev/packages/linter)
 
 - [Prettier](https://prettier.io/)
-  📦 [`prettier`](https://www.npmjs.com/package/prettier) [`eslint-config-prettier`](https://www.npmjs.com/package/eslint-config-prettier)
+  📦 _packages:_ [`prettier`](https://www.npmjs.com/package/prettier) [`eslint-config-prettier`](https://www.npmjs.com/package/eslint-config-prettier)
 
 - [Cypress](https://docs.cypress.io/)
-  📦 [`cypress`](https://www.npmjs.com/package/cypress) [`@nrwl/cypress`](https://www.npmjs.com/package/@nrwl/cypress)
+  📦 _packages:_ [`cypress`](https://www.npmjs.com/package/cypress) [`@nrwl/cypress`](https://www.npmjs.com/package/@nrwl/cypress)
 
 - [SonarCloud](https://www.sonarsource.com/products/sonarcloud/) https://sonarcloud.io/project/overview?id=movadee-open-source_ag-forms
-  📦 [``]() [``]()
+  📦 _packages:_ [``]() [``]()
 
 - [Dependabot](https://github.com/features/security/)
-  📦 [``]() [``]()
+  📦 _packages:_ [``]() [``]()
 
 - [Jest](https://jestjs.io/)
-  📦 [`jest`](https://www.npmjs.com/package/jest) [`jest-environment-jsdom`](https://www.npmjs.com/package/jest-environment-jsdom) [`jest-preset-angular`](https://www.npmjs.com/package/jest-preset-angular) [`ts-jest`](https://www.npmjs.com/package/ts-jest) [`@types/jest`](https://www.npmjs.com/package/@types/jest) [`@nrwl/jest`](https://www.npmjs.com/package/@nrwl/jest)
+  📦 _packages:_ [`jest`](https://www.npmjs.com/package/jest) [`jest-environment-jsdom`](https://www.npmjs.com/package/jest-environment-jsdom) [`jest-preset-angular`](https://www.npmjs.com/package/jest-preset-angular) [`ts-jest`](https://www.npmjs.com/package/ts-jest) [`@types/jest`](https://www.npmjs.com/package/@types/jest) [`@nrwl/jest`](https://www.npmjs.com/package/@nrwl/jest)
 
 - [Spectator](https://ngneat.github.io/spectator/)
-  📦 [`@ngneat/spectator`](https://www.npmjs.com/package/@ngneat/spectator)
+  📦 _packages:_ [`@ngneat/spectator`](https://www.npmjs.com/package/@ngneat/spectator)
 
 - [ng-mocks](https://ng-mocks.sudo.eu/)
-  📦 [`ng-mocks`](https://www.npmjs.com/package/ng-mocks)
+  📦 _packages:_ [`ng-mocks`](https://www.npmjs.com/package/ng-mocks)
 
 - [Axe](https://www.deque.com/axe/)
-  📦 [``]() [``]()
+  📦 _packages:_ [``]() [``]()
 
 - [Lighthouse](https://developer.chrome.com/docs/lighthouse/overview/)
-  📦 [``]() [``]()
+  📦 _packages:_ [``]() [``]()
 
 - [Pa11y](https://pa11y.org/)
-  📦 [``]() [``]()
+  📦 _packages:_ [``]() [``]()
 
 📚 **References:**
 
@@ -356,7 +359,7 @@ We use [Semantic Versioning](https://semver.org/) for versioning. For the versio
 🛠 **Tools:**
 
 - [Semantic Release](https://github.com/semantic-release/semantic-release)
-  📦 [`@theunderscorer/nx-semantic-release`](https://github.com/TheUnderScorer/nx-semantic-release) [`ng-packagr`](https://www.npmjs.com/package/ng-packagr)
+  📦 _packages:_ [`@theunderscorer/nx-semantic-release`](https://github.com/TheUnderScorer/nx-semantic-release) [`ng-packagr`](https://www.npmjs.com/package/ng-packagr)
 
 📚 **References:**
 
@@ -377,7 +380,7 @@ https://github.com/nhn/tui.editor#-packages
 🛠 **Tools:**
 
 - [Nx Cloud](https://nx.app/)
-  📦 [`@nrwl/nx-cloud`](https://www.npmjs.com/package/@nrwl/nx-cloud)
+  📦 _packages:_ [`@nrwl/nx-cloud`](https://www.npmjs.com/package/@nrwl/nx-cloud)
 
 - [GitHub Actions](https://github.com/features/actions)
 
