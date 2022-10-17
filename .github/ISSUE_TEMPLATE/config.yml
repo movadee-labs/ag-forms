@@ -8,7 +8,10 @@ contact_links:
     about: Ask us and the community for help
   - name: 🙌 Show & tell
     url: https://github.com/movadee/ag-forms/discussions/new?category=show-tell
-    about: checkout our tutorials/examples or show off something you've made
+    about: show off something you've made
+  - name: 🎓 Tutorials
+    url: https://github.com/movadee/ag-forms/discussions/new?category=tutorials
+    about: checkout our tutorials
   - name: 💬 General
     url: https://github.com/movadee/ag-forms/discussions/new?category=general
     about: Chat about anything and everything here

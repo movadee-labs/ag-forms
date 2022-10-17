@@ -12,11 +12,16 @@ Have a look at existing [Issues]() and [Pull Requests]() that you could help wit
 
 ## Documentation
 
-:exclamation: Important To learn how ag-forms project works please refer to this document, which describes project architecture and our decision details, as well as:
+To learn how project works please refer to:
 
-- :world_map: [Code Tour](https://marketplace.visualstudio.com/items?itemName=vsls-contrib.codetour#recording-tours) (VSCode Extension): to quickly review step-by-step code implementation. [Learn how to use]()
-- :computer: [StackBlitz]() (online IDE): to open codebase online. [Learn how to use]()
-- :closed_book: ag-forms.com: for documentation and examples. [Learn how to use]()
+1. README.md
+2. :closed_book: ag-forms.com
+3. this document (CONTRIBUTING.md)
+4. :world_map: [Code Tour](https://marketplace.visualstudio.com/items?itemName=vsls-contrib.codetour#recording-tours) (VSCode Extension): to quickly review step-by-step code implementation. [Learn how to use]()
+5. :computer: [StackBlitz]() (online IDE): to open codebase online. [Learn how to use]()
+6. Issues
+7. Discussions. To spread the word we also use Medium and dev blogs to post tutorials, but all tutorials are saved in Tutorials section of Discussions.
+8. LICENSE.md
 
 <details>
 <summary>Read more</summary></br>
@@ -43,13 +48,11 @@ Have a look at existing [Issues]() and [Pull Requests]() that you could help wit
      For every `ag-forms` lib we have demo project that shows lib setup and usage example. In README for demo projects we explain how to setup and run demo projects, and how to understand package.json (it's different from regular Angular project because we use Monorepo setup).
    - **[Architecture Decision Records]()**
 
-4. [LICENSE.md]()
-   It is an open source license of `ag-forms` repository that makes it easier for other people to contribute.
-5. [Issues]() organized in [GitHub Projects]()
-   It is.
-6. Tutorials
-7. Code Tour
-8. StackBlitz
+4. Code Tour
+5. StackBlitz
+6. [Issues]() organized in [GitHub Projects]()
+7. Discussions
+8. [LICENSE.md]() It is an open source license of `ag-forms` repository that makes it easier for other people to contribute.
 
 🛠 **Tools:**
 
