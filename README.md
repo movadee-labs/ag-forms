@@ -153,14 +153,14 @@ Contributions are welcome! Please see [CONTRIBUTING.md](./CONTRIBUTING.md) for m
 
 ## :page_facing_up: License
 
-This project is licensed under MIT License - see the [`LICENSE.md`](./LICENSE.md) for details.
+This project is licensed under [MIT License](https://license.md/licenses/mit-license/) - reference [`LICENSE.md`](./LICENSE.md) for details.
 
 <details>
 <summary>Read more</summary></br>
 
 📚 **References:**
 
-- [MIT License](https://license.md/licenses/mit-license/)
+- [Software Licenses](https://license.md/)
 - [Choose an open source license](https://choosealicense.com/)
 
 </details>
