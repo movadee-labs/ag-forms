@@ -35,7 +35,7 @@ WHY? The [Triumph Mayflower Club](https://www.triumphmayflowerclub.com/) is an o
 
 Features
 
-## 🚀&nbsp; Getting started
+## 🚀 Getting started
 
 The `ag-forms` team builds and maintains several packages that helps build Angular Reactive Forms controls and optionally UI view.
 
@@ -87,7 +87,7 @@ import { AgFormService } from '@ag-forms/core';
 })
 ```
 
-**Step 3: Configure & build form**
+**Step 3: Configure and build form**
 
 ```ts
 import { AgFormService } from '@ag-forms/core';
@@ -139,7 +139,7 @@ That's it, the above example will render...
 <summary>Implementation and usage details</summary>
 </details>
 
-## :label: Releases
+## 🦋 Releases
 
 For release list, see the [tags on this repository]()
 
@@ -148,7 +148,8 @@ For release list, see the [tags on this repository]()
 🐞 [Bug](): file a bug/issue </br>
 💡 [Idea](https://github.com/movadee/ag-forms/discussions/categories/ideas): share ideas for new features </br>
 🙏 [Q&A](https://github.com/movadee/ag-forms/discussions/categories/q-a): ask us and the community for help </br>
-🙌 [Tutorials (Show & tell)](https://github.com/movadee/ag-forms/discussions/categories/show-tell): checkout our tutorials/examples or show off something you've made </br>
+🙌 [Show and tell](https://github.com/movadee/ag-forms/discussions/categories/show-tell): show off something you've made </br>
+🎓 [Tutorials](): checkout our tutorials </br>
 💬 [General](https://github.com/movadee/ag-forms/discussions/categories/general): chat about anything and everything here
 
 ## :computer: Contributing
