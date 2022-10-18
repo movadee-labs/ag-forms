@@ -76,7 +76,7 @@
     },
     "test": {
       "executor": "@nrwl/jest:jest",
-      "outputs": ["coverage/demo/example"],
+      "outputs": ["{workspaceRoot}/coverage/demo/example"],
       "options": {
         "jestConfig": "demo/example/jest.config.ts",
         "passWithNoTests": true

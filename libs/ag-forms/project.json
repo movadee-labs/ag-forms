@@ -5,9 +5,7 @@
   "targets": {
     "build": {
       "executor": "@nrwl/angular:package",
-      "outputs": [
-        "dist/libs/ag-forms"
-      ],
+      "outputs": ["{workspaceRoot}/dist/libs/ag-forms"],
       "options": {
         "project": "libs/ag-forms/ng-package.json"
       },
@@ -23,9 +21,7 @@
     },
     "test": {
       "executor": "@nrwl/jest:jest",
-      "outputs": [
-        "coverage/libs/ag-forms"
-      ],
+      "outputs": ["{workspaceRoot}/coverage/libs/ag-forms"],
       "options": {
         "jestConfig": "libs/ag-forms/jest.config.ts",
         "passWithNoTests": true
@@ -34,10 +30,7 @@
     "lint": {
       "executor": "@nrwl/linter:eslint",
       "options": {
-        "lintFilePatterns": [
-          "libs/ag-forms/**/*.ts",
-          "libs/ag-forms/**/*.html"
-        ]
+        "lintFilePatterns": ["libs/ag-forms/**/*.ts", "libs/ag-forms/**/*.html"]
       }
     },
     "semantic-release": {
