@@ -374,7 +374,7 @@ https://github.com/angular/angular/blob/main/docs/TOOLS.md
 </details>
 </br>
 
-## GitHub process
+## Github process
 
 <details>
 <summary>Read more</summary></br>
