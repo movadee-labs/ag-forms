@@ -166,8 +166,7 @@ Contributions are welcome! Please see [CONTRIBUTING.md](./CONTRIBUTING.md) for m
 </a>
 
 _Made with [contrib.rocks](https://contrib.rocks)_
-
-</br></br>
+</br>
 
 ## :scroll: License
 
