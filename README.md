@@ -35,8 +35,6 @@ WHY? The [Triumph Mayflower Club](https://www.triumphmayflowerclub.com/) is an o
 
 Features
 
-</br>
-
 ## Getting started
 
 The `ag-forms` team builds and maintains several packages that helps build Angular Reactive Forms controls and optionally UI view.
@@ -140,14 +138,11 @@ That's it, the above example will render...
 <details>
 <summary>Implementation and usage details</summary>
 </details>
-</br>
 
 ## Release notes
 
 check the release notes to see what's changed in the latest releases, and how that affects your builds. https://github.com/bazelbuild/bazel/releases
 For release list, see the [tags on this repository]()
-
-</br>
 
 ## Support
 
@@ -158,19 +153,15 @@ For release list, see the [tags on this repository]()
 [Tutorials](): checkout our tutorials  
 [General](https://github.com/movadee/ag-forms/discussions/categories/general): chat about anything and everything here
 
-</br>
-
 ## Contributing
 
-Contributions are welcome! Please see [CONTRIBUTING.md](./CONTRIBUTING.md) for more details. Thanks to all our contributors :heart:
+Contributions are welcome! Please see [CONTRIBUTING.md](./CONTRIBUTING.md) for more details.
+
+Thanks to all our contributors :heart (_made with [contrib.rocks](https://contrib.rocks)_):
 
 <a href="https://github.com/movadee/ag-forms/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=movadee/ag-forms" />
 </a>
-
-_Made with [contrib.rocks](https://contrib.rocks)_
-
-</br>
 
 ## License
 
