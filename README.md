@@ -34,7 +34,7 @@
 WHY? The [Triumph Mayflower Club](https://www.triumphmayflowerclub.com/) is an organisation dedicated to the preservation of classic 1950s car, the Mayflower, by British car manufacturer Triumph. The club itself formed in 1974 and made its initial, limited foray into the World Wide Web back in [2005](https://legacy.triumphmayflowerclub.com/), and then I ([Andi](https://www.github.com/andiemmadavies), project maintainer) was commissioned in 2017 to create them a new website from scratch when my parents became members. Click [here](https://www.triumphmayflowerclub.com/about) if you’re interested in reading more about the car and the club.
 
 Features
-</br>
+</br></br>
 
 ## 🚀 Getting started
 
@@ -139,12 +139,13 @@ That's it, the above example will render...
 <details>
 <summary>Implementation and usage details</summary>
 </details>
+</br>
 
 ## :page_with_curl: Release notes
 
 check the release notes to see what's changed in the latest releases, and how that affects your builds. https://github.com/bazelbuild/bazel/releases
 For release list, see the [tags on this repository]()
-</br>
+</br></br>
 
 ## 💬 Support
 
@@ -159,7 +160,6 @@ For release list, see the [tags on this repository]()
 ## :computer: Contributing
 
 Contributions are welcome! Please see [CONTRIBUTING.md](./CONTRIBUTING.md) for more details. Thanks to all our contributors :heart:
-</br>
 
 ## :scroll: License
 
