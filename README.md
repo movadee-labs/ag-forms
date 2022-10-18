@@ -146,7 +146,7 @@ For release list, see the [tags on this repository]()
 
 ## Support
 
-[Bug](): file a bug/issue
+[Bug](): file a bug/issue  
 [Idea](https://github.com/movadee/ag-forms/discussions/categories/ideas): share ideas for new features  
 [Q&A](https://github.com/movadee/ag-forms/discussions/categories/q-a): ask us and the community for help  
 [Show and tell](https://github.com/movadee/ag-forms/discussions/categories/show-tell): show off something you've made  
