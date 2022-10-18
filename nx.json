@@ -21,15 +21,18 @@
     "test": {
       "inputs": ["default", "^production", "{workspaceRoot}/jest.preset.js"]
     },
-    "lint": {
-      "inputs": ["default", "{workspaceRoot}/.eslintrc.json"]
-    },
     "build-storybook": {
       "inputs": [
         "default",
         "^production",
         "{workspaceRoot}/storybook/.storybook/**/*"
       ]
+    },
+    "e2e": {
+      "inputs": ["default", "^production"]
+    },
+    "lint": {
+      "inputs": ["default", "{workspaceRoot}/.eslintrc.json"]
     }
   },
   "namedInputs": {
