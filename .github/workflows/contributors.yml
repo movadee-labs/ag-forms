@@ -1,37 +1,37 @@
-# GitHub Action - Update Contributors in:
-# package.json: https://github.com/marketplace/actions/update-contributors
-# readme.md:    https://github.com/marketplace/actions/auto-add-contributors
+# # GitHub Action - Update Contributors in:
+# # package.json: https://github.com/marketplace/actions/update-contributors
+# # readme.md:    https://github.com/marketplace/actions/auto-add-contributors
 
-name: Contributors
-on:
-  schedule:
-    - cron: '0 0 * * *' # Run once a day at midnight. Learn more: https://en.wikipedia.org/wiki/Cron
-  push:
-    branches:
-      - master
-jobs:
-  readme-update-contributors:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v2
-        with:
-          fetch-depth: 0
-      - uses: wow-actions/update-contributors@v1
-        with:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN_CONTRIBUTORS }}
-          commit_message: 'chore(package.json): update contributors'
+# name: Contributors
+# on:
+#   schedule:
+#     - cron: '0 0 * * *' # Run once a day at midnight. Learn more: https://en.wikipedia.org/wiki/Cron
+#   push:
+#     branches:
+#       - master
+# jobs:
+#   readme-update-contributors:
+#     runs-on: ubuntu-latest
+#     steps:
+#       - uses: actions/checkout@v2
+#         with:
+#           fetch-depth: 0
+#       - uses: wow-actions/update-contributors@v1
+#         with:
+#           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN_CONTRIBUTORS }}
+#           commit_message: 'chore(package.json): update contributors'
 
-  package-update-contributors:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v2
-      - uses: BobAnkh/add-contributors@master
-        with:
-          CONTRIBUTOR: '## Contributing'
-          COLUMN_PER_ROW: '6'
-          ACCESS_TOKEN: ${{secrets.GITHUB_TOKEN_CONTRIBUTORS}}
-          IMG_WIDTH: '100'
-          FONT_SIZE: '14'
-          PATH: '/README.md'
-          COMMIT_MESSAGE: 'chore(README): update contributors'
-          AVATAR_SHAPE: 'round'
+#   package-update-contributors:
+#     runs-on: ubuntu-latest
+#     steps:
+#       - uses: actions/checkout@v2
+#       - uses: BobAnkh/add-contributors@master
+#         with:
+#           CONTRIBUTOR: '## Contributing'
+#           COLUMN_PER_ROW: '6'
+#           ACCESS_TOKEN: ${{secrets.GITHUB_TOKEN_CONTRIBUTORS}}
+#           IMG_WIDTH: '100'
+#           FONT_SIZE: '14'
+#           PATH: '/README.md'
+#           COMMIT_MESSAGE: 'chore(README): update contributors'
+#           AVATAR_SHAPE: 'round'
