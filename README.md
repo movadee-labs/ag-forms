@@ -37,7 +37,7 @@ Features
 
 </br>
 
-## 🚀 Getting started
+## Getting started
 
 The `ag-forms` team builds and maintains several packages that helps build Angular Reactive Forms controls and optionally UI view.
 
@@ -142,25 +142,25 @@ That's it, the above example will render...
 </details>
 </br>
 
-## :page_with_curl: Release notes
+## Release notes
 
 check the release notes to see what's changed in the latest releases, and how that affects your builds. https://github.com/bazelbuild/bazel/releases
 For release list, see the [tags on this repository]()
 
 </br>
 
-## 💬 Support
+## Support
 
-🐞 [Bug](): file a bug/issue </br>
-💡 [Idea](https://github.com/movadee/ag-forms/discussions/categories/ideas): share ideas for new features </br>
-🙏 [Q&A](https://github.com/movadee/ag-forms/discussions/categories/q-a): ask us and the community for help </br>
-🙌 [Show and tell](https://github.com/movadee/ag-forms/discussions/categories/show-tell): show off something you've made </br>
-🎓 [Tutorials](): checkout our tutorials </br>
-💬 [General](https://github.com/movadee/ag-forms/discussions/categories/general): chat about anything and everything here
+[Bug](): file a bug/issue
+[Idea](https://github.com/movadee/ag-forms/discussions/categories/ideas): share ideas for new features  
+[Q&A](https://github.com/movadee/ag-forms/discussions/categories/q-a): ask us and the community for help  
+[Show and tell](https://github.com/movadee/ag-forms/discussions/categories/show-tell): show off something you've made  
+[Tutorials](): checkout our tutorials  
+[General](https://github.com/movadee/ag-forms/discussions/categories/general): chat about anything and everything here
 
 </br>
 
-## :computer: Contributing
+## Contributing
 
 Contributions are welcome! Please see [CONTRIBUTING.md](./CONTRIBUTING.md) for more details. Thanks to all our contributors :heart:
 
@@ -172,7 +172,7 @@ _Made with [contrib.rocks](https://contrib.rocks)_
 
 </br>
 
-## :scroll: License
+## License
 
 This project is licensed under [MIT License](https://license.md/licenses/mit-license/) - reference [`LICENSE.md`](./LICENSE.md) for details.
 
