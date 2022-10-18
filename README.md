@@ -164,7 +164,8 @@ Contributions are welcome! Please see [CONTRIBUTING.md](./CONTRIBUTING.md) for m
 <a href="https://github.com/movadee/ag-forms/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=movadee/ag-forms" />
 </a>
-Made with [contrib.rocks](https://contrib.rocks).
+
+_Made with [contrib.rocks](https://contrib.rocks)_
 
 </br></br>
 
