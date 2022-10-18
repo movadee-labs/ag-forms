@@ -155,7 +155,7 @@ For release list, see the [tags on this repository]()
 
 ## Contributing
 
-Contributions are welcome! Please see [CONTRIBUTING.md](./CONTRIBUTING.md) for more details. We want to thank all our contributors :heart: (_made with [contrib.rocks](https://contrib.rocks)_):
+Contributions are welcome! Please see [CONTRIBUTING.md](./CONTRIBUTING.md) for more details. Thanks to all contributors :heart: (_made with [contrib.rocks](https://contrib.rocks)_):
 
 <a href="https://github.com/movadee/ag-forms/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=movadee/ag-forms" />
