@@ -139,7 +139,6 @@ That's it, the above example will render...
 <details>
 <summary>Implementation and usage details</summary>
 </details>
-</br>
 
 ## :page_with_curl: Release notes
 
