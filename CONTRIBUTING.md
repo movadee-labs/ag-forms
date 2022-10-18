@@ -97,7 +97,7 @@ Option 2: Local
 </details>
 </br>
 
-## Software Architecture
+## Software architecture
 
 clickable diagram
 
@@ -110,7 +110,7 @@ https://github.com/sidneycadot/oeis#how-it-all-fits-together
 </details>
 </br>
 
-## Code Architecture
+## Code architecture
 
 We decided to adopt **monorepo** as a software development strategy using **[NX](https://nx.dev/)** build system. NX makes developing apps and libraries in a monorepo easier to setup, maintain and work with.
 
@@ -208,7 +208,7 @@ app modules vs standalone components
 </details>
 </br>
 
-## Languages and Frameworks
+## Languages and frameworks
 
 We need to choose programming language for our software. We have a major need: front-end programming language suitable for web applications. We are writing library specifically for Angular applications. Angular is written in TypeScript.
 
@@ -247,7 +247,7 @@ https://blog.nrwl.io/set-up-tailwind-css-with-angular-in-an-nx-workspace-6f039a0
 </details>
 </br>
 
-## Coding Standards
+## Coding standards
 
 Code style
 Write useful comments
@@ -262,7 +262,7 @@ Naming Conventions https://github.com/angular/angular/blob/main/docs/NAMING.md
 </details>
 </br>
 
-## Testing & Debugging
+## Testing and debugging
 
 <details>
 <summary>Read more</summary></br>
@@ -374,7 +374,7 @@ https://github.com/angular/angular/blob/main/docs/TOOLS.md
 </details>
 </br>
 
-## GitHub Process
+## GitHub process
 
 <details>
 <summary>Read more</summary></br>
@@ -466,7 +466,7 @@ https://github.com/joelparkerhenderson/architecture-decision-record/blob/main/ex
 </details>
 </br>
 
-## Project Management
+## Project management
 
 <details>
 <summary>Read more</summary></br>
