@@ -155,11 +155,12 @@ For release list, see the [tags on this repository]()
 🙌 [Show and tell](https://github.com/movadee/ag-forms/discussions/categories/show-tell): show off something you've made </br>
 🎓 [Tutorials](): checkout our tutorials </br>
 💬 [General](https://github.com/movadee/ag-forms/discussions/categories/general): chat about anything and everything here
-</br>
+</br></br>
 
 ## :computer: Contributing
 
 Contributions are welcome! Please see [CONTRIBUTING.md](./CONTRIBUTING.md) for more details. Thanks to all our contributors :heart:
+</br></br>
 
 ## :scroll: License
 
