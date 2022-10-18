@@ -8,7 +8,7 @@
     "default": {
       "runner": "@nrwl/nx-cloud",
       "options": {
-        "cacheableOperations": ["build", "lint", "test", "e2e"],
+        "cacheableOperations": ["build", "lint", "test", "build-storybook"],
         "accessToken": "YjRjNWYxZjItMzkwMC00ZWM4LWIxNGEtZDRiNGY3ZDJjN2I3fHJlYWQtd3JpdGU="
       }
     }
@@ -20,6 +20,13 @@
     },
     "test": {
       "inputs": ["default", "^production", "{workspaceRoot}/jest.preset.js"]
+    },
+    "build-storybook": {
+      "inputs": [
+        "default",
+        "^production",
+        "{workspaceRoot}/storybook/.storybook/**/*"
+      ]
     },
     "e2e": {
       "inputs": ["default", "^production"]
@@ -35,7 +42,9 @@
       "!{projectRoot}/**/?(*.)+(spec|test).[jt]s?(x)?(.snap)",
       "!{projectRoot}/tsconfig.spec.json",
       "!{projectRoot}/jest.config.[jt]s",
-      "!{projectRoot}/.eslintrc.json"
+      "!{projectRoot}/.eslintrc.json",
+      "!{projectRoot}/.storybook/**/*",
+      "!{projectRoot}/**/*.stories.@(js|jsx|ts|tsx|mdx)"
     ],
     "sharedGlobals": []
   },
@@ -47,7 +56,7 @@
       "style": "scss",
       "linter": "eslint",
       "unitTestRunner": "jest",
-      "e2eTestRunner": "cypress"
+      "e2eTestRunner": "none"
     },
     "@nrwl/angular:library": {
       "linter": "eslint",
@@ -56,6 +65,5 @@
     "@nrwl/angular:component": {
       "style": "scss"
     }
-  },
-  "defaultProject": "example"
+  }
 }

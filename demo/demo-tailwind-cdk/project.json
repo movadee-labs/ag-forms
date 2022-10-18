@@ -1,0 +1,97 @@
+{
+  "name": "demo-tailwind-cdk",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "projectType": "application",
+  "sourceRoot": "demo/demo-tailwind-cdk/src",
+  "prefix": "ag-forms",
+  "targets": {
+    "build": {
+      "executor": "@angular-devkit/build-angular:browser",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "outputPath": "dist/demo/demo-tailwind-cdk",
+        "index": "demo/demo-tailwind-cdk/src/index.html",
+        "main": "demo/demo-tailwind-cdk/src/main.ts",
+        "polyfills": "demo/demo-tailwind-cdk/src/polyfills.ts",
+        "tsConfig": "demo/demo-tailwind-cdk/tsconfig.app.json",
+        "inlineStyleLanguage": "scss",
+        "assets": [
+          "demo/demo-tailwind-cdk/src/favicon.ico",
+          "demo/demo-tailwind-cdk/src/assets"
+        ],
+        "scripts": []
+      },
+      "configurations": {
+        "production": {
+          "budgets": [
+            {
+              "type": "initial",
+              "maximumWarning": "500kb",
+              "maximumError": "1mb"
+            },
+            {
+              "type": "anyComponentStyle",
+              "maximumWarning": "2kb",
+              "maximumError": "4kb"
+            }
+          ],
+          "fileReplacements": [
+            {
+              "replace": "demo/demo-tailwind-cdk/src/environments/environment.ts",
+              "with": "demo/demo-tailwind-cdk/src/environments/environment.prod.ts"
+            }
+          ],
+          "outputHashing": "all"
+        },
+        "development": {
+          "buildOptimizer": false,
+          "optimization": false,
+          "vendorChunk": true,
+          "extractLicenses": false,
+          "sourceMap": true,
+          "namedChunks": true
+        }
+      },
+      "defaultConfiguration": "production"
+    },
+    "serve": {
+      "executor": "@angular-devkit/build-angular:dev-server",
+      "configurations": {
+        "production": {
+          "browserTarget": "demo-tailwind-cdk:build:production"
+        },
+        "development": {
+          "browserTarget": "demo-tailwind-cdk:build:development"
+        }
+      },
+      "defaultConfiguration": "development",
+      "options": {
+        "port": 4200
+      }
+    },
+    "extract-i18n": {
+      "executor": "@angular-devkit/build-angular:extract-i18n",
+      "options": {
+        "browserTarget": "demo-tailwind-cdk:build"
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "options": {
+        "lintFilePatterns": [
+          "demo/demo-tailwind-cdk/**/*.ts",
+          "demo/demo-tailwind-cdk/**/*.html"
+        ]
+      }
+    },
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/demo/demo-tailwind-cdk"],
+      "options": {
+        "jestConfig": "demo/demo-tailwind-cdk/jest.config.ts",
+        "passWithNoTests": true
+      }
+    }
+  },
+  "tags": []
+}

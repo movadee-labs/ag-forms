@@ -13,9 +13,13 @@
     "lib": ["es2017", "dom"],
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
+    "strictPropertyInitialization": false,
+    "strict": true,
+    "noImplicitAny": false,
     "baseUrl": ".",
     "paths": {
-      "ag-forms": ["libs/ag-forms/src/index.ts"]
+      "@ag-forms/core": ["libs/core/src/index.ts"],
+      "@ag-forms/tailwind-cdk": ["libs/tailwind-cdk/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]

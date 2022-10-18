@@ -1,0 +1,20 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "test",
+  "steps": [
+    {
+      "file": "CONTRIBUTING.md",
+      "description": "step 1: lbadlksd",
+      "selection": {
+        "start": {
+          "line": 13,
+          "character": 4
+        },
+        "end": {
+          "line": 13,
+          "character": 16
+        }
+      }
+    }
+  ]
+}

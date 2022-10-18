@@ -2,8 +2,10 @@
   "$schema": "./node_modules/nx/schemas/workspace-schema.json",
   "version": 2,
   "projects": {
-    "ag-forms": "libs/ag-forms",
-    "example": "demo/example",
-    "example-e2e": "demo/example-e2e"
+    "core": "libs/core",
+    "demo-core": "demo/demo-core",
+    "demo-tailwind-cdk": "demo/demo-tailwind-cdk",
+    "storybook": "storybook",
+    "tailwind-cdk": "libs/tailwind-cdk"
   }
 }

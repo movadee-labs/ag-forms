@@ -1,8 +1,17 @@
 blank_issues_enabled: false
 contact_links:
-  - name: Questions
-    url: https://github.com/movadee-open-source/ag-forms/discussions
-    about: Questions and requests for support
-  - name: Tutorials
-    url: https://medium.com/
-    about: Read our Medium blog tutorials
+  - name: 💡 Idea
+    url: https://github.com/movadee/ag-forms/discussions/new?category=ideas
+    about: Share ideas for new features
+  - name: 🙏 Q&A
+    url: https://github.com/movadee/ag-forms/discussions/new?category=q-a
+    about: Ask us and the community for help
+  - name: 🙌 Show & tell
+    url: https://github.com/movadee/ag-forms/discussions/new?category=show-tell
+    about: show off something you've made
+  - name: 🎓 Tutorials
+    url: https://github.com/movadee/ag-forms/discussions/new?category=tutorials
+    about: checkout our tutorials
+  - name: 💬 General
+    url: https://github.com/movadee/ag-forms/discussions/new?category=general
+    about: Chat about anything and everything here
