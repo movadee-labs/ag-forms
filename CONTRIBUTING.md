@@ -102,21 +102,6 @@ Option 2: Local
 
 clickable diagram
 
-<form id="myEmbeddedDiagramForm" target="myEmbeddedDiagram" method="post" action="https://structurizr.com/embed/76771" style="display: none;">
-    <input name="apiKey" value=""/>
-    <input name="diagram" value="agFormsSystemContext" />
-    <input name="diagramSelector" value="false" />
-    <input name="iframe" value="myEmbeddedDiagram" />
-</form>
-
-<iframe id="myEmbeddedDiagram" name="myEmbeddedDiagram" width="100%" marginwidth="0" marginheight="0" frameborder="0" scrolling="no" allowfullscreen="true"></iframe>
-
-<script type="text/javascript">
-    document.getElementById('myEmbeddedDiagramForm').submit();
-</script>
-
-<script type="text/javascript" src="https://static.structurizr.com/js/structurizr-embed.js"></script>
-
 <details>
 <summary>Read more</summary></br>
 
