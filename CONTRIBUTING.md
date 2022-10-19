@@ -58,12 +58,13 @@ Have a look at existing [Issues]() and [Pull Requests]() that you could help wit
 4. [Code Tour](https://marketplace.visualstudio.com/items?itemName=vsls-contrib.codetour#recording-tours)
 5. [StackBlitz]() (online IDE)
 6. [Github Issues]() organized in [GitHub Projects]()
-7. [Github Discussions]: we’re using Discussions as a place to connect with other members of our community. We hope that you:
+7. [Github Discussions](): we’re using Discussions as a place to connect with other members of our community. We hope that you:
 - Ask questions you’re wondering about.
 - Share ideas.
 - Engage with other community members.
 - Welcome others and are open-minded. Remember that this is a community we build together 💪.
-9. [LICENSE.md]() It is an open source license of `ag-forms` repository that makes it easier for other people to contribute.
+9. [Community Guidelines](https://docs.github.com/en/site-policy/github-terms/github-community-guidelines)
+10. [LICENSE.md]() It is an open source license of `ag-forms` repository that makes it easier for other people to contribute.
 
 🛠 **Tools:**
 
@@ -224,11 +225,20 @@ app modules vs standalone components
 
 We need to choose programming language for our software. We have a major need: front-end programming language suitable for web applications. We are writing library specifically for Angular applications. Angular is written in TypeScript.
 
-- HTML, CSS, SASS
-- JavaScript, TypeScript
-- Angular
-- angular cdk reason
-- Tailwind, Angular Material, Bootstrap
+- [HTML5](https://html.spec.whatwg.org/multipage/) because it's a standard markup language for web pages
+- [SASS](https://sass-lang.com/) because it allows us to write neat and clean styling code faster compare to CSS
+- [TypeScript](https://www.typescriptlang.org/) because Angular is written in TypeScript and this lib is purely for Angular projects. Also, it is easier and faster to code in compare to JavaScript since TypeScript helps us catch mistakes early through a type system and to make JavaScript development more efficient. https://www.quora.com/What-is-TypeScript-Why-do-we-use-it
+- [Angular](https://angular.io/docs) because we write this lib for Angular projects and we think that Angular rocks!!
+
+For lib with UI components generation:
+
+- [Angular CDK][https://material.angular.io/cdk/categories]
+https://angular.io/guide/creating-libraries
+https://angular.io/guide/schematics
+https://angular.io/guide/accessibility
+- [TailwindCSS](https://tailwindcss.com/)
+- Angular Material
+- Bootstrap
 
 <details>
 <summary>Read more</summary></br>
@@ -237,7 +247,9 @@ We need to choose programming language for our software. We have a major need: f
 
 🛠 **Tools:**
 
-- [SASS]()
+- [HTML5](https://html.spec.whatwg.org/multipage/): standard markup language for web pages
+
+- [SASS](https://sass-lang.com/): preprocessor scripting language that is compiled into [CSS](https://www.w3.org/Style/CSS/Overview.en.html). "Why Use Sass? Stylesheets are getting larger, more complex, and harder to maintain. This is where a CSS pre-processor can help. Sass lets you use features that do not exist in CSS, like variables, nested rules, mixins, imports, inheritance, built-in functions, and other stuff."
   📦 _packages:_ [`postcss`]() [`postcss-import`]() [`postcss-preset-env`]() [`postcss-url`]() [`autoprefixer`]()
 
 - [TypeScript](https://www.typescriptlang.org/)
