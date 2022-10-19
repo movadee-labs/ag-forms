@@ -27,6 +27,7 @@ Have a look at existing [Issues]() and [Pull Requests]() that you could help wit
 - []() (online IDE): to open codebase online. [Learn how to use]()
 - [Github Issues](): we are using Github Issues for bugs only
 - [Github Discussions](): To spread the word we also use Medium and dev blogs to post tutorials, but all tutorials are saved in Tutorials section of Discussions.
+- [Community Guidelines](https://docs.github.com/en/site-policy/github-terms/github-community-guidelines)
 - [LICENSE.md](LICENSE.md)
 
 <details>
