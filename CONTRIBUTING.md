@@ -16,14 +16,14 @@ Have a look at existing [Issues]() and [Pull Requests]() that you could help wit
 
 To learn how project works please refer to:
 
-1. README.md
-2. :closed_book: ag-forms.com + https://jsoncrack.com/#features
-3. this document (CONTRIBUTING.md)
-4. :world_map: [Code Tour](https://marketplace.visualstudio.com/items?itemName=vsls-contrib.codetour#recording-tours) (VSCode Extension): to quickly review step-by-step code implementation. [Learn how to use]()
-5. :computer: [StackBlitz]() (online IDE): to open codebase online. [Learn how to use]()
-6. Issues
-7. Discussions. To spread the word we also use Medium and dev blogs to post tutorials, but all tutorials are saved in Tutorials section of Discussions.
-8. LICENSE.md
+1. [README.md](README.md): instructions how to use libs
+2. [ag-forms.com](ag-forms.com): demo, config ui, docs on vars details
+3. [CONTRIBUTING.md](CONTRIBUTING.md) (this document):
+4. [Code Tour](https://marketplace.visualstudio.com/items?itemName=vsls-contrib.codetour#recording-tours) (VSCode Extension): to quickly review step-by-step code implementation. [Learn how to use]()
+5. [StackBlitz]() (online IDE): to open codebase online. [Learn how to use]()
+6. [Github Issues](): we are using Github Issues for bugs only
+7. [Github Discussions](): To spread the word we also use Medium and dev blogs to post tutorials, but all tutorials are saved in Tutorials section of Discussions.
+8. [LICENSE.md](LICENSE.md)
 
 <details>
 <summary>Read more</summary></br>
@@ -74,6 +74,8 @@ To learn how project works please refer to:
 - [arachne-framework/architecture/adr-001-use-adrs.md](https://github.com/arachne-framework/architecture/blob/master/adr-001-use-adrs.md)
 - [Choose an open source license](https://license.md/)
 - [Video Tutorial: Storybook for React Apps](https://www.newline.co/courses/storybook-for-react-apps/theming-the-storybook-app)
+
+https://jsoncrack.com/#features
 
 storybook
 https://www.chromatic.com/blog/storybook-composition/
