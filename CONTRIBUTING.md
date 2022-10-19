@@ -17,7 +17,7 @@ Have a look at existing [Issues]() and [Pull Requests]() that you could help wit
 To learn how project works please refer to:
 
 1. README.md
-2. :closed_book: ag-forms.com
+2. :closed_book: ag-forms.com + https://jsoncrack.com/#features
 3. this document (CONTRIBUTING.md)
 4. :world_map: [Code Tour](https://marketplace.visualstudio.com/items?itemName=vsls-contrib.codetour#recording-tours) (VSCode Extension): to quickly review step-by-step code implementation. [Learn how to use]()
 5. :computer: [StackBlitz]() (online IDE): to open codebase online. [Learn how to use]()
@@ -101,6 +101,21 @@ Option 2: Local
 ## Software architecture
 
 clickable diagram
+
+<form id="myEmbeddedDiagramForm" target="myEmbeddedDiagram" method="post" action="https://structurizr.com/embed/76771" style="display: none;">
+    <input name="apiKey" value=""/>
+    <input name="diagram" value="agFormsSystemContext" />
+    <input name="diagramSelector" value="false" />
+    <input name="iframe" value="myEmbeddedDiagram" />
+</form>
+
+<iframe id="myEmbeddedDiagram" name="myEmbeddedDiagram" width="100%" marginwidth="0" marginheight="0" frameborder="0" scrolling="no" allowfullscreen="true"></iframe>
+
+<script type="text/javascript">
+    document.getElementById('myEmbeddedDiagramForm').submit();
+</script>
+
+<script type="text/javascript" src="https://static.structurizr.com/js/structurizr-embed.js"></script>
 
 <details>
 <summary>Read more</summary></br>
@@ -379,6 +394,13 @@ https://github.com/angular/angular/blob/main/docs/TOOLS.md
 
 <details>
 <summary>Read more</summary></br>
+how to contribute to repo: 
+https://github.com/firstcontributions/first-contributions 
+codespaces
+issue template 
+https://github.com/stevemao/github-issue-templates 
+https://github.com/codeforamerica/howto/blob/master/Good-GitHub-Issues.md
+https://rewind.com/blog/best-practices-for-using-github-issues/
 
 https://github.com/angular/angular/blob/main/docs/COMMITTER.md
 https://github.com/angular/angular/blob/main/docs/BRANCHES.md
@@ -424,7 +446,7 @@ https://github.com/nhn/tui.editor#-packages
 </details>
 </br>
 
-## CI/CD
+## Automation
 
 <details>
 <summary>Read more</summary></br>
@@ -435,6 +457,21 @@ https://github.com/nhn/tui.editor#-packages
   📦 _packages:_ [`@nrwl/nx-cloud`](https://www.npmjs.com/package/@nrwl/nx-cloud)
 
 - [GitHub Actions](https://github.com/features/actions)
+
+https://shields.io/category/build
+https://github.com/marketplace/devbots-vacation
+https://github.com/marketplace/onesidebar
+https://github.com/marketplace/repo-st
+https://github.com/marketplace/figstack
+https://github.com/responsively-org/responsively-app
+https://github.com/marketplace/gitpod-io
+https://github.com/marketplace/mokuren-chrome-extension
+
+dependencies
+https://docs.github.com/en/code-security/dependabot/dependabot-version-updates/about-dependabot-version-updates
+https://github.com/marketplace/licensebat
+https://github.com/marketplace/renovate
+https://www.youtube.com/watch?v=TnBEVPUsuAw
 
 https://github.com/marketplace/devbots-lock-pull-request
 https://github.com/marketplace/devbots-lock-issue
@@ -456,6 +493,55 @@ https://www.redhat.com/en/topics/devops/what-is-ci-cd
 https://www.redhat.com/en/topics/devops
 https://blog.nrwl.io/more-time-saved-for-free-with-nx-cloud-d7079b95f7ca
 
+wip:
+https://github.com/marketplace/wip
+
+Ensure Single Commit
+https://github.com/marketplace/ensure-single-commit
+
+Check All Tasks Completed
+https://github.com/marketplace/task-list-completed
+
+PR depends on
+https://github.com/marketplace/dpulls
+Incl Videos in PR
+https://github.com/marketplace/loom-gif-previews
+
+Auto Create Issue Branch:
+https://github.com/marketplace/create-issue-branch auto Create Issue Branch
+https://github.com/marketplace/auto-branch auto Create Issue Branch
+
+Release (conventional commit -> Semantic Versioning) prep
+https://github.com/jscutlery/semver
+https://github.com/marketplace/semantic-prs check pr for conventional commit msg
+https://github.com/marketplace/semantic-pull-requests ensure pr is semantic
+https://github.com/marketplace/githint-bot follow specified conventions
+
+PR auto label - done
+https://github.com/marketplace/pull-request-auto-labeler label based on title and body
+https://github.com/marketplace/auto-add-label label based on title
+https://github.com/marketplace/trafico-pull-request-labeler
+https://github.com/marketplace/devbots-needs-review
+https://github.com/marketplace/close-label
+
+https://github.com/marketplace/maintainability-pal
+https://github.com/marketplace/kodiakhq
+https://github.com/marketplace/ranger
+https://github.com/marketplace/mergify
+https://github.com/marketplace/pullapprove
+https://github.com/marketplace/commit-graph-by-mergebase
+https://github.com/marketplace/pull-request-attention
+https://github.com/marketplace/butterb0t
+https://github.com/marketplace/boring-cyborg-add-labels-to-prs-based-on-filepaths
+https://github.com/marketplace/pr-milestone-check
+https://github.com/marketplace/lazy-hand
+https://github.com/actions/dependency-review-action
+
+?:
+https://github.com/marketplace/secureframe
+https://github.com/marketplace/soc-2-iso-27001-readiness
+https://about.sourcegraph.com/
+
 </details>
 </br>
 
@@ -463,6 +549,9 @@ https://blog.nrwl.io/more-time-saved-for-free-with-nx-cloud-d7079b95f7ca
 
 <details>
 <summary>Read more</summary></br>
+https://opensource.guide/metrics/
+https://www.quora.com/How-would-you-measure-the-success-of-open-source-project
+https://github.com/marketplace/gitspo
 https://github.com/joelparkerhenderson/architecture-decision-record/blob/main/examples/metrics-monitors-alerts/index.md
 </details>
 </br>
@@ -511,3 +600,7 @@ https://www.npmjs.com/package/webpack-bundle-analyzer
 https://medium.com/globant/screening-npm-packages-best-practices-a24930b2624e
 bundle management https://bundlephobia.com/
 https://duncanhunter.gitbook.io/enterprise-angular-applications-with-ngrx-and-nx/introduction/19-deploying-an-nx-monorepo
+
+?
+https://github.com/marketplace/instabug
+https://github.com/marketplace/supportbee
