@@ -14,27 +14,31 @@ Have a look at existing [Issues]() and [Pull Requests]() that you could help wit
 
 ## Documentation
 
-To learn how project works please refer to:
+**How to use @ag-forms:**
 
-1. [README.md](README.md): instructions how to use libs
-2. [ag-forms.com](ag-forms.com): demo, config ui, docs on vars details
-3. [CONTRIBUTING.md](CONTRIBUTING.md) (this document):
-4. [Code Tour](https://marketplace.visualstudio.com/items?itemName=vsls-contrib.codetour#recording-tours) (VSCode Extension): to quickly review step-by-step code implementation. [Learn how to use]()
-5. [StackBlitz]() (online IDE): to open codebase online. [Learn how to use]()
-6. [Github Issues](): we are using Github Issues for bugs only
-7. [Github Discussions](): To spread the word we also use Medium and dev blogs to post tutorials, but all tutorials are saved in Tutorials section of Discussions.
-8. [LICENSE.md](LICENSE.md)
+- [README.md](README.md): instructions how to use libs
+- [ag-forms.com](ag-forms.com): demo, config ui, docs on vars details
+- [StackBlitz]() (online IDE): to open codebase online. [Learn how to use]()
+
+**How to contribute to @ag-forms:**
+
+- [CONTRIBUTING.md](CONTRIBUTING.md) (this document):
+- [Code Tour](https://marketplace.visualstudio.com/items?itemName=vsls-contrib.codetour#recording-tours) (VSCode Extension): to quickly review step-by-step code implementation. [Learn how to use]()
+- []() (online IDE): to open codebase online. [Learn how to use]()
+- [Github Issues](): we are using Github Issues for bugs only
+- [Github Discussions](): To spread the word we also use Medium and dev blogs to post tutorials, but all tutorials are saved in Tutorials section of Discussions.
+- [LICENSE.md](LICENSE.md)
 
 <details>
 <summary>Read more</summary></br>
 
 :clipboard: **Details:** Full list of documents we use in this project:
 
-1. README.md
+1. [README.md](README.md)
    This document is a summary of a prject mainly created for lib consumers, which in our case developers who need to use `ag-forms` inside their project. Here we talk abpot the purpose of the project, problems it solves,
    how to install `ag-forms` libs and use them in projects, etc.
 
-2. ag-forms.com created with Storybook
+2. [ag-forms.com](ag-forms.com) created with Storybook
    Storybook is used to demo libs and help users build form specs for they project using GUI. It is hosted on ag-forms.com and presented as a demo site with a link to GitHub documentation.
 
 3. CONTRIBUTING.md
@@ -50,10 +54,10 @@ To learn how project works please refer to:
      For every `ag-forms` lib we have demo project that shows lib setup and usage example. In README for demo projects we explain how to setup and run demo projects, and how to understand package.json (it's different from regular Angular project because we use Monorepo setup).
    - **[Architecture Decision Records]()**
 
-4. Code Tour
-5. StackBlitz
-6. [Issues]() organized in [GitHub Projects]()
-7. Discussions
+4. [Code Tour](https://marketplace.visualstudio.com/items?itemName=vsls-contrib.codetour#recording-tours)
+5. [StackBlitz]() (online IDE)
+6. [Github Issues]() organized in [GitHub Projects]()
+7. [Github Discussions]
 8. [LICENSE.md]() It is an open source license of `ag-forms` repository that makes it easier for other people to contribute.
 
 🛠 **Tools:**
