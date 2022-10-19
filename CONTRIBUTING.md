@@ -57,8 +57,12 @@ Have a look at existing [Issues]() and [Pull Requests]() that you could help wit
 4. [Code Tour](https://marketplace.visualstudio.com/items?itemName=vsls-contrib.codetour#recording-tours)
 5. [StackBlitz]() (online IDE)
 6. [Github Issues]() organized in [GitHub Projects]()
-7. [Github Discussions]
-8. [LICENSE.md]() It is an open source license of `ag-forms` repository that makes it easier for other people to contribute.
+7. [Github Discussions]: we’re using Discussions as a place to connect with other members of our community. We hope that you:
+- Ask questions you’re wondering about.
+- Share ideas.
+- Engage with other community members.
+- Welcome others and are open-minded. Remember that this is a community we build together 💪.
+9. [LICENSE.md]() It is an open source license of `ag-forms` repository that makes it easier for other people to contribute.
 
 🛠 **Tools:**
 
