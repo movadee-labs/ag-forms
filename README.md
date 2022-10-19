@@ -150,7 +150,7 @@ For release list, see the [tags on this repository]()
 [Idea](https://github.com/movadee/ag-forms/discussions/categories/ideas): share ideas for new features  
 [Q&A](https://github.com/movadee/ag-forms/discussions/categories/q-a): ask us and the community for help  
 [Show and tell](https://github.com/movadee/ag-forms/discussions/categories/show-tell): show off something you've made  
-[Tutorials](): checkout our tutorials  
+[How-to](): learn tips and tricks with advice for getting the most out of this lib and project setup 
 [General](https://github.com/movadee/ag-forms/discussions/categories/general): chat about anything and everything here
 
 ## Contributing
