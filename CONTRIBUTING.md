@@ -273,16 +273,15 @@ https://blog.nrwl.io/set-up-tailwind-css-with-angular-in-an-nx-workspace-6f039a0
 
 ## Coding standards
 
-Code style
-Write useful comments
-etc https://github.com/angular/angular/blob/main/docs/CODING_STANDARDS.md
-Avoid ANY types https://backstage.io/docs/architecture-decisions/adrs-adr003
-Timestamp format https://github.com/joelparkerhenderson/architecture-decision-record/blob/main/examples/timestamp-format/index.md
-Naming Conventions https://github.com/angular/angular/blob/main/docs/NAMING.md
+We follow
+
+- [Angular Framework Coding Standards](https://github.com/angular/angular/blob/main/docs/CODING_STANDARDS.md)
+- [Google JavaScript Style Guide](https://google.github.io/styleguide/jsguide.html)
+- [Coding guidelines TypeScript](https://github.com/Microsoft/TypeScript/wiki/Coding-guidelines)
 
 <details>
 <summary>Read more</summary></br>
-
+Naming Conventions https://github.com/angular/angular/blob/main/docs/NAMING.md
 </details>
 </br>
 
