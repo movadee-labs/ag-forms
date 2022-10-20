@@ -237,7 +237,7 @@ We need to choose programming language for our software. We have a major need: f
 
 For lib with UI components generation:
 
-- [Angular CDK][https://material.angular.io/cdk/categories]
+- [Angular CDK](https://material.angular.io/cdk/categories)
   https://angular.io/guide/creating-libraries
   https://angular.io/guide/schematics
   https://angular.io/guide/accessibility
@@ -427,20 +427,16 @@ We use [Semantic Versioning](https://semver.org/) for versioning. For the versio
 - [Semantic Release](https://github.com/semantic-release/semantic-release)
   📦 _packages:_ [`@theunderscorer/nx-semantic-release`](https://github.com/TheUnderScorer/nx-semantic-release) [`ng-packagr`](https://www.npmjs.com/package/ng-packagr)
 
-  https://nx.dev/more-concepts/buildable-and-publishable-libraries
-  https://yonatankra.com/how-to-deploy-npm-modules-in-an-nx-monorepo-and-github-actions/
-  https://dev.to/dianjuar/publish-your-libraries-to-npm-with-one-command-angular-and-nx-4lao
-  https://tane.dev/2020/05/publishing-npm-libraries-using-nx-and-github-actions/
-
 📚 **References:**
 
--
-
-https://keepachangelog.com/en/1.0.0/
-github commits names, pr's etc
+https://keepachangelog.com/en/1.0.0/  
+github commits names, pr's etc  
 semantic release: https://github.com/TheUnderScorer/nx-semantic-release
-https://github.com/nhn/tui.editor#-packages
-https://github.com/angular/angular/blob/main/docs/RELEASE_SCHEDULE.md
+https://github.com/angular/angular/blob/main/docs/RELEASE_SCHEDULE.md  
+https://nx.dev/more-concepts/buildable-and-publishable-libraries  
+https://yonatankra.com/how-to-deploy-npm-modules-in-an-nx-monorepo-and-github-actions/  
+https://dev.to/dianjuar/publish-your-libraries-to-npm-with-one-command-angular-and-nx-4lao  
+https://tane.dev/2020/05/publishing-npm-libraries-using-nx-and-github-actions/
 
 </details>
 </br>
@@ -555,9 +551,9 @@ https://about.sourcegraph.com/
 <details>
 <summary>Read more</summary></br>
 https://opensource.guide/metrics/  
-https://www.quora.com/How-would-you-measure-the-success-of-open-source-project  
+https://www.quora.com/  How-would-you-measure-the-success-of-open-source-project  
 https://github.com/marketplace/gitspo  
-https://github.com/joelparkerhenderson/architecture-decision-record/blob/main/examples/metrics-monitors-alerts/index.md  
+https://github.com/joelparkerhenderson/  architecture-decision-record/blob/main/examples/  metrics-monitors-alerts/index.md  
 </details>
 </br>
 
@@ -613,3 +609,5 @@ https://duncanhunter.gitbook.io/enterprise-angular-applications-with-ngrx-and-nx
 ?
 https://github.com/marketplace/instabug
 https://github.com/marketplace/supportbee
+
+https://github.com/nhn/tui.editor#-packages
