@@ -532,7 +532,7 @@ https://about.sourcegraph.com/
 </details>
 </br>
 
-## Metrics, monitors, alerts
+## Monitoring and project management system
 
 <details>
 <summary>Read more</summary></br>
@@ -541,14 +541,6 @@ https://opensource.guide/metrics/
 https://www.quora.com/How-would-you-measure-the-success-of-open-source-project  
 https://github.com/marketplace/gitspo  
 https://github.com/joelparkerhenderson/architecture-decision-record/blob/main/examples/metrics-monitors-alerts/index.md
-
-</details>
-</br>
-
-## Project management
-
-<details>
-<summary>Read more</summary></br>
 
 project management (github projects, issues, issue templates)  
 https://github.com/jspsych/jsPsych/discussions/categories/show-and-tell  
@@ -560,6 +552,7 @@ https://github.com/stevemao/github-issue-templates
 https://github.com/codeforamerica/howto/blob/master/Good-GitHub-Issues.md
 
 </details>
+</br>
 
 OTHER:
 
