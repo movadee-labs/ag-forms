@@ -550,10 +550,12 @@ https://about.sourcegraph.com/
 
 <details>
 <summary>Read more</summary></br>
+
 https://opensource.guide/metrics/  
-https://www.quora.com/  How-would-you-measure-the-success-of-open-source-project  
+https://www.quora.com/How-would-you-measure-the-success-of-open-source-project  
 https://github.com/marketplace/gitspo  
-https://github.com/joelparkerhenderson/  architecture-decision-record/blob/main/examples/  metrics-monitors-alerts/index.md  
+https://github.com/joelparkerhenderson/architecture-decision-record/blob/main/examples/metrics-monitors-alerts/index.md
+
 </details>
 </br>
 
