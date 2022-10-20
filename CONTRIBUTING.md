@@ -88,8 +88,6 @@ Have a look at existing [Issues]() and [Pull Requests]() that you could help wit
 - [Video Tutorial: Storybook for React Apps](https://www.newline.co/courses/storybook-for-react-apps/theming-the-storybook-app)
 
 https://jsoncrack.com/#features
-https://github.com/stevemao/github-issue-templates
-https://github.com/codeforamerica/howto/blob/master/Good-GitHub-Issues.md
 
 storybook
 https://blog.logrocket.com/next-level-component-showcasing-with-storybook-controls/
@@ -413,22 +411,25 @@ https://github.com/angular/angular/blob/main/docs/PUBLIC_API.md
 </details>
 </br>
 
-## Shipping
+## Shipping and automation
 
-We use [Semantic Versioning](https://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/PurpleBooth/a-good-readme-template/tags).
+- ci
+- shipping & cd
+- other cool automations
 
 <details>
 <summary>Read more</summary></br>
-
-📋 **Details:**
 
 🛠 **Tools:**
 
 - [Semantic Release](https://github.com/semantic-release/semantic-release)
   📦 _packages:_ [`@theunderscorer/nx-semantic-release`](https://github.com/TheUnderScorer/nx-semantic-release) [`ng-packagr`](https://www.npmjs.com/package/ng-packagr)
+- [Nx Cloud](https://nx.app/)
+  📦 _packages:_ [`@nrwl/nx-cloud`](https://www.npmjs.com/package/@nrwl/nx-cloud)
 
-📚 **References:**
+- [GitHub Actions](https://github.com/features/actions)
 
+We use [Semantic Versioning](https://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/PurpleBooth/a-good-readme-template/tags).  
 https://keepachangelog.com/en/1.0.0/  
 github commits names, pr's etc  
 semantic release: https://github.com/TheUnderScorer/nx-semantic-release
@@ -437,21 +438,6 @@ https://nx.dev/more-concepts/buildable-and-publishable-libraries
 https://yonatankra.com/how-to-deploy-npm-modules-in-an-nx-monorepo-and-github-actions/  
 https://dev.to/dianjuar/publish-your-libraries-to-npm-with-one-command-angular-and-nx-4lao  
 https://tane.dev/2020/05/publishing-npm-libraries-using-nx-and-github-actions/
-
-</details>
-</br>
-
-## Automation
-
-<details>
-<summary>Read more</summary></br>
-
-🛠 **Tools:**
-
-- [Nx Cloud](https://nx.app/)
-  📦 _packages:_ [`@nrwl/nx-cloud`](https://www.npmjs.com/package/@nrwl/nx-cloud)
-
-- [GitHub Actions](https://github.com/features/actions)
 
 c4 diagram
 https://refresh-sf.com/
@@ -569,9 +555,13 @@ https://github.com/jspsych/jsPsych/discussions/categories/show-and-tell
 https://rewind.com/blog/best-practices-for-using-github-issues/  
 https://github.com/angular/angular/blob/main/docs/GITHUB_PROCESS.md  
 https://github.com/angular/angular/blob/main/docs/SAVED_REPLIES.md  
-https://github.com/angular/angular/blob/main/docs/TRIAGE_AND_LABELS.md
+https://github.com/angular/angular/blob/main/docs/TRIAGE_AND_LABELS.md  
+https://github.com/stevemao/github-issue-templates  
+https://github.com/codeforamerica/howto/blob/master/Good-GitHub-Issues.md
 
 </details>
+
+OTHER:
 
 https://github.com/amitmerchant1990/electron-markdownify#readme
 https://www.makeareadme.com/
