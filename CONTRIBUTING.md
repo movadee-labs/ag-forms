@@ -563,12 +563,14 @@ https://github.com/joelparkerhenderson/architecture-decision-record/blob/main/ex
 
 <details>
 <summary>Read more</summary></br>
-project management (github projects, issues, issue templates)
-https://github.com/jspsych/jsPsych/discussions/categories/show-and-tell
-https://rewind.com/blog/best-practices-for-using-github-issues/
-https://github.com/angular/angular/blob/main/docs/GITHUB_PROCESS.md
-https://github.com/angular/angular/blob/main/docs/SAVED_REPLIES.md
+
+project management (github projects, issues, issue templates)  
+https://github.com/jspsych/jsPsych/discussions/categories/show-and-tell  
+https://rewind.com/blog/best-practices-for-using-github-issues/  
+https://github.com/angular/angular/blob/main/docs/GITHUB_PROCESS.md  
+https://github.com/angular/angular/blob/main/docs/SAVED_REPLIES.md  
 https://github.com/angular/angular/blob/main/docs/TRIAGE_AND_LABELS.md
+
 </details>
 
 https://github.com/amitmerchant1990/electron-markdownify#readme
