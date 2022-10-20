@@ -59,10 +59,12 @@ Have a look at existing [Issues]() and [Pull Requests]() that you could help wit
 5. [StackBlitz]() (online IDE)
 6. [Github Issues]() organized in [GitHub Projects]()
 7. [Github Discussions](): we’re using Discussions as a place to connect with other members of our community. We hope that you:
+
 - Ask questions you’re wondering about.
 - Share ideas.
 - Engage with other community members.
 - Welcome others and are open-minded. Remember that this is a community we build together 💪.
+
 9. [Community Guidelines](https://docs.github.com/en/site-policy/github-terms/github-community-guidelines)
 10. [LICENSE.md]() It is an open source license of `ag-forms` repository that makes it easier for other people to contribute.
 
@@ -86,9 +88,10 @@ Have a look at existing [Issues]() and [Pull Requests]() that you could help wit
 - [Video Tutorial: Storybook for React Apps](https://www.newline.co/courses/storybook-for-react-apps/theming-the-storybook-app)
 
 https://jsoncrack.com/#features
+https://github.com/stevemao/github-issue-templates
+https://github.com/codeforamerica/howto/blob/master/Good-GitHub-Issues.md
 
 storybook
-https://www.chromatic.com/blog/storybook-composition/
 https://blog.logrocket.com/next-level-component-showcasing-with-storybook-controls/
 https://atanasstoyanov.medium.com/custom-documentation-pages-for-storybookjs-13eb9637d6ab
 https://mistica-web.vercel.app/?path=/story/components-popover--default
@@ -107,6 +110,8 @@ Option 2: Local
 
 <details>
 <summary>Read more</summary></br>
+codespaces
+https://github.com/firstcontributions/first-contributions 
 </details>
 </br>
 
@@ -233,9 +238,9 @@ We need to choose programming language for our software. We have a major need: f
 For lib with UI components generation:
 
 - [Angular CDK][https://material.angular.io/cdk/categories]
-https://angular.io/guide/creating-libraries
-https://angular.io/guide/schematics
-https://angular.io/guide/accessibility
+  https://angular.io/guide/creating-libraries
+  https://angular.io/guide/schematics
+  https://angular.io/guide/accessibility
 - [TailwindCSS](https://tailwindcss.com/)
 - Angular Material
 - Bootstrap
@@ -275,13 +280,12 @@ https://blog.nrwl.io/set-up-tailwind-css-with-angular-in-an-nx-workspace-6f039a0
 
 We follow
 
-- [Angular Framework Coding Standards](https://github.com/angular/angular/blob/main/docs/CODING_STANDARDS.md)
+- [Angular Framework Coding Standards](https://github.com/angular/angular/blob/main/docs/CODING_STANDARDS.md), Naming Conventions https://github.com/angular/angular/blob/main/docs/NAMING.md
 - [Google JavaScript Style Guide](https://google.github.io/styleguide/jsguide.html)
 - [Coding guidelines TypeScript](https://github.com/Microsoft/TypeScript/wiki/Coding-guidelines)
 
 <details>
 <summary>Read more</summary></br>
-Naming Conventions https://github.com/angular/angular/blob/main/docs/NAMING.md
 </details>
 </br>
 
@@ -333,14 +337,6 @@ Naming Conventions https://github.com/angular/angular/blob/main/docs/NAMING.md
         :hammer_and_wrench: [Pa11y](https://pa11y.org/) (using [cypress-audit](https://www.npmjs.com/package/cypress-audit)) tests web pages for accessibility.
       - **Internationalization & Localization (i18n) Testing**
     - **Compatibility Testing**
-
-unit tests in libs
-integration tests in libs
-language tests in libs
-https://github.com/marketplace/accesslint
-https://github.com/angular/angular/blob/main/docs/DEBUG.md
-https://github.com/angular/angular/blob/main/docs/DEBUG_COMPONENTS_REPO_IVY.md
-https://github.com/angular/angular/blob/main/docs/TOOLS.md
 
 🛠 **Tools:**
 
@@ -394,6 +390,12 @@ https://github.com/angular/angular/blob/main/docs/TOOLS.md
 - [Why you should use open-source component libraries in your Design System](https://backlight.dev/mastery/why-you-should-use-open-source-component-libraries-in-your-design-system)
 - [Angular Testing Overview: Unit, Integration & E2E Tests](https://onthecode.co.uk/blog/angular-testing-overview/)
 
+https://docs.cypress.io/plugins/directory#Visual%20Testing  
+https://github.com/marketplace/accesslint  
+https://github.com/angular/angular/blob/main/docs/DEBUG.md  
+https://github.com/angular/angular/blob/main/docs/DEBUG_COMPONENTS_REPO_IVY.md  
+https://github.com/angular/angular/blob/main/docs/TOOLS.md
+
 </details>
 </br>
 
@@ -401,23 +403,12 @@ https://github.com/angular/angular/blob/main/docs/TOOLS.md
 
 <details>
 <summary>Read more</summary></br>
-how to contribute to repo: 
-https://github.com/firstcontributions/first-contributions 
-codespaces
-issue template 
-https://github.com/stevemao/github-issue-templates 
-https://github.com/codeforamerica/howto/blob/master/Good-GitHub-Issues.md
-https://rewind.com/blog/best-practices-for-using-github-issues/
 
-https://github.com/angular/angular/blob/main/docs/COMMITTER.md
-https://github.com/angular/angular/blob/main/docs/BRANCHES.md
-https://github.com/angular/angular/blob/main/.pullapprove.yml
-https://github.com/angular/angular/blob/main/docs/FIXUP_COMMITS.md
-https://github.com/angular/angular/blob/main/docs/GITHUB_PROCESS.md
+https://github.com/angular/angular/blob/main/docs/COMMITTER.md  
+https://github.com/angular/angular/blob/main/docs/BRANCHES.md  
+https://github.com/angular/angular/blob/main/.pullapprove.yml  
+https://github.com/angular/angular/blob/main/docs/FIXUP_COMMITS.md  
 https://github.com/angular/angular/blob/main/docs/PUBLIC_API.md
-https://github.com/angular/angular/blob/main/docs/RELEASE_SCHEDULE.md
-https://github.com/angular/angular/blob/main/docs/SAVED_REPLIES.md
-https://github.com/angular/angular/blob/main/docs/TRIAGE_AND_LABELS.md
 
 </details>
 </br>
@@ -449,6 +440,7 @@ https://keepachangelog.com/en/1.0.0/
 github commits names, pr's etc
 semantic release: https://github.com/TheUnderScorer/nx-semantic-release
 https://github.com/nhn/tui.editor#-packages
+https://github.com/angular/angular/blob/main/docs/RELEASE_SCHEDULE.md
 
 </details>
 </br>
@@ -562,10 +554,10 @@ https://about.sourcegraph.com/
 
 <details>
 <summary>Read more</summary></br>
-https://opensource.guide/metrics/
-https://www.quora.com/How-would-you-measure-the-success-of-open-source-project
-https://github.com/marketplace/gitspo
-https://github.com/joelparkerhenderson/architecture-decision-record/blob/main/examples/metrics-monitors-alerts/index.md
+https://opensource.guide/metrics/  
+https://www.quora.com/How-would-you-measure-the-success-of-open-source-project  
+https://github.com/marketplace/gitspo  
+https://github.com/joelparkerhenderson/architecture-decision-record/blob/main/examples/metrics-monitors-alerts/index.md  
 </details>
 </br>
 
@@ -575,6 +567,10 @@ https://github.com/joelparkerhenderson/architecture-decision-record/blob/main/ex
 <summary>Read more</summary></br>
 project management (github projects, issues, issue templates)
 https://github.com/jspsych/jsPsych/discussions/categories/show-and-tell
+https://rewind.com/blog/best-practices-for-using-github-issues/
+https://github.com/angular/angular/blob/main/docs/GITHUB_PROCESS.md
+https://github.com/angular/angular/blob/main/docs/SAVED_REPLIES.md
+https://github.com/angular/angular/blob/main/docs/TRIAGE_AND_LABELS.md
 </details>
 
 https://github.com/amitmerchant1990/electron-markdownify#readme
