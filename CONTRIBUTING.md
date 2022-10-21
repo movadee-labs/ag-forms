@@ -449,7 +449,20 @@ https://github.com/Stack-in-a-box/triumphmayflowerclub.com#versions
 https://www.mariokandut.com/how-to-check-unused-npm-packages/
 pre-commit
 recommended VSCode plugins  
-Branching and Versioning https://github.com/angular/angular/blob/main/docs/BRANCHES.md
+Branching and Versioning https://github.com/angular/angular/blob/main/docs/BRANCHES.md  
+https://shields.io/category/build
+
+https://yonatankra.com/ how-to-deploy-npm-modules-in-an-nx-monorepo-and-github-actions/  
+https://dev.to/dianjuar/ publish-your-libraries-to-npm-with-one-command-angular-and-nx-4lao  
+https://tane.dev/2020/05/publishing-npm-libraries-using-nx-and-github-actions/  
+c4 diagram  
+https://refresh-sf.com/  
+https://github.com/jbrestan/structurizr-mkdocs-pages
+https://medium.com/@sebagomez/setting-up-a-github-page-with-jekyll-and-a-docker-container-c712e448649b  
+https://codingwithtaz.blog/2022/08/21/git-to-structurizr-cloud/  
+https://github.com/marketplace/secureframe  
+https://github.com/marketplace/soc-2-iso-27001-readiness  
+https://about.sourcegraph.com/
 
 bundle size:
 https://www.taskade.com/new/from/QhdTdxcBoGWEWpgd?share=view&view=QGFMgLncup1Lwazw&as=list
@@ -463,20 +476,6 @@ https://www.npmjs.com/package/webpack-bundle-analyzer
 https://medium.com/globant/screening-npm-packages-best-practices-a24930b2624e
 bundle management https://bundlephobia.com/
 https://duncanhunter.gitbook.io/enterprise-angular-applications-with-ngrx-and-nx/introduction/19-deploying-an-nx-monorepo
-
----
-
-https://yonatankra.com/how-to-deploy-npm-modules-in-an-nx-monorepo-and-github-actions/  
-https://dev.to/dianjuar/publish-your-libraries-to-npm-with-one-command-angular-and-nx-4lao  
-https://tane.dev/2020/05/publishing-npm-libraries-using-nx-and-github-actions/
-
-c4 diagram
-https://refresh-sf.com/
-https://github.com/jbrestan/structurizr-mkdocs-pages
-https://medium.com/@sebagomez/setting-up-a-github-page-with-jekyll-and-a-docker-container-c712e448649b
-https://codingwithtaz.blog/2022/08/21/git-to-structurizr-cloud/
-
-https://shields.io/category/build
 https://github.com/marketplace/devbots-vacation
 https://github.com/marketplace/onesidebar
 https://github.com/marketplace/repo-st
@@ -493,7 +492,6 @@ https://www.youtube.com/watch?v=TnBEVPUsuAw
 
 https://github.com/marketplace/devbots-lock-pull-request
 https://github.com/marketplace/devbots-lock-issue
-
 https://github.com/marketplace/percy
 https://github.com/marketplace/stale
 https://github.com/marketplace/imgbot
@@ -510,38 +508,25 @@ https://github.com/joelparkerhenderson/architecture-decision-record/blob/main/ex
 https://www.redhat.com/en/topics/devops/what-is-ci-cd
 https://www.redhat.com/en/topics/devops
 https://blog.nrwl.io/more-time-saved-for-free-with-nx-cloud-d7079b95f7ca
-
-wip:
-https://github.com/marketplace/wip
-
-Ensure Single Commit
-https://github.com/marketplace/ensure-single-commit
-
-Check All Tasks Completed
-https://github.com/marketplace/task-list-completed
-
-PR depends on
-https://github.com/marketplace/dpulls
-Incl Videos in PR
-https://github.com/marketplace/loom-gif-previews
-
+wip: https://github.com/marketplace/wip
+Ensure Single Commit https://github.com/marketplace/ensure-single-commit
+Check All Tasks Completed https://github.com/marketplace/task-list-completed
+PR depends on https://github.com/marketplace/dpulls
+Incl Videos in PR https://github.com/marketplace/loom-gif-previews
 Auto Create Issue Branch:
 https://github.com/marketplace/create-issue-branch auto Create Issue Branch
 https://github.com/marketplace/auto-branch auto Create Issue Branch
-
 Release (conventional commit -> Semantic Versioning) prep
 https://github.com/jscutlery/semver
 https://github.com/marketplace/semantic-prs check pr for conventional commit msg
 https://github.com/marketplace/semantic-pull-requests ensure pr is semantic
 https://github.com/marketplace/githint-bot follow specified conventions
-
 PR auto label - done
 https://github.com/marketplace/pull-request-auto-labeler label based on title and body
 https://github.com/marketplace/auto-add-label label based on title
 https://github.com/marketplace/trafico-pull-request-labeler
 https://github.com/marketplace/devbots-needs-review
 https://github.com/marketplace/close-label
-
 https://github.com/marketplace/maintainability-pal
 https://github.com/marketplace/kodiakhq
 https://github.com/marketplace/ranger
@@ -554,11 +539,6 @@ https://github.com/marketplace/boring-cyborg-add-labels-to-prs-based-on-filepath
 https://github.com/marketplace/pr-milestone-check
 https://github.com/marketplace/lazy-hand
 https://github.com/actions/dependency-review-action
-
-?:
-https://github.com/marketplace/secureframe
-https://github.com/marketplace/soc-2-iso-27001-readiness
-https://about.sourcegraph.com/
 
 </details>
 </br>
