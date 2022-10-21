@@ -227,8 +227,6 @@ TailwindCSS: `tailwindcss`
 
 ## Coding standards
 
-We follow
-
 - [Angular Framework Coding Standards](https://github.com/angular/angular/blob/main/docs/CODING_STANDARDS.md), Naming Conventions https://github.com/angular/angular/blob/main/docs/NAMING.md
 - [Google JavaScript Style Guide](https://google.github.io/styleguide/jsguide.html)
 - [Coding guidelines TypeScript](https://github.com/Microsoft/TypeScript/wiki/Coding-guidelines)
@@ -250,6 +248,31 @@ https://github.com/arachne-framework/architecture/blob/master/adr-008-abstract-m
 
 ## Testing and debugging
 
+- [SonarCloud](https://www.sonarsource.com/products/sonarcloud/) [visit dashboard](https://sonarcloud.io/project/overview?id=movadee-open-source_ag-forms)
+- [Cypress](https://docs.cypress.io/)
+
+Static Testing:
+
+- [ESLint](https://eslint.org/)
+- [Prettier](https://prettier.io/)
+- [Dependabot](https://github.com/features/security/)
+
+Unit Testing:
+
+- [Jest](https://jestjs.io/)
+- [Spectator](https://ngneat.github.io/spectator/)
+- [ng-mocks](https://ng-mocks.sudo.eu/)
+
+Accessibility Testing:
+
+- [Axe](https://www.deque.com/axe/)
+- [Lighthouse](https://developer.chrome.com/docs/lighthouse/overview/)
+- [Pa11y](https://pa11y.org/)
+
+Acceptance Testing:
+
+- users (devs who code in angular)
+
 <details>
 <summary>Read more</summary></br>
 
@@ -268,9 +291,9 @@ https://github.com/arachne-framework/architecture/blob/master/adr-008-abstract-m
     Focuses on the business requirements of an application. Tend to answer the question of "can the user do this" or "does this particular feature work."
 
     - **Unit Test**
-      Tests that verify the functionality of a specific section of code, usually at the function level.
-      :hammer_and_wrench: [Jest](https://jestjs.io/) testing framework
-      :hammer_and_wrench: [Spectator](https://ngneat.github.io/spectator/) that helps with all the boilerplate grunt work and allows to create tests faster and easier-to-maintain
+      Tests that verify the functionality of a specific section of code, usually at the function level.  
+      :hammer_and_wrench: [Jest](https://jestjs.io/) testing framework  
+      :hammer_and_wrench: [Spectator](https://ngneat.github.io/spectator/) that helps with all the boilerplate grunt work and allows to create tests faster and easier-to-maintain  
       :hammer_and_wrench: [ng-mocks](https://ng-mocks.sudo.eu/) helps with mocking services, components, directives, pipes and modules.
     - **Integration Test**
       Conducted to evaluate the compliance of a system or component with specified functional requirements. Individual software modules are combined and tested as a group. `@ag-forms/core` will use same tools that are used for unit testing, because it is non-ui library. `@ag-forms/__-cdk` ui libraries will use:
@@ -285,62 +308,45 @@ https://github.com/arachne-framework/architecture/blob/master/adr-008-abstract-m
   - **Non-Functional Testing**
     - **Performance Testing**
     - **Security Testing**
-      Uncovers vulnerabilities, threats and risks in a software application.
+      Uncovers vulnerabilities, threats and risks in a software application.  
       :hammer_and_wrench: [SonarCloud](https://www.sonarqube.org/features/security/) In addition to exposing vulnerabilities, it is used to measure the source code quality including: Cross-site scripting, Denial of Service (DoS) attacks, HTTP response splitting, Memory corruption, SQL injection.
     - **Usability (UX) Testing**
       Measuring how easy and user-friendly a software application is.
       - **Accessibility Testing**
-        Making your web and mobile apps usable to as many people as possible. It makes apps accessible to those with disabilities, such as vision impairment, hearing disabilities, and other physical or cognitive conditions. `@ag-forms/core` will test accessibility from within `@ag-forms/__-cdk` ui libraries using:
-        :hammer_and_wrench: [Axe](https://www.deque.com/axe/) (using [axe-core](https://github.com/dequelabs/axe-core) with cypress) is an accessibility testing engine for websites and other HTML-based user interfaces.
-        :hammer_and_wrench: [Lighthouse](https://developer.chrome.com/docs/lighthouse/overview/) (using [cypress-audit](https://www.npmjs.com/package/cypress-audit)) automated Chrome DevTool for accessibility testing.
+        Making your web and mobile apps usable to as many people as possible. It makes apps accessible to those with disabilities, such as vision impairment, hearing disabilities, and other physical or cognitive conditions. `@ag-forms/core` will test accessibility from within `@ag-forms/__-cdk` ui libraries using:  
+        :hammer_and_wrench: [Axe](https://www.deque.com/axe/) (using [axe-core](https://github.com/dequelabs/axe-core) with cypress) is an accessibility testing engine for websites and other HTML-based user interfaces.  
+        :hammer_and_wrench: [Lighthouse](https://developer.chrome.com/docs/lighthouse/overview/) (using [cypress-audit](https://www.npmjs.com/package/cypress-audit)) automated Chrome DevTool for accessibility testing.  
         :hammer_and_wrench: [Pa11y](https://pa11y.org/) (using [cypress-audit](https://www.npmjs.com/package/cypress-audit)) tests web pages for accessibility.
       - **Internationalization & Localization (i18n) Testing**
     - **Compatibility Testing**
 
-🛠 **Tools:**
+📦 **Packages:**
 
-- [ESLint](https://eslint.org/)
-  📦 _packages:_ [`eslint`](https://www.npmjs.com/package/eslint) [`eslint-plugin-cypress`](https://www.npmjs.com/package/eslint-plugin-cypress) [`@typescript-eslint/eslint-plugin`](https://www.npmjs.com/package/@typescript-eslint/eslint-plugin) [`@typescript-eslint/parser`](https://www.npmjs.com/package/@typescript-eslint/parser) [`@angular-eslint/eslint-plugin`](https://www.npmjs.com/package/@angular-eslint/eslint-plugin) [`@angular-eslint/eslint-plugin-template`](https://www.npmjs.com/package/@angular-eslint/eslint-plugin-template) [`@angular-eslint/template-parser`](https://www.npmjs.com/package/@angular-eslint/template-parser) [`@nrwl/eslint-plugin-nx`](https://www.npmjs.com/package/@nrwl/eslint-plugin-nx) [`@nrwl/linter`](https://nx.dev/packages/linter)
-- [Prettier](https://prettier.io/)
-  📦 _packages:_ [`prettier`](https://www.npmjs.com/package/prettier) [`eslint-config-prettier`](https://www.npmjs.com/package/eslint-config-prettier)
-- [Cypress](https://docs.cypress.io/)
-  📦 _packages:_ [`cypress`](https://www.npmjs.com/package/cypress) [`@nrwl/cypress`](https://www.npmjs.com/package/@nrwl/cypress)
-- [SonarCloud](https://www.sonarsource.com/products/sonarcloud/) https://sonarcloud.io/project/overview?id=movadee-open-source_ag-forms
-  📦 _packages:_ [``]() [``]()
-- [Dependabot](https://github.com/features/security/)
-  📦 _packages:_ [``]() [``]()
-- [Jest](https://jestjs.io/)
-  📦 _packages:_ [`jest`](https://www.npmjs.com/package/jest) [`jest-environment-jsdom`](https://www.npmjs.com/package/jest-environment-jsdom) [`jest-preset-angular`](https://www.npmjs.com/package/jest-preset-angular) [`ts-jest`](https://www.npmjs.com/package/ts-jest) [`@types/jest`](https://www.npmjs.com/package/@types/jest) [`@nrwl/jest`](https://www.npmjs.com/package/@nrwl/jest)
-- [Spectator](https://ngneat.github.io/spectator/)
-  📦 _packages:_ [`@ngneat/spectator`](https://www.npmjs.com/package/@ngneat/spectator)
-- [ng-mocks](https://ng-mocks.sudo.eu/)
-  📦 _packages:_ [`ng-mocks`](https://www.npmjs.com/package/ng-mocks)
-- [Axe](https://www.deque.com/axe/)
-  📦 _packages:_ [``]() [``]()
-- [Lighthouse](https://developer.chrome.com/docs/lighthouse/overview/)
-  📦 _packages:_ [``]() [``]()
-- [Pa11y](https://pa11y.org/)
-  📦 _packages:_ [``]() [``]()
+ESLint: `eslint` `eslint-plugin-cypress` `@typescript-eslint/eslint-plugin` `@typescript-eslint/parser` `@angular-eslint/eslint-plugin` `@angular-eslint/eslint-plugin-template` `@angular-eslint/template-parser` `@nrwl/eslint-plugin-nx` `@nrwl/linter`  
+Prettier: `prettier` `eslint-config-prettier`  
+Cypress: `cypress` `@nrwl/cypress`  
+Jest: `jest` `jest-environment-jsdom` `jest-preset-angular` `ts-jest` `@types/jest` `@nrwl/jest`  
+Spectator: `@ngneat/spectator`  
+ng-mocks: `ng-mocks`
 
 📚 **References:**
 
-- [Software Testing Wiki](https://en.wikipedia.org/wiki/Software_testing#Accessibility_testing)
-- [Testing Components with Spectator](https://testing-angular.com/testing-components-with-spectator/#testing-components-with-spectator)
-- [Testing Angular: A Guide to Robust Angular Applications](https://testing-angular.com/introduction/#introduction)
-- [How to Test Accessibility With Axe in Cypress](https://www.wearecogworks.com/blog/how-to-test-accessibility-with-axe-in-cypress/)
-- [Cypress Component Testing in Nx](https://nx.dev/cypress/cypress-component-testing)
-- [Nx support for Cypress 10](https://youtu.be/QDWN4C7T-Ck?t=320)
-- [Web Performance Testing With Cypress and Google Lighthouse](https://www.lambdatest.com/blog/using-cypress-google-lighthouse-performance-testing/)
-- [How to Automate Accessibility Tests with Cypress](https://www.freecodecamp.org/news/automating-accessibility-tests-with-cypress/)
-- [How to test for accessibility with Cypress](https://www.deque.com/blog/how-to-test-for-accessibility-with-cypress/)
-- [Accessible Rich Internet Applications (WAI-ARIA)](https://www.w3.org/TR/wai-aria/#authoring_testing)
-- [Accessibility in Angular](https://angular.io/guide/accessibility)
-- [Build more accessible Angular apps](https://blog.angular.io/build-more-accessible-angular-apps-1aca4fc39aff)
-- [Why you should use open-source component libraries in your Design System](https://backlight.dev/mastery/why-you-should-use-open-source-component-libraries-in-your-design-system)
-- [Angular Testing Overview: Unit, Integration & E2E Tests](https://onthecode.co.uk/blog/angular-testing-overview/)
+[Software Testing Wiki](https://en.wikipedia.org/wiki/Software_testing#Accessibility_testing)  
+[Testing Components with Spectator](https://testing-angular.com/testing-components-with-spectator/#testing-components-with-spectator)  
+[Testing Angular: A Guide to Robust Angular Applications](https://testing-angular.com/introduction/#introduction)  
+[How to Test Accessibility With Axe in Cypress](https://www.wearecogworks.com/blog/how-to-test-accessibility-with-axe-in-cypress/)  
+[Cypress Component Testing in Nx](https://nx.dev/cypress/cypress-component-testing)  
+[Nx support for Cypress 10](https://youtu.be/QDWN4C7T-Ck?t=320)  
+[Web Performance Testing With Cypress and Google Lighthouse](https://www.lambdatest.com/blog/using-cypress-google-lighthouse-performance-testing/)  
+[How to Automate Accessibility Tests with Cypress](https://www.freecodecamp.org/news/automating-accessibility-tests-with-cypress/)  
+[How to test for accessibility with Cypress](https://www.deque.com/blog/how-to-test-for-accessibility-with-cypress/)  
+[Accessible Rich Internet Applications (WAI-ARIA)](https://www.w3.org/TR/wai-aria/#authoring_testing)  
+[Accessibility in Angular](https://angular.io/guide/accessibility)  
+[Build more accessible Angular apps](https://blog.angular.io/build-more-accessible-angular-apps-1aca4fc39aff)  
+[Why you should use open-source component libraries in your Design System](https://backlight.dev/mastery/why-you-should-use-open-source-component-libraries-in-your-design-system)  
+[Angular Testing Overview: Unit, Integration & E2E Tests](https://onthecode.co.uk/blog/angular-testing-overview/)
 
 https://docs.cypress.io/plugins/directory#Visual%20Testing  
-https://github.com/marketplace/accesslint  
 https://github.com/angular/angular/blob/main/docs/DEBUG.md  
 https://github.com/angular/angular/blob/main/docs/DEBUG_COMPONENTS_REPO_IVY.md  
 https://github.com/angular/angular/blob/main/docs/TOOLS.md
