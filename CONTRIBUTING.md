@@ -12,13 +12,14 @@ Have a look at existing [Issues]() and [Pull Requests]() that you could help wit
 
 </br>
 
-## Documentation
+## Important Resources
 
 **How to use @ag-forms:**
 
 - [README.md](README.md) introduces and explains the project, and what users can do with it
 - [ag-forms.com](ag-forms.com) here you can find live working demo of all libraries and field descriptions for every form element. Configure your foms here and copy form metadata for your project.
-- ? [StackBlitz]() (online IDE) intended to showcase usage of @ag-forms in angular projects  
+- [Releases](https://github.com/bazelbuild/bazel/releases) notes on changes in latest releases, and how that affects your builds. We use SemVer for versioning.
+- ? [StackBlitz]() (online IDE) intended to showcase usage of @ag-forms in angular projects
 
 **How to contribute to @ag-forms:**
 
@@ -35,45 +36,47 @@ Have a look at existing [Issues]() and [Pull Requests]() that you could help wit
 
 :clipboard: **Details:** The following components helps us communicate expectations, manage contributions, and protect everyone’s legal rights.
 
-1. [README.md](README.md)
-   This document is a summary of a prject mainly created for lib consumers, which in our case developers who need to use `ag-forms` inside their project. Here we talk abpot the purpose of the project, problems it solves,
-   how to install `ag-forms` libs and use them in projects, etc.
+- [README.md](README.md)
+  This document is a summary of a prject mainly created for lib consumers, which in our case developers who need to use `ag-forms` inside their project. Here we talk abpot the purpose of the project, problems it solves,
+  how to install `ag-forms` libs and use them in projects, etc.
 
-2. [ag-forms.com](ag-forms.com) created with Storybook
-   Storybook is used to demo libs and help users build form specs for they project using GUI. It is hosted on ag-forms.com and presented as a demo site with a link to GitHub documentation.
+- [ag-forms.com](ag-forms.com) created with Storybook
+  Storybook is used to demo libs and help users build form specs for they project using GUI. It is hosted on ag-forms.com and presented as a demo site with a link to GitHub documentation.
 
-3. CONTRIBUTING.md
+- [CONTRIBUTING.md](CONTRIBUTING.md)
 
-   - getting started
-   - Coding Rules
-   - Commit Message Format
-   - **Software Architecture**
-     We think it's important to communicate how we are planning to build a software system or how an existing software system works. If software development team doesn't think about architecture all sort of problems can appear (inconsistent approaches to solving the same problems, deployment problems, maintenance issues, code that hard to scale, etc).
-     We document our software system architecture using **[C4 Model](https://c4model.com/)** approach and **[Structurizr](https://structurizr.com/)** tool.
-   - Code Structure (folder structure)
-   - [README.md]() for demo projects
-     For every `ag-forms` lib we have demo project that shows lib setup and usage example. In README for demo projects we explain how to setup and run demo projects, and how to understand package.json (it's different from regular Angular project because we use Monorepo setup).
-   - **[Architecture Decision Records]()**
+  - getting started
+  - Coding Rules
+  - Commit Message Format`
+  - **Software Architecture**
+    We think it's important to communicate how we are planning to build a software system or how an existing software system works. If software development team doesn't think about architecture all sort of problems can appear (inconsistent approaches to solving the same problems, deployment problems, maintenance issues, code that hard to scale, etc).
+    We document our software system architecture using **[C4 Model](https://c4model.com/)** approach and **[Structurizr](https://structurizr.com/)** tool.
+  - Code Structure (folder structure)
+  - [README.md]() for demo projects
+    For every `ag-forms` lib we have demo project that shows lib setup and usage example. In README for demo projects we explain how to setup and run demo projects, and how to understand package.json (it's different from regular Angular project because we use Monorepo setup).
+  - **[Architecture Decision Records]()**
 
-4. [Code Tour](https://marketplace.visualstudio.com/items?itemName=vsls-contrib.codetour#recording-tours)
-5. [StackBlitz]() (online IDE)
-6. [Github Issues]() organized in [GitHub Projects]()
-7. [Github Discussions](): we’re using Discussions as a place to connect with other members of our community. We hope that you:
+- [Code Tour](https://marketplace.visualstudio.com/items?itemName=vsls-contrib.codetour#recording-tours)
+- [StackBlitz]() (online IDE)
+- [Github Issues]() organized in [GitHub Projects]()
+- [Github Discussions](): we’re using Discussions as a place to connect with other members of our community. We hope that you:
 
-- Ask questions you’re wondering about.
-- Share ideas.
-- Engage with other community members.
-- Welcome others and are open-minded. Remember that this is a community we build together 💪.
+  - Ask questions you’re wondering about.
+  - Share ideas.
+  - Engage with other community members.
+  - Welcome others and are open-minded. Remember that this is a community we build together 💪.
 
-9. [Community Guidelines](https://docs.github.com/en/site-policy/github-terms/github-community-guidelines)
-10. [LICENSE.md](LICENSE.md) an open source license that guarantees that people can use, copy, modify, and contribute back to this project without repercussions.
+- [Community Guidelines](https://docs.github.com/en/site-policy/github-terms/github-community-guidelines)
+- [Releases](https://github.com/bazelbuild/bazel/releases) keeps track of changes in latest releases, and how that affects your builds. We use SemVer for versioning.
+- [LICENSE.md](LICENSE.md) an open source license that guarantees that people can use, copy, modify, and contribute back to this project without repercussions.
 
-🛠 **Tools:**
+📦 **Packages:**
 
-- [Storybook](https://storybook.js.org/)
-  📦 _packages:_ [`@nrwl/storybook`]() [`@storybook/addon-essentials`]() [`@storybook/angular`]() [`@storybook/builder-webpack5`]() [`@storybook/core-server`]() [`@storybook/manager-webpack5`]() [`@storybook/test-runner`]() [`webpack`]()
+- [Storybook](https://storybook.js.org/): `@nrwl/storybook` `@storybook/addon-essentials` `@storybook/angular` `@storybook/builder-webpack5` `@storybook/core-server` `@storybook/manager-webpack5` `@storybook/test-runner` `webpack`
+
+🔌 **VSCode plugins:**
+
 - [Code Tour](https://github.com/microsoft/codetour)
-  🔌 _vscode plugins:_ [`CodeTour`](https://marketplace.visualstudio.com/items?itemName=vsls-contrib.codetour#recording-tours)
 
 📚 **References:**
 
@@ -93,25 +96,34 @@ Open source license:
 - [Choose an open source license](https://choosealicense.com/)
 - [The Legal Side of Open Source](https://opensource.guide/legal/)
 
-Storybook:
+Releases:
 
-- [Video Tutorial: Storybook for React Apps](https://www.newline.co/courses/storybook-for-react-apps/theming-the-storybook-app)
+- [SemVer](https://semver.org/)
+
+Good docs examples:
+
+- [Bazel](https://github.com/bazelbuild/bazel)
+- [Atom](https://github.com/atom/atom/blob/master/CONTRIBUTING.md#styleguides)
+- [Awesome READMEs](https://github.com/matiassingers/awesome-readme)
 
 Other:
 
 - [Starting an Open Source Project](https://opensource.guide/starting-a-project/)
+- [Best Practices for Maintainers](https://opensource.guide/best-practices/)
+- [Leadership and Governance](https://opensource.guide/leadership-and-governance/)
+- [Building Welcoming Communities](https://opensource.guide/building-community/)
+- [How to Build a CONTRIBUTING.md](https://mozillascience.github.io/working-open-workshop/contributing/)
 
-https://jsoncrack.com/#features
-https://github.com/matiassingers/awesome-readme
+Storybook:
 
-storybook
-https://blog.logrocket.com/next-level-component-showcasing-with-storybook-controls/
-https://atanasstoyanov.medium.com/custom-documentation-pages-for-storybookjs-13eb9637d6ab
-https://mistica-web.vercel.app/?path=/story/components-popover--default
-https://www.apideck.design/?path=/story/card--with-icons
-https://github.com/xavierlefevre/shared-react-components-example
-https://github.com/lauthieb/awesome-storybook  
-builsing and testing https://github.com/angular/angular/blob/main/docs/DEVELOPER.md
+- [Video Tutorial: Storybook for React Apps](https://www.newline.co/courses/storybook-for-react-apps/theming-the-storybook-app)
+  https://blog.logrocket.com/next-level-component-showcasing-with-storybook-controls/  
+  https://atanasstoyanov.medium.com/custom-documentation-pages-for-storybookjs-13eb9637d6ab  
+  https://mistica-web.vercel.app/?path=/story/components-popover--default  
+  https://www.apideck.design/?path=/story/card--with-icons  
+  https://github.com/xavierlefevre/shared-react-components-example  
+  https://github.com/lauthieb/awesome-storybook  
+  builsing and testing https://github.com/angular/angular/blob/main/docs/DEVELOPER.md
 
 </details>
 </br>
@@ -126,6 +138,7 @@ Option 2: Local
 <summary>Read more</summary></br>
 codespaces
 https://github.com/firstcontributions/first-contributions 
+https://github.com/nayafia/contributing-template/blob/HEAD/CONTRIBUTING-template.md
 </details>
 </br>
 
@@ -564,3 +577,9 @@ Error Reporting https://github.com/arachne-framework/architecture/blob/master/ad
 https://github.com/marketplace/instabug  
 https://github.com/marketplace/supportbee  
 https://github.com/nhn/tui.editor#-packages
+
+## ToDo
+
+- ROADMAP: we have a future vision for the project and we will communicate it a bit later
+- CODE_OF_CONDUCT (read https://opensource.guide/starting-a-project/#establishing-a-code-of-conduct, https://opensource.guide/code-of-conduct/)
+- JSON visualizer: https://jsoncrack.com/#features

@@ -142,8 +142,7 @@ That's it, the above example will render...
 
 ## Release notes
 
-Check the release notes to see what's changed in the latest releases, and how that affects your builds. https://github.com/bazelbuild/bazel/releases
-For release list, see the [tags on this repository]()
+We use [SemVer](https://semver.org/) for versioning. Check the [release notes](https://github.com/bazelbuild/bazel/releases) to see what's changed in the latest releases, and how that affects your builds.
 
 ## Support
 
