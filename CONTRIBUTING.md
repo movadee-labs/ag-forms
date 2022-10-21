@@ -36,11 +36,11 @@ The following documents helps us communicate expectations, manage contributions,
 
 📦 **Packages:**
 
-- Storybook: `@nrwl/storybook` `@storybook/addon-essentials` `@storybook/angular` `@storybook/builder-webpack5` `@storybook/core-server` `@storybook/manager-webpack5` `@storybook/test-runner` `webpack`
+Storybook: `@nrwl/storybook` `@storybook/addon-essentials` `@storybook/angular` `@storybook/builder-webpack5` `@storybook/core-server` `@storybook/manager-webpack5` `@storybook/test-runner` `webpack`
 
 🔌 **VSCode plugins:**
 
-- [Code Tour](https://github.com/microsoft/codetour)
+[Code Tour](https://github.com/microsoft/codetour)
 
 📚 **References:**
 
@@ -180,7 +180,7 @@ ag-forms/
 
 📦 **Packages:**
 
-- Nx: `nx` `@nrwl/cli` `@nrwl/workspace`
+Nx: `nx` `@nrwl/cli` `@nrwl/workspace`
 
 📚 **References:**
 
