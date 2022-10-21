@@ -279,7 +279,7 @@ Acceptance Testing:
 📋 **Details:** In order to be confident that our software is of a good quality we need to test it. There are different types and techniques of software testing, and not all of them are needed for `ag-forms` library.
 
 - **Static Testing**
-  Does not involve software execution and often implicit, like proofreading, plus when programming tools/text editors check source code structure or compilers (pre-compilers) check syntax.
+  Does not involve software execution and often implicit, like proofreading, plus when programming tools/text editors check source code structure or compilers (pre-compilers) check syntax.  
   :hammer_and_wrench: [ESLint](https://eslint.org/) catches inconsistent code formatting, styling, and possible errors
   :hammer_and_wrench: [Prettier](https://prettier.io/) making code’s formatting more consistent; it only addresses style and formatting rules
   :hammer_and_wrench: [SonarCloud](https://www.sonarsource.com/products/sonarcloud/) assesses codebase’s quality across a wide range of measures: reliability, security, maintainability, code coverage, and duplicate code.
@@ -296,13 +296,13 @@ Acceptance Testing:
       :hammer_and_wrench: [Spectator](https://ngneat.github.io/spectator/) that helps with all the boilerplate grunt work and allows to create tests faster and easier-to-maintain  
       :hammer_and_wrench: [ng-mocks](https://ng-mocks.sudo.eu/) helps with mocking services, components, directives, pipes and modules.
     - **Integration Test**
-      Conducted to evaluate the compliance of a system or component with specified functional requirements. Individual software modules are combined and tested as a group. `@ag-forms/core` will use same tools that are used for unit testing, because it is non-ui library. `@ag-forms/__-cdk` ui libraries will use:
+      Conducted to evaluate the compliance of a system or component with specified functional requirements. Individual software modules are combined and tested as a group. `@ag-forms/core` will use same tools that are used for unit testing, because it is non-ui library. `@ag-forms/__-cdk` ui libraries will use:  
       :hammer_and_wrench: [Cypress](https://docs.cypress.io/guides/component-testing/quickstart-angular#Configuring-Component-Testing) provides a testable component workbench to quickly build and test components.
     - **E2E Test**
-      Used to test whether the flow of a software from initial stage to final stage is behaving as expected. The purpose of end-to-end testing is to identify system dependencies and to make sure that the data integrity is maintained between various system components and systems.
+      Used to test whether the flow of a software from initial stage to final stage is behaving as expected. The purpose of end-to-end testing is to identify system dependencies and to make sure that the data integrity is maintained between various system components and systems.  
       :heavy_multiplication_x: `@ag-forms` has no use case for E2E testing, hence no e2e tests will be performed.
     - **Acceptance Test**
-      We are going to ask developers we know to test libraries and documentation to make sure they are esy to read and of a good quality.
+      We are going to ask developers we know to test libraries and documentation to make sure they are esy to read and of a good quality.  
       :hammer_and_wrench: users (devs who code in angular)
 
   - **Non-Functional Testing**
