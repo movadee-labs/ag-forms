@@ -31,7 +31,8 @@
 
 ![Chat Preview](http://i.imgur.com/lgRe8z4.png)
 
-WHY? The [Triumph Mayflower Club](https://www.triumphmayflowerclub.com/) is an organisation dedicated to the preservation of classic 1950s car, the Mayflower, by British car manufacturer Triumph. The club itself formed in 1974 and made its initial, limited foray into the World Wide Web back in [2005](https://legacy.triumphmayflowerclub.com/), and then I ([Andi](https://www.github.com/andiemmadavies), project maintainer) was commissioned in 2017 to create them a new website from scratch when my parents became members. Click [here](https://www.triumphmayflowerclub.com/about) if you’re interested in reading more about the car and the club.
+WHY? What does this project do? Why is this project useful?
+The [Triumph Mayflower Club](https://www.triumphmayflowerclub.com/) is an organisation dedicated to the preservation of classic 1950s car, the Mayflower, by British car manufacturer Triumph. The club itself formed in 1974 and made its initial, limited foray into the World Wide Web back in [2005](https://legacy.triumphmayflowerclub.com/), and then I ([Andi](https://www.github.com/andiemmadavies), project maintainer) was commissioned in 2017 to create them a new website from scratch when my parents became members. Click [here](https://www.triumphmayflowerclub.com/about) if you’re interested in reading more about the car and the club.
 
 Features
 
@@ -141,7 +142,7 @@ That's it, the above example will render...
 
 ## Release notes
 
-check the release notes to see what's changed in the latest releases, and how that affects your builds. https://github.com/bazelbuild/bazel/releases
+Check the release notes to see what's changed in the latest releases, and how that affects your builds. https://github.com/bazelbuild/bazel/releases
 For release list, see the [tags on this repository]()
 
 ## Support
@@ -150,12 +151,16 @@ For release list, see the [tags on this repository]()
 [Idea](https://github.com/movadee/ag-forms/discussions/categories/ideas): share ideas for new features  
 [Q&A](https://github.com/movadee/ag-forms/discussions/categories/q-a): ask us and the community for help  
 [Show and tell](https://github.com/movadee/ag-forms/discussions/categories/show-tell): show off something you've made  
-[How-to](): learn tips and tricks with advice for getting the most out of this lib and project setup 
+[How-to](): learn tips and tricks with advice for getting the most out of this lib and project setup
 [General](https://github.com/movadee/ag-forms/discussions/categories/general): chat about anything and everything here
 
 ## Contributing
 
-Contributions are welcome! For more details see [CONTRIBUTING.md](./CONTRIBUTING.md). Thanks to all contributors :heart: </br>
+Contributions are welcome! For more details see [CONTRIBUTING.md](./CONTRIBUTING.md).
+
+Author of this project @movadee7
+
+Thanks to all contributors :heart: </br>
 _(made with [contrib.rocks](https://contrib.rocks))_
 
 <a href="https://github.com/movadee/ag-forms/graphs/contributors">
@@ -165,13 +170,3 @@ _(made with [contrib.rocks](https://contrib.rocks))_
 ## License
 
 This project is licensed under [MIT License](https://license.md/licenses/mit-license/) - reference [`LICENSE.md`](./LICENSE.md) for details.
-
-<details>
-<summary>Read more</summary></br>
-
-📚 **References:**
-
-- [Software Licenses](https://license.md/)
-- [Choose an open source license](https://choosealicense.com/)
-
-</details>

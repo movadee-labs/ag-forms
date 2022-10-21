@@ -72,11 +72,12 @@ Have a look at existing [Issues]() and [Pull Requests]() that you could help wit
 
 - [Storybook](https://storybook.js.org/)
   📦 _packages:_ [`@nrwl/storybook`]() [`@storybook/addon-essentials`]() [`@storybook/angular`]() [`@storybook/builder-webpack5`]() [`@storybook/core-server`]() [`@storybook/manager-webpack5`]() [`@storybook/test-runner`]() [`webpack`]()
-
 - [Code Tour](https://github.com/microsoft/codetour)
   🔌 _vscode plugins:_ [`CodeTour`](https://marketplace.visualstudio.com/items?itemName=vsls-contrib.codetour#recording-tours)
 
 📚 **References:**
+
+Architecture:
 
 - [C4 Model site](https://c4model.com/)
 - [Simon Brown site (author of C4 Model)](https://simonbrown.je/)
@@ -84,11 +85,23 @@ Have a look at existing [Issues]() and [Pull Requests]() that you could help wit
 - [Architecture decision record](https://github.com/joelparkerhenderson/architecture-decision-record) by Joel Parker Henderson
 - [Architectural Decision Records](https://adr.github.io/) by ADR GitHub organization
 - [arachne-framework/architecture/adr-001-use-adrs.md](https://github.com/arachne-framework/architecture/blob/master/adr-001-use-adrs.md)
+
+Open source license:
+
 - [Choose an open source license](https://license.md/)
+- [Software Licenses](https://license.md/)
+- [Choose an open source license](https://choosealicense.com/)
+- [The Legal Side of Open Source](https://opensource.guide/legal/)
+
+Storybook:
+
 - [Video Tutorial: Storybook for React Apps](https://www.newline.co/courses/storybook-for-react-apps/theming-the-storybook-app)
 
+Other:
+
+- [Starting an Open Source Project](https://opensource.guide/starting-a-project/)
+
 https://jsoncrack.com/#features
-https://www.makeareadme.com/  
 https://github.com/matiassingers/awesome-readme
 
 storybook
