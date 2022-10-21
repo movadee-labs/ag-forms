@@ -14,10 +14,12 @@ Have a look at existing [Issues]() and [Pull Requests]() that you could help wit
 
 ## Important Resources
 
+The following documents helps us communicate expectations, manage contributions, and protect everyone’s legal rights.
+
 **How to use @ag-forms:**
 
 - [README.md](README.md) introduces and explains the project, and what users can do with it
-- [ag-forms.com](ag-forms.com) here you can find live working demo of all libraries and field descriptions for every form element. Configure your foms here and copy form metadata for your project.
+- [ag-forms.com](ag-forms.com) here you can find working live demo (created with Storybook) of all libraries including field descriptions for every form element. Configure your foms and copy metadata to populate form in your project.
 - [Releases](https://github.com/bazelbuild/bazel/releases) notes on changes in latest releases, and how that affects your builds. We use SemVer for versioning.
 - ? [StackBlitz]() (online IDE) intended to showcase usage of @ag-forms in angular projects
 
@@ -26,53 +28,18 @@ Have a look at existing [Issues]() and [Pull Requests]() that you could help wit
 - [CONTRIBUTING.md](CONTRIBUTING.md) (this document) describes development setup of the project including documentation, architecture, code standards, setup of testing, automation, github flow.
 - [Code Tour](https://marketplace.visualstudio.com/items?itemName=vsls-contrib.codetour#recording-tours) (VSCode Extension): to quickly review step-by-step code implementation. [How to use]()
 - ? [StackBlitz]() (online IDE): to open codebase online. [How to use]()
-- [Github Issues]() used for bugs ONLY
-- [Github Discussions]() used for your ideas and questions. We also encourage you to share with community something you made with @ag-forms. To spread the word we use Medium to describe how to use @ag-forms, but all tutorials are saved in How-to section of Discussions.
-- [GitHub Community Code of Conduct](https://docs.github.com/en/site-policy/github-terms/github-community-code-of-conduct) used to define community standards
-- [LICENSE.md](LICENSE.md) use MIT open source license that allows @ag-forms to be used as a dependency by other projects
+- [Github Issues]() used for bugs ONLY.
+- [Github Discussions]() we’re using Discussions as a place to connect with other members of our community. Here you can ask questions, share ideas, engage with other community members and read how-tos.
+- [GitHub Community Code of Conduct](https://docs.github.com/en/site-policy/github-terms/github-community-code-of-conduct) used to define community standards.
+- [Releases](https://github.com/bazelbuild/bazel/releases) keeps track of changes in latest releases, and how that affects your builds. We use SemVer for versioning.
+- [LICENSE.md](LICENSE.md) we adopt MIT open source license that allows @ag-forms to be used as a dependency by other projects. It guarantees that people can use, copy, modify, and contribute back to this project without repercussions.
 
 <details>
 <summary>Read more</summary></br>
 
-:clipboard: **Details:** The following components helps us communicate expectations, manage contributions, and protect everyone’s legal rights.
-
-- [README.md](README.md)
-  This document is a summary of a prject mainly created for lib consumers, which in our case developers who need to use `ag-forms` inside their project. Here we talk abpot the purpose of the project, problems it solves,
-  how to install `ag-forms` libs and use them in projects, etc.
-
-- [ag-forms.com](ag-forms.com) created with Storybook
-  Storybook is used to demo libs and help users build form specs for they project using GUI. It is hosted on ag-forms.com and presented as a demo site with a link to GitHub documentation.
-
-- [CONTRIBUTING.md](CONTRIBUTING.md)
-
-  - getting started
-  - Coding Rules
-  - Commit Message Format`
-  - **Software Architecture**
-    We think it's important to communicate how we are planning to build a software system or how an existing software system works. If software development team doesn't think about architecture all sort of problems can appear (inconsistent approaches to solving the same problems, deployment problems, maintenance issues, code that hard to scale, etc).
-    We document our software system architecture using **[C4 Model](https://c4model.com/)** approach and **[Structurizr](https://structurizr.com/)** tool.
-  - Code Structure (folder structure)
-  - [README.md]() for demo projects
-    For every `ag-forms` lib we have demo project that shows lib setup and usage example. In README for demo projects we explain how to setup and run demo projects, and how to understand package.json (it's different from regular Angular project because we use Monorepo setup).
-  - **[Architecture Decision Records]()**
-
-- [Code Tour](https://marketplace.visualstudio.com/items?itemName=vsls-contrib.codetour#recording-tours)
-- [StackBlitz]() (online IDE)
-- [Github Issues]() organized in [GitHub Projects]()
-- [Github Discussions](): we’re using Discussions as a place to connect with other members of our community. We hope that you:
-
-  - Ask questions you’re wondering about.
-  - Share ideas.
-  - Engage with other community members.
-  - Welcome others and are open-minded. Remember that this is a community we build together 💪.
-
-- [Community Guidelines](https://docs.github.com/en/site-policy/github-terms/github-community-guidelines)
-- [Releases](https://github.com/bazelbuild/bazel/releases) keeps track of changes in latest releases, and how that affects your builds. We use SemVer for versioning.
-- [LICENSE.md](LICENSE.md) an open source license that guarantees that people can use, copy, modify, and contribute back to this project without repercussions.
-
 📦 **Packages:**
 
-- [Storybook](https://storybook.js.org/): `@nrwl/storybook` `@storybook/addon-essentials` `@storybook/angular` `@storybook/builder-webpack5` `@storybook/core-server` `@storybook/manager-webpack5` `@storybook/test-runner` `webpack`
+- Storybook: `@nrwl/storybook` `@storybook/addon-essentials` `@storybook/angular` `@storybook/builder-webpack5` `@storybook/core-server` `@storybook/manager-webpack5` `@storybook/test-runner` `webpack`
 
 🔌 **VSCode plugins:**
 
@@ -116,6 +83,7 @@ Other:
 
 Storybook:
 
+- [Storybook](https://storybook.js.org/)
 - [Video Tutorial: Storybook for React Apps](https://www.newline.co/courses/storybook-for-react-apps/theming-the-storybook-app)
   https://blog.logrocket.com/next-level-component-showcasing-with-storybook-controls/  
   https://atanasstoyanov.medium.com/custom-documentation-pages-for-storybookjs-13eb9637d6ab  
@@ -583,3 +551,16 @@ https://github.com/nhn/tui.editor#-packages
 - ROADMAP: we have a future vision for the project and we will communicate it a bit later
 - CODE_OF_CONDUCT (read https://opensource.guide/starting-a-project/#establishing-a-code-of-conduct, https://opensource.guide/code-of-conduct/)
 - JSON visualizer: https://jsoncrack.com/#features
+
+review again:
+
+- getting started
+- Coding Rules
+- Commit Message Format`
+- **Software Architecture**
+  We think it's important to communicate how we are planning to build a software system or how an existing software system works. If software development team doesn't think about architecture all sort of problems can appear (inconsistent approaches to solving the same problems, deployment problems, maintenance issues, code that hard to scale, etc).
+  We document our software system architecture using **[C4 Model](https://c4model.com/)** approach and **[Structurizr](https://structurizr.com/)** tool.
+- Code Structure (folder structure)
+- [README.md]() for demo projects
+  For every `ag-forms` lib we have demo project that shows lib setup and usage example. In README for demo projects we explain how to setup and run demo projects, and how to understand package.json (it's different from regular Angular project because we use Monorepo setup).
+- **[Architecture Decision Records]()**
