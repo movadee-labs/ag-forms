@@ -178,7 +178,7 @@ Nx: `nx` `@nrwl/cli` `@nrwl/workspace`
 
 📚 **References:**
 
-[NX](https://nx.dev/)  
+[Nx](https://nx.dev/)  
 [Monorepo vs. polyrepo](https://github.com/joelparkerhenderson/monorepo-vs-polyrepo)  
 [20 Reasons to do Angular In Nx](https://medium.com/ngconf/20-reasons-to-do-angular-in-nx-27c1ce870822)  
 [6 reasons why we chose Nx as our monorepo management tool](https://medium.com/purplebricks-digital/6-reasons-why-we-chose-nx-as-our-monorepo-management-tool-1fe5274a008e)  
@@ -192,46 +192,35 @@ Nx: `nx` `@nrwl/cli` `@nrwl/workspace`
 
 ## Languages and frameworks
 
-We need to choose programming language for our software. We have a major need: front-end programming language suitable for web applications. We are writing library specifically for Angular applications. Angular is written in TypeScript.
+We wrote libraries specifically for Angular applications. We do not use backend or database. Here is a list of languages and frameworks and explanation why we use them:
 
-- [HTML5](https://html.spec.whatwg.org/multipage/) because it's a standard markup language for web pages
-- [SASS](https://sass-lang.com/) because it allows us to write neat and clean styling code faster compare to CSS
-- [TypeScript](https://www.typescriptlang.org/) because Angular is written in TypeScript and this lib is purely for Angular projects. Also, it is easier and faster to code in compare to JavaScript since TypeScript helps us catch mistakes early through a type system and to make JavaScript development more efficient. https://www.quora.com/What-is-TypeScript-Why-do-we-use-it
-- [Angular](https://angular.io/docs) because we write this lib for Angular projects and we think that Angular rocks!!
+- [HTML5](https://html.spec.whatwg.org/multipage/) is a standard markup language for web pages
+- [SASS](https://sass-lang.com/) allows us to use features that do not exist in CSS, like variables, nested rules, mixins, imports, inheritance, built-in functions, and other stuff. SASS is a preprocessor scripting language that is compiled into [CSS](https://www.w3.org/Style/CSS/Overview.en.html)
+- [TypeScript](https://www.typescriptlang.org/) helps us catch mistakes early through a type system and to make JavaScript development more efficient. Angular projects are written in TypeScript. Overall, it's easier and faster to code in compare to JavaScript since TypeScript.
+- [Angular](https://angular.io/docs): Angular rocks!!
 
-For lib with UI components generation:
+UI components libs:
 
 - [Angular CDK](https://material.angular.io/cdk/categories)
-  https://angular.io/guide/creating-libraries
-  https://angular.io/guide/schematics
-  https://angular.io/guide/accessibility
 - [TailwindCSS](https://tailwindcss.com/)
-- Angular Material
-- Bootstrap
+- [Angular Material](https://material.angular.io/)
+- [Bootstrap](https://ng-bootstrap.github.io/#/home)
 
 <details>
 <summary>Read more</summary></br>
 
-📋 **Details:**
+📦 **Packages:**
 
-🛠 **Tools:**
-
-- [HTML5](https://html.spec.whatwg.org/multipage/): standard markup language for web pages
-- [SASS](https://sass-lang.com/): preprocessor scripting language that is compiled into [CSS](https://www.w3.org/Style/CSS/Overview.en.html). "Why Use Sass? Stylesheets are getting larger, more complex, and harder to maintain. This is where a CSS pre-processor can help. Sass lets you use features that do not exist in CSS, like variables, nested rules, mixins, imports, inheritance, built-in functions, and other stuff."
-  📦 _packages:_ [`postcss`]() [`postcss-import`]() [`postcss-preset-env`]() [`postcss-url`]() [`autoprefixer`]()
-- [TypeScript](https://www.typescriptlang.org/)
-  📦 _packages:_ [`typescript`](https://www.npmjs.com/package/typescript) [`tslib`](https://www.npmjs.com/package/tslib) [`ts-node`](https://www.npmjs.com/package/ts-node)
-- [Angular](https://angular.io/)
-  📦 _packages:_ [`@angular/common`](https://angular.io/api/common) [`@angular/core`](https://angular.io/api/core) [`@angular/forms`](https://angular.io/api/forms) [`@angular/platform-browser`](https://angular.io/api/platform-browser) [`@angular/platform-browser-dynamic`](https://angular.io/api/platform-browser-dynamic) [`@angular/router`](https://angular.io/api/router) [`@angular/compiler`](https://www.npmjs.com/package/@angular/compiler) [`@angular-devkit/build-angular`](https://www.npmjs.com/package/@angular-devkit/build-angular) [`@angular/cli`](https://www.npmjs.com/package/@angular/cli) [`@angular/compiler-cli`](https://www.npmjs.com/package/@angular/compiler-cli) [`@angular/language-service`](https://www.npmjs.com/package/@angular/language-service) [`@nrwl/angular`](https://nx.dev/packages/angular) [`zone.js`](https://www.npmjs.com/package/zone.js?activeTab=readme) [`@types/node`]() [`glob`]()
-- [TailwindCSS](https://tailwindcss.com/)
-  📦 _packages:_ [`tailwindcss`](https://www.npmjs.com/package/tailwindcss)
+- SASS: `postcss` `postcss-import` `postcss-preset-env` `postcss-url` `autoprefixer`
+- TypeScript: `typescript` `tslib` `ts-node`
+- Angular: `@angular/common` `@angular/core` `@angular/forms` `@angular/platform-browser` `@angular/platform-browser-dynamic` `@angular/router` `@angular/compiler` `@angular-devkit/build-angular` `@angular/cli` `@angular/compiler-cli` `@angular/language-service` `@nrwl/angular` `zone.js` `@types/node` `glob`
+- TailwindCSS: `tailwindcss`
 
 📚 **References:**
 
--
-
-https://github.com/joelparkerhenderson/architecture-decision-record/blob/main/examples/css-framework/index.md
-https://blog.nrwl.io/set-up-tailwind-css-with-angular-in-an-nx-workspace-6f039a0f4479
+[Accessibility in Angular](https://angular.io/guide/accessibility)  
+[CSS framework ADR](https://github.com/joelparkerhenderson/architecture-decision-record/blob/main/examples/css-framework/index.md)  
+[Set up Tailwind CSS with Angular in an Nx workspace](https://blog.nrwl.io/set-up-tailwind-css-with-angular-in-an-nx-workspace-6f039a0f4479)
 
 </details>
 </br>
@@ -493,6 +482,9 @@ https://github.com/marketplace/boring-cyborg-add-labels-to-prs-based-on-filepath
 https://github.com/marketplace/pr-milestone-check
 https://github.com/marketplace/lazy-hand
 https://github.com/actions/dependency-review-action
+
+https://angular.io/guide/creating-libraries
+https://angular.io/guide/schematics
 
 </details>
 </br>
