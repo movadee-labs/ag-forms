@@ -46,49 +46,50 @@ The following documents helps us communicate expectations, manage contributions,
 
 Architecture:
 
-- [C4 Model site](https://c4model.com/)
-- [Simon Brown site (author of C4 Model)](https://simonbrown.je/)
-- [Documenting architecture decisions](https://cognitect.com/blog/2011/11/15/documenting-architecture-decisions) by Michael Nygard
-- [Architecture decision record](https://github.com/joelparkerhenderson/architecture-decision-record) by Joel Parker Henderson
-- [Architectural Decision Records](https://adr.github.io/) by ADR GitHub organization
-- [arachne-framework/architecture/adr-001-use-adrs.md](https://github.com/arachne-framework/architecture/blob/master/adr-001-use-adrs.md)
+[C4 Model site](https://c4model.com/)  
+[Simon Brown site (author of C4 Model)](https://simonbrown.je/)  
+[Documenting architecture decisions](https://cognitect.com/blog/2011/11/15/documenting-architecture-decisions)  
+[Architecture decision record](https://github.com/joelparkerhenderson/architecture-decision-record)  
+[Architectural Decision Records](https://adr.github.io/)  
+[arachne-framework/architecture/adr-001-use-adrs.md](https://github.com/arachne-framework/architecture/blob/master/adr-001-use-adrs.md)
 
 Open source license:
 
-- [Choose an open source license](https://license.md/)
-- [Software Licenses](https://license.md/)
-- [Choose an open source license](https://choosealicense.com/)
-- [The Legal Side of Open Source](https://opensource.guide/legal/)
+[Choose an open source license](https://license.md/)  
+[Software Licenses](https://license.md/)  
+[Choose an open source license](https://choosealicense.com/)  
+[The Legal Side of Open Source](https://opensource.guide/legal/)
 
 Releases:
 
-- [SemVer](https://semver.org/)
+[SemVer](https://semver.org/)
 
 Good docs examples:
 
-- [Bazel](https://github.com/bazelbuild/bazel)
-- [Atom](https://github.com/atom/atom/blob/master/CONTRIBUTING.md#styleguides)
-- [Awesome READMEs](https://github.com/matiassingers/awesome-readme)
+[Bazel](https://github.com/bazelbuild/bazel)  
+[Atom](https://github.com/atom/atom/blob/master/CONTRIBUTING.md#styleguides)  
+[Awesome READMEs](https://github.com/matiassingers/awesome-readme)
 
 Other:
 
-- [Starting an Open Source Project](https://opensource.guide/starting-a-project/)
-- [Best Practices for Maintainers](https://opensource.guide/best-practices/)
-- [Leadership and Governance](https://opensource.guide/leadership-and-governance/)
-- [Building Welcoming Communities](https://opensource.guide/building-community/)
-- [How to Build a CONTRIBUTING.md](https://mozillascience.github.io/working-open-workshop/contributing/)
+[Starting an Open Source Project](https://opensource.guide/starting-a-project/)  
+[Best Practices for Maintainers](https://opensource.guide/best-practices/)  
+[Leadership and Governance](https://opensource.guide/leadership-and-governance/)  
+[Building Welcoming Communities](https://opensource.guide/building-community/)  
+[How to Build a CONTRIBUTING.md](https://mozillascience.github.io/working-open-workshop/contributing/)
 
 Storybook:
 
-- [Storybook](https://storybook.js.org/)
-- [Video Tutorial: Storybook for React Apps](https://www.newline.co/courses/storybook-for-react-apps/theming-the-storybook-app)
-  https://blog.logrocket.com/next-level-component-showcasing-with-storybook-controls/  
-  https://atanasstoyanov.medium.com/custom-documentation-pages-for-storybookjs-13eb9637d6ab  
-  https://mistica-web.vercel.app/?path=/story/components-popover--default  
-  https://www.apideck.design/?path=/story/card--with-icons  
-  https://github.com/xavierlefevre/shared-react-components-example  
-  https://github.com/lauthieb/awesome-storybook  
-  builsing and testing https://github.com/angular/angular/blob/main/docs/DEVELOPER.md
+[Storybook](https://storybook.js.org/)  
+[Video Tutorial: Storybook for React Apps](https://www.newline.co/courses/storybook-for-react-apps/theming-the-storybook-app)
+
+https://blog.logrocket.com/next-level-component-showcasing-with-storybook-controls/  
+ https://atanasstoyanov.medium.com/custom-documentation-pages-for-storybookjs-13eb9637d6ab  
+ https://mistica-web.vercel.app/?path=/story/components-popover--default  
+ https://www.apideck.design/?path=/story/card--with-icons  
+ https://github.com/xavierlefevre/shared-react-components-example  
+ https://github.com/lauthieb/awesome-storybook  
+ builsing and testing https://github.com/angular/angular/blob/main/docs/DEVELOPER.md
 
 </details>
 </br>
@@ -183,14 +184,14 @@ ag-forms/
 
 📚 **References:**
 
-- [NX](https://nx.dev/)
-- [Monorepo vs. polyrepo](https://github.com/joelparkerhenderson/monorepo-vs-polyrepo)
-- [20 Reasons to do Angular In Nx](https://medium.com/ngconf/20-reasons-to-do-angular-in-nx-27c1ce870822)
-- [6 reasons why we chose Nx as our monorepo management tool](https://medium.com/purplebricks-digital/6-reasons-why-we-chose-nx-as-our-monorepo-management-tool-1fe5274a008e)
-- [What exactly is Nx.dev?](https://stackoverflow.com/questions/57086528/what-exactly-is-nx-dev)
-- [Intro to Nx](https://nx.dev/getting-started/intro)
-- [Nx-based monorepo — pains and gains](https://fyodor.io/nx-based-monorepo-pains-and-gains/)
-- [Nx: Extensible Dev Tools for Monorepos](https://blog.nrwl.io/nx-angular-cli-power-ups-for-modern-development-37b42e4c8b16)
+[NX](https://nx.dev/)  
+[Monorepo vs. polyrepo](https://github.com/joelparkerhenderson/monorepo-vs-polyrepo)  
+[20 Reasons to do Angular In Nx](https://medium.com/ngconf/20-reasons-to-do-angular-in-nx-27c1ce870822)  
+[6 reasons why we chose Nx as our monorepo management tool](https://medium.com/purplebricks-digital/6-reasons-why-we-chose-nx-as-our-monorepo-management-tool-1fe5274a008e)  
+[What exactly is Nx.dev?](https://stackoverflow.com/questions/57086528/what-exactly-is-nx-dev)  
+[Intro to Nx](https://nx.dev/getting-started/intro)  
+[Nx-based monorepo — pains and gains](https://fyodor.io/nx-based-monorepo-pains-and-gains/)  
+[Nx: Extensible Dev Tools for Monorepos](https://blog.nrwl.io/nx-angular-cli-power-ups-for-modern-development-37b42e4c8b16)
 
 </details>
 </br>
