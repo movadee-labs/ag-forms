@@ -280,9 +280,9 @@ Acceptance Testing:
 
 - **Static Testing**
   Does not involve software execution and often implicit, like proofreading, plus when programming tools/text editors check source code structure or compilers (pre-compilers) check syntax.  
-  :hammer_and_wrench: [ESLint](https://eslint.org/) catches inconsistent code formatting, styling, and possible errors
-  :hammer_and_wrench: [Prettier](https://prettier.io/) making code’s formatting more consistent; it only addresses style and formatting rules
-  :hammer_and_wrench: [SonarCloud](https://www.sonarsource.com/products/sonarcloud/) assesses codebase’s quality across a wide range of measures: reliability, security, maintainability, code coverage, and duplicate code.
+  :hammer_and_wrench: [ESLint](https://eslint.org/) catches inconsistent code formatting, styling, and possible errors  
+  :hammer_and_wrench: [Prettier](https://prettier.io/) making code’s formatting more consistent; it only addresses style and formatting rules  
+  :hammer_and_wrench: [SonarCloud](https://www.sonarsource.com/products/sonarcloud/) assesses codebase’s quality across a wide range of measures: reliability, security, maintainability, code coverage, and duplicate code.  
   :hammer_and_wrench: [Dependabot](https://github.com/features/security/) addresses security vulnerabilities from out-of-date dependencies.
 - **Dynamic Testing**
   Testing of the dynamic behavior of code, executed with a given set of test cases.
