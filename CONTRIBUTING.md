@@ -16,24 +16,24 @@ Have a look at existing [Issues]() and [Pull Requests]() that you could help wit
 
 **How to use @ag-forms:**
 
-- [README.md](README.md): instructions how to use libs
-- [ag-forms.com](ag-forms.com): demo, config ui, docs on vars details
-- [StackBlitz]() (online IDE): to open codebase online. [Learn how to use]()
+- [README.md](README.md) introduces and explains the project, and what users can do with it
+- [ag-forms.com](ag-forms.com) here you can find live working demo of all libraries and field descriptions for every form element. Configure your foms here and copy form metadata for your project.
+- ? [StackBlitz]() (online IDE) intended to showcase usage of @ag-forms in angular projects  
 
 **How to contribute to @ag-forms:**
 
-- [CONTRIBUTING.md](CONTRIBUTING.md) (this document):
-- [Code Tour](https://marketplace.visualstudio.com/items?itemName=vsls-contrib.codetour#recording-tours) (VSCode Extension): to quickly review step-by-step code implementation. [Learn how to use]()
-- []() (online IDE): to open codebase online. [Learn how to use]()
-- [Github Issues](): we are using Github Issues for bugs only
-- [Github Discussions](): To spread the word we also use Medium and dev blogs to post tutorials, but all tutorials are saved in Tutorials section of Discussions.
-- [Community Guidelines](https://docs.github.com/en/site-policy/github-terms/github-community-guidelines)
-- [LICENSE.md](LICENSE.md)
+- [CONTRIBUTING.md](CONTRIBUTING.md) (this document) describes development setup of the project including documentation, architecture, code standards, setup of testing, automation, github flow.
+- [Code Tour](https://marketplace.visualstudio.com/items?itemName=vsls-contrib.codetour#recording-tours) (VSCode Extension): to quickly review step-by-step code implementation. [How to use]()
+- ? [StackBlitz]() (online IDE): to open codebase online. [How to use]()
+- [Github Issues]() used for bugs ONLY
+- [Github Discussions]() used for your ideas and questions. We also encourage you to share with community something you made with @ag-forms. To spread the word we use Medium to describe how to use @ag-forms, but all tutorials are saved in How-to section of Discussions.
+- [GitHub Community Code of Conduct](https://docs.github.com/en/site-policy/github-terms/github-community-code-of-conduct) used to define community standards
+- [LICENSE.md](LICENSE.md) use MIT open source license that allows @ag-forms to be used as a dependency by other projects
 
 <details>
 <summary>Read more</summary></br>
 
-:clipboard: **Details:** Full list of documents we use in this project:
+:clipboard: **Details:** The following components helps us communicate expectations, manage contributions, and protect everyone’s legal rights.
 
 1. [README.md](README.md)
    This document is a summary of a prject mainly created for lib consumers, which in our case developers who need to use `ag-forms` inside their project. Here we talk abpot the purpose of the project, problems it solves,
@@ -66,7 +66,7 @@ Have a look at existing [Issues]() and [Pull Requests]() that you could help wit
 - Welcome others and are open-minded. Remember that this is a community we build together 💪.
 
 9. [Community Guidelines](https://docs.github.com/en/site-policy/github-terms/github-community-guidelines)
-10. [LICENSE.md]() It is an open source license of `ag-forms` repository that makes it easier for other people to contribute.
+10. [LICENSE.md](LICENSE.md) an open source license that guarantees that people can use, copy, modify, and contribute back to this project without repercussions.
 
 🛠 **Tools:**
 
