@@ -44,8 +44,7 @@ Storybook: `@nrwl/storybook` `@storybook/addon-essentials` `@storybook/angular` 
 
 📚 **References:**
 
-Architecture:
-
+Architecture:  
 [C4 Model site](https://c4model.com/)  
 [Simon Brown site (author of C4 Model)](https://simonbrown.je/)  
 [Documenting architecture decisions](https://cognitect.com/blog/2011/11/15/documenting-architecture-decisions)  
@@ -53,33 +52,28 @@ Architecture:
 [Architectural Decision Records](https://adr.github.io/)  
 [arachne-framework/architecture/adr-001-use-adrs.md](https://github.com/arachne-framework/architecture/blob/master/adr-001-use-adrs.md)
 
-Open source license:
-
+Open source license:  
 [Choose an open source license](https://license.md/)  
 [Software Licenses](https://license.md/)  
 [Choose an open source license](https://choosealicense.com/)  
 [The Legal Side of Open Source](https://opensource.guide/legal/)
 
-Releases:
-
+Releases:  
 [SemVer](https://semver.org/)
 
-Good docs examples:
-
+Good docs examples:  
 [Bazel](https://github.com/bazelbuild/bazel)  
 [Atom](https://github.com/atom/atom/blob/master/CONTRIBUTING.md#styleguides)  
 [Awesome READMEs](https://github.com/matiassingers/awesome-readme)
 
-Other:
-
+Other:  
 [Starting an Open Source Project](https://opensource.guide/starting-a-project/)  
 [Best Practices for Maintainers](https://opensource.guide/best-practices/)  
 [Leadership and Governance](https://opensource.guide/leadership-and-governance/)  
 [Building Welcoming Communities](https://opensource.guide/building-community/)  
 [How to Build a CONTRIBUTING.md](https://mozillascience.github.io/working-open-workshop/contributing/)
 
-Storybook:
-
+Storybook:  
 [Storybook](https://storybook.js.org/)  
 [Video Tutorial: Storybook for React Apps](https://www.newline.co/courses/storybook-for-react-apps/theming-the-storybook-app)
 
