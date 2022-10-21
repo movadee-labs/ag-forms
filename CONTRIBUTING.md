@@ -21,13 +21,12 @@ The following documents helps us communicate expectations, manage contributions,
 - [README.md](README.md) introduces and explains the project, and what users can do with it
 - [ag-forms.com](ag-forms.com) here you can find working live demo (created with Storybook) of all libraries including field descriptions for every form element. Configure your foms and copy metadata to populate form in your project.
 - [CHANGELOG.md](CHANGELOG.md) keeps track of changes in latest releases, and how that affects your builds. We use SemVer for versioning.
-- ? [StackBlitz]() (online IDE) intended to showcase usage of @ag-forms in angular projects
 
 **How to contribute to @ag-forms:**
 
 - [CONTRIBUTING.md](CONTRIBUTING.md) (this document) describes development setup of the project including documentation, architecture, code standards, setup of testing, automation, github flow.
 - [Code Tour](https://marketplace.visualstudio.com/items?itemName=vsls-contrib.codetour#recording-tours) (VSCode Extension): to quickly review step-by-step code implementation. [How to use]()
-- ? [StackBlitz]() (online IDE): to open codebase online. [How to use]()
+- [StackBlitz]() (online IDE): to open codebase online. [How to use]()
 - [Github Issues]() used for bugs ONLY.
 - [Github Discussions]() we’re using Discussions as a place to connect with other members of our community. Here you can ask questions, share ideas, engage with other community members and read how-tos.
 - [LICENSE.md](LICENSE.md) we adopt MIT open source license that allows @ag-forms to be used as a dependency by other projects. It guarantees that people can use, copy, modify, and contribute back to this project without repercussions.
