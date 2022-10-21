@@ -248,30 +248,19 @@ https://github.com/arachne-framework/architecture/blob/master/adr-008-abstract-m
 
 ## Testing and debugging
 
-- [SonarCloud](https://www.sonarsource.com/products/sonarcloud/) [visit dashboard](https://sonarcloud.io/project/overview?id=movadee-open-source_ag-forms)
-- [Cypress](https://docs.cypress.io/)
+Summary of tools we use for the following software testing:
 
-Static Testing:
+Static: [ESLint](https://eslint.org/), [Prettier](https://prettier.io/), [Dependabot](https://github.com/features/security/)
 
-- [ESLint](https://eslint.org/)
-- [Prettier](https://prettier.io/)
-- [Dependabot](https://github.com/features/security/)
+Static and security: [SonarCloud](https://www.sonarsource.com/products/sonarcloud/)
 
-Unit Testing:
+Unit testing: [Jest](https://jestjs.io/), [Spectator](https://ngneat.github.io/spectator/), [ng-mocks](https://ng-mocks.sudo.eu/)
 
-- [Jest](https://jestjs.io/)
-- [Spectator](https://ngneat.github.io/spectator/)
-- [ng-mocks](https://ng-mocks.sudo.eu/)
+Accessibility: [Axe](https://www.deque.com/axe/), [Lighthouse](https://developer.chrome.com/docs/lighthouse/overview/), [Pa11y](https://pa11y.org/)
 
-Accessibility Testing:
+Accessibility and integration: [Cypress](https://docs.cypress.io/)
 
-- [Axe](https://www.deque.com/axe/)
-- [Lighthouse](https://developer.chrome.com/docs/lighthouse/overview/)
-- [Pa11y](https://pa11y.org/)
-
-Acceptance Testing:
-
-- users (devs who code in angular)
+Acceptance: users (devs who code in angular)
 
 <details>
 <summary>Read more</summary></br>
@@ -491,6 +480,8 @@ https://github.com/actions/dependency-review-action
 
 https://angular.io/guide/creating-libraries
 https://angular.io/guide/schematics
+
+[visit dashboard](https://sonarcloud.io/project/overview?id=movadee-open-source_ag-forms)
 
 </details>
 </br>
