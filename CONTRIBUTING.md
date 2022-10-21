@@ -158,37 +158,26 @@ For more please see https://github.com/joelparkerhenderson/monorepo-vs-polyrepo
 
 1. Built in support
    Built in support for a lot of great libraries and frameworks that we use,like Angular, Jest and Cypress for testing, Prettier, etc.
-
 2. Visualization
    Ability to easily and automatically build a dependency graph. Nx DevTools comes with a really fantastic tool that automatically plots out all of our applications and libraries in a bubble chart. We use this chart to see all those dependencies and identify unintended dependencies. The chart also marks lines and bubbles in red if the changes we made to code will affect those apps and libs. That makes it easy to figure out our changes impact on all code.
-
 3. Affected commands
    Nx can detect what projects in the repo have been affected by a code change. This used by our CI to know what apps/libs need to be built and tested with a change. This saves devs and agents time on CI tasks and keeps our deployments as small and stable as possible.
-
 4. Keeping all libs and apps in sync
    We can code new features and test them right away using demo projects, no need to switch between lib and demo app codes and sync them. In on PR we can duild new feature and demonstrate how to use it in demo project.
-
 5. Unified Dependencies
    The entire repo runs on the same dependencies. This saves time when trying to debug and make version updates a breeze. Instead of updating multiple separate libs and apps to use the next version of Angular, we update everything with a couple of commands and know that everything is compatible. Nx offers a migration tool to help update entire repo, which utilizes ng update and other custom schematics to help make upgrading everything at once much more manageable. It ensures that your dependencies are all compatible and have been tested together. This saves a bunch of time when upgrading libraries because we don’t have to track down library incompatibilities.
-
 6. Distributed Caching
    Distributed caching is an excellent feature unique to nx. The premise is that a piece of code is only built, linted, and tested once across organization. All it takes is a simple command in terminal, and then you start benefiting! Even without distributed caching, you will get local caching so that on your machine, code is only built, linted, and tested once by default. This is a huge time saver and productivity enhancer!
-
 7. Code standards
    We can enforce the same code standard across all of our libs and apps, automatically alert developers and block PRs that don’t follow these standards. It makes life a lot easier.
-
 8. Deployments
    We can also standardise deployments using Nx. We have one single pipeline for all of our apps, which means we have less overhead in maintaining that pipeline. When deploying, we check which applications have been affected by the code changes being made by utilising the command nx affected. This allows us to run the test suites for these applications. If all of these pass, we know we have a valid build and can have relative confidence that releasing code that alters several applications at once won’t result in any breaking changes.
-
 9. Development Experience
    This also helps with onboarding.
-
 10. Best practices
     A set of best practices to enforce on a development team and a great living documentation resources (official site and Nrwl Connect).
-
 11. Documentation
     One set of ADRs can be written for all libs and projects, as well as code and PR guidelines and many more.
-
 12. Seperate builds
     Unlike standard monorepos, Nx build monorepo letting us test and build libs and apps independently, which makes CI/CD process easy and we can deploy libs to package managers and apps to web servers.
 
@@ -196,7 +185,6 @@ For more please see https://github.com/joelparkerhenderson/monorepo-vs-polyrepo
 
 1. Rules
    Nx introduces an additional set of rather strict opinions over already extensive Angular's one. The mental burden can be quite heavy, though bearable if you have a decent project documentation.
-
 2. Nesting
    Ridiculously deep nesting can get developer confused and angry quite often. As each application and library has extensive configuration and a separate place for everything your code traveling distance in an IDE or editor rises significantly.
 
@@ -254,16 +242,12 @@ For lib with UI components generation:
 🛠 **Tools:**
 
 - [HTML5](https://html.spec.whatwg.org/multipage/): standard markup language for web pages
-
 - [SASS](https://sass-lang.com/): preprocessor scripting language that is compiled into [CSS](https://www.w3.org/Style/CSS/Overview.en.html). "Why Use Sass? Stylesheets are getting larger, more complex, and harder to maintain. This is where a CSS pre-processor can help. Sass lets you use features that do not exist in CSS, like variables, nested rules, mixins, imports, inheritance, built-in functions, and other stuff."
   📦 _packages:_ [`postcss`]() [`postcss-import`]() [`postcss-preset-env`]() [`postcss-url`]() [`autoprefixer`]()
-
 - [TypeScript](https://www.typescriptlang.org/)
   📦 _packages:_ [`typescript`](https://www.npmjs.com/package/typescript) [`tslib`](https://www.npmjs.com/package/tslib) [`ts-node`](https://www.npmjs.com/package/ts-node)
-
 - [Angular](https://angular.io/)
   📦 _packages:_ [`@angular/common`](https://angular.io/api/common) [`@angular/core`](https://angular.io/api/core) [`@angular/forms`](https://angular.io/api/forms) [`@angular/platform-browser`](https://angular.io/api/platform-browser) [`@angular/platform-browser-dynamic`](https://angular.io/api/platform-browser-dynamic) [`@angular/router`](https://angular.io/api/router) [`@angular/compiler`](https://www.npmjs.com/package/@angular/compiler) [`@angular-devkit/build-angular`](https://www.npmjs.com/package/@angular-devkit/build-angular) [`@angular/cli`](https://www.npmjs.com/package/@angular/cli) [`@angular/compiler-cli`](https://www.npmjs.com/package/@angular/compiler-cli) [`@angular/language-service`](https://www.npmjs.com/package/@angular/language-service) [`@nrwl/angular`](https://nx.dev/packages/angular) [`zone.js`](https://www.npmjs.com/package/zone.js?activeTab=readme) [`@types/node`]() [`glob`]()
-
 - [TailwindCSS](https://tailwindcss.com/)
   📦 _packages:_ [`tailwindcss`](https://www.npmjs.com/package/tailwindcss)
 
@@ -347,34 +331,24 @@ localization https://backstage.io/docs/architecture-decisions/adrs-adr012
 
 - [ESLint](https://eslint.org/)
   📦 _packages:_ [`eslint`](https://www.npmjs.com/package/eslint) [`eslint-plugin-cypress`](https://www.npmjs.com/package/eslint-plugin-cypress) [`@typescript-eslint/eslint-plugin`](https://www.npmjs.com/package/@typescript-eslint/eslint-plugin) [`@typescript-eslint/parser`](https://www.npmjs.com/package/@typescript-eslint/parser) [`@angular-eslint/eslint-plugin`](https://www.npmjs.com/package/@angular-eslint/eslint-plugin) [`@angular-eslint/eslint-plugin-template`](https://www.npmjs.com/package/@angular-eslint/eslint-plugin-template) [`@angular-eslint/template-parser`](https://www.npmjs.com/package/@angular-eslint/template-parser) [`@nrwl/eslint-plugin-nx`](https://www.npmjs.com/package/@nrwl/eslint-plugin-nx) [`@nrwl/linter`](https://nx.dev/packages/linter)
-
 - [Prettier](https://prettier.io/)
   📦 _packages:_ [`prettier`](https://www.npmjs.com/package/prettier) [`eslint-config-prettier`](https://www.npmjs.com/package/eslint-config-prettier)
-
 - [Cypress](https://docs.cypress.io/)
   📦 _packages:_ [`cypress`](https://www.npmjs.com/package/cypress) [`@nrwl/cypress`](https://www.npmjs.com/package/@nrwl/cypress)
-
 - [SonarCloud](https://www.sonarsource.com/products/sonarcloud/) https://sonarcloud.io/project/overview?id=movadee-open-source_ag-forms
   📦 _packages:_ [``]() [``]()
-
 - [Dependabot](https://github.com/features/security/)
   📦 _packages:_ [``]() [``]()
-
 - [Jest](https://jestjs.io/)
   📦 _packages:_ [`jest`](https://www.npmjs.com/package/jest) [`jest-environment-jsdom`](https://www.npmjs.com/package/jest-environment-jsdom) [`jest-preset-angular`](https://www.npmjs.com/package/jest-preset-angular) [`ts-jest`](https://www.npmjs.com/package/ts-jest) [`@types/jest`](https://www.npmjs.com/package/@types/jest) [`@nrwl/jest`](https://www.npmjs.com/package/@nrwl/jest)
-
 - [Spectator](https://ngneat.github.io/spectator/)
   📦 _packages:_ [`@ngneat/spectator`](https://www.npmjs.com/package/@ngneat/spectator)
-
 - [ng-mocks](https://ng-mocks.sudo.eu/)
   📦 _packages:_ [`ng-mocks`](https://www.npmjs.com/package/ng-mocks)
-
 - [Axe](https://www.deque.com/axe/)
   📦 _packages:_ [``]() [``]()
-
 - [Lighthouse](https://developer.chrome.com/docs/lighthouse/overview/)
   📦 _packages:_ [``]() [``]()
-
 - [Pa11y](https://pa11y.org/)
   📦 _packages:_ [``]() [``]()
 
@@ -434,7 +408,6 @@ git flow https://docs.aws.amazon.com/prescriptive-guidance/latest/architectural-
   📦 _packages:_ [`@theunderscorer/nx-semantic-release`](https://github.com/TheUnderScorer/nx-semantic-release) [`ng-packagr`](https://www.npmjs.com/package/ng-packagr)
 - [Nx Cloud](https://nx.app/)
   📦 _packages:_ [`@nrwl/nx-cloud`](https://www.npmjs.com/package/@nrwl/nx-cloud)
-
 - [GitHub Actions](https://github.com/features/actions)
 
 We use [Semantic Versioning](https://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/PurpleBooth/a-good-readme-template/tags).  
