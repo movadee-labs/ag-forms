@@ -88,6 +88,8 @@ Have a look at existing [Issues]() and [Pull Requests]() that you could help wit
 - [Video Tutorial: Storybook for React Apps](https://www.newline.co/courses/storybook-for-react-apps/theming-the-storybook-app)
 
 https://jsoncrack.com/#features
+https://www.makeareadme.com/  
+https://github.com/matiassingers/awesome-readme
 
 storybook
 https://blog.logrocket.com/next-level-component-showcasing-with-storybook-controls/
@@ -95,7 +97,8 @@ https://atanasstoyanov.medium.com/custom-documentation-pages-for-storybookjs-13e
 https://mistica-web.vercel.app/?path=/story/components-popover--default
 https://www.apideck.design/?path=/story/card--with-icons
 https://github.com/xavierlefevre/shared-react-components-example
-https://github.com/lauthieb/awesome-storybook
+https://github.com/lauthieb/awesome-storybook  
+builsing and testing https://github.com/angular/angular/blob/main/docs/DEVELOPER.md
 
 </details>
 </br>
@@ -284,6 +287,10 @@ We follow
 
 <details>
 <summary>Read more</summary></br>
+
+use moment lib? https://backstage.io/docs/architecture-decisions/adrs-adr010  
+localization https://backstage.io/docs/architecture-decisions/adrs-adr012
+
 </details>
 </br>
 
@@ -406,7 +413,8 @@ https://github.com/angular/angular/blob/main/docs/COMMITTER.md
 https://github.com/angular/angular/blob/main/docs/BRANCHES.md  
 https://github.com/angular/angular/blob/main/.pullapprove.yml  
 https://github.com/angular/angular/blob/main/docs/FIXUP_COMMITS.md  
-https://github.com/angular/angular/blob/main/docs/PUBLIC_API.md
+https://github.com/angular/angular/blob/main/docs/PUBLIC_API.md  
+git flow https://docs.aws.amazon.com/prescriptive-guidance/latest/architectural-decision-records/appendix.html
 
 </details>
 </br>
@@ -432,9 +440,32 @@ https://github.com/angular/angular/blob/main/docs/PUBLIC_API.md
 We use [Semantic Versioning](https://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/PurpleBooth/a-good-readme-template/tags).  
 https://keepachangelog.com/en/1.0.0/  
 github commits names, pr's etc  
-semantic release: https://github.com/TheUnderScorer/nx-semantic-release
+semantic release: https://github.com/TheUnderScorer/nx-semantic-release  
 https://github.com/angular/angular/blob/main/docs/RELEASE_SCHEDULE.md  
 https://nx.dev/more-concepts/buildable-and-publishable-libraries  
+https://github.com/Stack-in-a-box/triumphmayflowerclub.com#versions  
+https://github.com/PurpleBooth/a-good-readme-template/tags  
+https://github.com/Stack-in-a-box/triumphmayflowerclub.com#versions  
+https://www.mariokandut.com/how-to-check-unused-npm-packages/
+pre-commit
+recommended VSCode plugins  
+Branching and Versioning https://github.com/angular/angular/blob/main/docs/BRANCHES.md
+
+bundle size:
+https://www.taskade.com/new/from/QhdTdxcBoGWEWpgd?share=view&view=QGFMgLncup1Lwazw&as=list
+https://levelup.gitconnected.com/improving-angular-initial-load-time-fba8b1289c48
+https://angular.io/guide/lightweight-injection-tokens
+https://blog.sentry.io/2022/07/19/javascript-sdk-package-reduced/
+https://www.xenonstack.com/blog/performance-optimization-in-angular
+https://akhromieiev.com/how-to-use-webpack-bundle-analyzer-in-angular-project/
+https://medium.com/devops-dudes/angular-bundle-size-optimization-75294e83c149
+https://www.npmjs.com/package/webpack-bundle-analyzer
+https://medium.com/globant/screening-npm-packages-best-practices-a24930b2624e
+bundle management https://bundlephobia.com/
+https://duncanhunter.gitbook.io/enterprise-angular-applications-with-ngrx-and-nx/introduction/19-deploying-an-nx-monorepo
+
+---
+
 https://yonatankra.com/how-to-deploy-npm-modules-in-an-nx-monorepo-and-github-actions/  
 https://dev.to/dianjuar/publish-your-libraries-to-npm-with-one-command-angular-and-nx-4lao  
 https://tane.dev/2020/05/publishing-npm-libraries-using-nx-and-github-actions/
@@ -532,7 +563,7 @@ https://about.sourcegraph.com/
 </details>
 </br>
 
-## Monitoring and project management system
+## Monitoring and project management
 
 <details>
 <summary>Read more</summary></br>
@@ -549,52 +580,21 @@ https://github.com/angular/angular/blob/main/docs/GITHUB_PROCESS.md
 https://github.com/angular/angular/blob/main/docs/SAVED_REPLIES.md  
 https://github.com/angular/angular/blob/main/docs/TRIAGE_AND_LABELS.md  
 https://github.com/stevemao/github-issue-templates  
-https://github.com/codeforamerica/howto/blob/master/Good-GitHub-Issues.md
+https://github.com/codeforamerica/howto/blob/master/Good-GitHub-Issues.md  
+https://firebase.google.com/products/performance  
+https://firebase.google.com/products/analytics
 
 </details>
 </br>
 
-OTHER:
+REFERENCE LIBS:
 
-https://github.com/amitmerchant1990/electron-markdownify#readme
-https://www.makeareadme.com/
-https://github.com/Stack-in-a-box/triumphmayflowerclub.com#versions
-https://firebase.google.com/products/app-check
-https://firebase.google.com/products/performance
-https://firebase.google.com/products/analytics
-https://github.com/PurpleBooth/a-good-readme-template/tags
-https://docs.github.com/en/get-started
-https://github.com/Stack-in-a-box/triumphmayflowerclub.com#versions
-https://github.com/matiassingers/awesome-readme
-https://www.mariokandut.com/how-to-check-unused-npm-packages/
-https://github.com/angular/components
-
-recommended VSCode plugins
-use moment lib? https://backstage.io/docs/architecture-decisions/adrs-adr010
-pre-commit
-color palette
-git flow https://docs.aws.amazon.com/prescriptive-guidance/latest/architectural-decision-records/appendix.html
-supported browsers
-Error Reporting https://github.com/arachne-framework/architecture/blob/master/adr-013-error-reporting.md
-localization https://backstage.io/docs/architecture-decisions/adrs-adr012
-Branching and Versioning https://github.com/angular/angular/blob/main/docs/BRANCHES.md
-builsing and testing https://github.com/angular/angular/blob/main/docs/DEVELOPER.md
-
-bundle size:
-https://www.taskade.com/new/from/QhdTdxcBoGWEWpgd?share=view&view=QGFMgLncup1Lwazw&as=list
-https://levelup.gitconnected.com/improving-angular-initial-load-time-fba8b1289c48
-https://angular.io/guide/lightweight-injection-tokens
-https://blog.sentry.io/2022/07/19/javascript-sdk-package-reduced/
-https://www.xenonstack.com/blog/performance-optimization-in-angular
-https://akhromieiev.com/how-to-use-webpack-bundle-analyzer-in-angular-project/
-https://medium.com/devops-dudes/angular-bundle-size-optimization-75294e83c149
-https://www.npmjs.com/package/webpack-bundle-analyzer
-https://medium.com/globant/screening-npm-packages-best-practices-a24930b2624e
-bundle management https://bundlephobia.com/
-https://duncanhunter.gitbook.io/enterprise-angular-applications-with-ngrx-and-nx/introduction/19-deploying-an-nx-monorepo
-
-?
-https://github.com/marketplace/instabug
-https://github.com/marketplace/supportbee
-
+https://github.com/amitmerchant1990/electron-markdownify#readme  
+https://firebase.google.com/products/app-check  
+https://docs.github.com/en/get-started  
+https://github.com/angular/components  
+supported browsers  
+Error Reporting https://github.com/arachne-framework/architecture/blob/master/adr-013-error-reporting.md  
+https://github.com/marketplace/instabug  
+https://github.com/marketplace/supportbee  
 https://github.com/nhn/tui.editor#-packages
