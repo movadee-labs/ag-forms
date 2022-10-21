@@ -30,7 +30,6 @@ The following documents helps us communicate expectations, manage contributions,
 - ? [StackBlitz]() (online IDE): to open codebase online. [How to use]()
 - [Github Issues]() used for bugs ONLY.
 - [Github Discussions]() we’re using Discussions as a place to connect with other members of our community. Here you can ask questions, share ideas, engage with other community members and read how-tos.
-- [GitHub Community Code of Conduct](https://docs.github.com/en/site-policy/github-terms/github-community-code-of-conduct) used to define community standards.
 - [Releases](https://github.com/bazelbuild/bazel/releases) keeps track of changes in latest releases, and how that affects your builds. We use SemVer for versioning.
 - [LICENSE.md](LICENSE.md) we adopt MIT open source license that allows @ag-forms to be used as a dependency by other projects. It guarantees that people can use, copy, modify, and contribute back to this project without repercussions.
 
