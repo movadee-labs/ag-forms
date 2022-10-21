@@ -122,7 +122,7 @@ https://github.com/sidneycadot/oeis#how-it-all-fits-together
 
 ## Code architecture
 
-We decided to adopt **monorepo** as a software development strategy using **[NX](https://nx.dev/)** build system. NX makes developing apps and libraries in a monorepo easier to setup, maintain and work with.
+We decided to adopt **monorepo** as a software development strategy using **[Nx](https://nx.dev/)** build system. Nx makes developing libraries in a monorepo easier to setup, maintain and work with.
 
 ```treeview
 ag-forms/
@@ -137,13 +137,11 @@ ag-forms/
 <details>
 <summary>Read more</summary></br>
 
-📋 **Details:** `ag-forms` project involves developing several libraries and demo applications (examples of library usage). We need to choose how to organize our code. The top-level choice is to organize as a "monorepo" or "polyrepo" or "hybrid":
+📋 **Details:** `ag-forms` project involves developing several libraries and demo applications (examples of library usage). We needed to choose how to organize our code. The top-level choice is to organize as a "monorepo" or "polyrepo" or "hybrid":
 
 - Monorepo means we put all pieces into one big repo
 - Polyrepo means we put each piece in its own repo
 - Hybrid means some mix of monorepo and polyrepo
-
-For more please see https://github.com/joelparkerhenderson/monorepo-vs-polyrepo
 
 **Pros**
 
@@ -179,29 +177,20 @@ For more please see https://github.com/joelparkerhenderson/monorepo-vs-polyrepo
 2. Nesting
    Ridiculously deep nesting can get developer confused and angry quite often. As each application and library has extensive configuration and a separate place for everything your code traveling distance in an IDE or editor rises significantly.
 
-🛠 **Tools:**
+📦 **Packages:**
 
-- [NX](https://nx.dev/)
-  📦 _packages:_ [`nx`](https://www.npmjs.com/package/nx) [`@nrwl/cli`](https://www.npmjs.com/package/@nrwl/cli) [`@nrwl/workspace`](https://www.npmjs.com/package/@nrwl/workspace)
+- Nx: `nx` `@nrwl/cli` `@nrwl/workspace`
 
 📚 **References:**
 
+- [NX](https://nx.dev/)
+- [Monorepo vs. polyrepo](https://github.com/joelparkerhenderson/monorepo-vs-polyrepo)
 - [20 Reasons to do Angular In Nx](https://medium.com/ngconf/20-reasons-to-do-angular-in-nx-27c1ce870822)
 - [6 reasons why we chose Nx as our monorepo management tool](https://medium.com/purplebricks-digital/6-reasons-why-we-chose-nx-as-our-monorepo-management-tool-1fe5274a008e)
 - [What exactly is Nx.dev?](https://stackoverflow.com/questions/57086528/what-exactly-is-nx-dev)
 - [Intro to Nx](https://nx.dev/getting-started/intro)
 - [Nx-based monorepo — pains and gains](https://fyodor.io/nx-based-monorepo-pains-and-gains/)
 - [Nx: Extensible Dev Tools for Monorepos](https://blog.nrwl.io/nx-angular-cli-power-ups-for-modern-development-37b42e4c8b16)
-
-other:
-https://github.com/ma-shamshiri/Human-Activity-Recognition#-cactus-folder-structure
-custom form component https://carlosefrfloresta.medium.com/three-ways-to-create-an-angular-custom-form-component-e4fd9e8354c2
-data first moel https://github.com/arachne-framework/architecture/blob/master/adr-002-configuration.md
-push detection strategy
-https://backstage.io/docs/architecture-decisions/adrs-adr004
-https://github.com/arachne-framework/architecture/blob/master/adr-008-abstract-modules.md
-demo projects
-app modules vs standalone components
 
 </details>
 </br>
@@ -265,6 +254,12 @@ We follow
 
 use moment lib? https://backstage.io/docs/architecture-decisions/adrs-adr010  
 localization https://backstage.io/docs/architecture-decisions/adrs-adr012
+data first moel https://github.com/arachne-framework/architecture/blob/master/adr-002-configuration.md
+push detection strategy
+app modules vs standalone components
+custom form component https://carlosefrfloresta.medium.com/three-ways-to-create-an-angular-custom-form-component-e4fd9e8354c2
+https://backstage.io/docs/architecture-decisions/adrs-adr004
+https://github.com/arachne-framework/architecture/blob/master/adr-008-abstract-modules.md
 
 </details>
 </br>
