@@ -211,10 +211,10 @@ UI components libs:
 
 📦 **Packages:**
 
-- SASS: `postcss` `postcss-import` `postcss-preset-env` `postcss-url` `autoprefixer`
-- TypeScript: `typescript` `tslib` `ts-node`
-- Angular: `@angular/common` `@angular/core` `@angular/forms` `@angular/platform-browser` `@angular/platform-browser-dynamic` `@angular/router` `@angular/compiler` `@angular-devkit/build-angular` `@angular/cli` `@angular/compiler-cli` `@angular/language-service` `@nrwl/angular` `zone.js` `@types/node` `glob`
-- TailwindCSS: `tailwindcss`
+SASS: `postcss` `postcss-import` `postcss-preset-env` `postcss-url` `autoprefixer`  
+TypeScript: `typescript` `tslib` `ts-node`  
+Angular: `@angular/common` `@angular/core` `@angular/forms` `@angular/platform-browser` `@angular/platform-browser-dynamic` `@angular/router` `@angular/compiler` `@angular-devkit/build-angular` `@angular/cli` `@angular/compiler-cli` `@angular/language-service` `@nrwl/angular` `zone.js` `@types/node` `glob`  
+TailwindCSS: `tailwindcss`
 
 📚 **References:**
 
