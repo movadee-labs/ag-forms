@@ -109,6 +109,9 @@ clickable diagram
 <details>
 <summary>Read more</summary></br>
 
+We think it's important to communicate how we are planning to build a software system or how an existing software system works. If software development team doesn't think about architecture all sort of problems can appear (inconsistent approaches to solving the same problems, deployment problems, maintenance issues, code that hard to scale, etc).  
+We document our software system architecture using **[C4 Model](https://c4model.com/)** approach and **[Structurizr](https://structurizr.com/)** tool.
+
 https://github.com/angular/angular/blob/main/docs/DEVELOPER.md
 https://github.com/sidneycadot/oeis#how-it-all-fits-together
 
@@ -250,16 +253,11 @@ https://github.com/arachne-framework/architecture/blob/master/adr-008-abstract-m
 
 Summary of tools we use for the following software testing:
 
-Static: [ESLint](https://eslint.org/), [Prettier](https://prettier.io/), [Dependabot](https://github.com/features/security/)
-
-Static and security: [SonarCloud](https://www.sonarsource.com/products/sonarcloud/)
-
-Unit testing: [Jest](https://jestjs.io/), [Spectator](https://ngneat.github.io/spectator/), [ng-mocks](https://ng-mocks.sudo.eu/)
-
-Accessibility: [Axe](https://www.deque.com/axe/), [Lighthouse](https://developer.chrome.com/docs/lighthouse/overview/), [Pa11y](https://pa11y.org/)
-
-Accessibility and integration: [Cypress](https://docs.cypress.io/)
-
+Static: [ESLint](https://eslint.org/), [Prettier](https://prettier.io/), [Dependabot](https://github.com/features/security/)  
+Static and security: [SonarCloud](https://www.sonarsource.com/products/sonarcloud/)  
+Unit testing: [Jest](https://jestjs.io/), [Spectator](https://ngneat.github.io/spectator/), [ng-mocks](https://ng-mocks.sudo.eu/)  
+Accessibility: [Axe](https://www.deque.com/axe/), [Lighthouse](https://developer.chrome.com/docs/lighthouse/overview/), [Pa11y](https://pa11y.org/)  
+Accessibility and integration: [Cypress](https://docs.cypress.io/)  
 Acceptance: users (devs who code in angular)
 
 <details>
@@ -323,17 +321,20 @@ ng-mocks: `ng-mocks`
 [Software Testing Wiki](https://en.wikipedia.org/wiki/Software_testing#Accessibility_testing)  
 [Testing Components with Spectator](https://testing-angular.com/testing-components-with-spectator/#testing-components-with-spectator)  
 [Testing Angular: A Guide to Robust Angular Applications](https://testing-angular.com/introduction/#introduction)  
-[How to Test Accessibility With Axe in Cypress](https://www.wearecogworks.com/blog/how-to-test-accessibility-with-axe-in-cypress/)  
 [Cypress Component Testing in Nx](https://nx.dev/cypress/cypress-component-testing)  
 [Nx support for Cypress 10](https://youtu.be/QDWN4C7T-Ck?t=320)  
-[Web Performance Testing With Cypress and Google Lighthouse](https://www.lambdatest.com/blog/using-cypress-google-lighthouse-performance-testing/)  
-[How to Automate Accessibility Tests with Cypress](https://www.freecodecamp.org/news/automating-accessibility-tests-with-cypress/)  
-[How to test for accessibility with Cypress](https://www.deque.com/blog/how-to-test-for-accessibility-with-cypress/)  
-[Accessible Rich Internet Applications (WAI-ARIA)](https://www.w3.org/TR/wai-aria/#authoring_testing)  
-[Accessibility in Angular](https://angular.io/guide/accessibility)  
-[Build more accessible Angular apps](https://blog.angular.io/build-more-accessible-angular-apps-1aca4fc39aff)  
+[Web Performance Testing With Cypress and Google Lighthouse](https://www.lambdatest.com/blog/using-cypress-google-lighthouse-performance-testing/)
 [Why you should use open-source component libraries in your Design System](https://backlight.dev/mastery/why-you-should-use-open-source-component-libraries-in-your-design-system)  
 [Angular Testing Overview: Unit, Integration & E2E Tests](https://onthecode.co.uk/blog/angular-testing-overview/)
+
+Accessibility:
+
+[Accessibility in Angular](https://angular.io/guide/accessibility)  
+[Accessible Rich Internet Applications (WAI-ARIA)](https://www.w3.org/TR/wai-aria/#authoring_testing)  
+[How to Test Accessibility With Axe in Cypress](https://www.wearecogworks.com/blog/how-to-test-accessibility-with-axe-in-cypress/)  
+[How to Automate Accessibility Tests with Cypress](https://www.freecodecamp.org/news/automating-accessibility-tests-with-cypress/)  
+[How to test for accessibility with Cypress](https://www.deque.com/blog/how-to-test-for-accessibility-with-cypress/)  
+[Build more accessible Angular apps](https://blog.angular.io/build-more-accessible-angular-apps-1aca4fc39aff)
 
 https://docs.cypress.io/plugins/directory#Visual%20Testing  
 https://github.com/angular/angular/blob/main/docs/DEBUG.md  
@@ -527,16 +528,3 @@ https://github.com/nhn/tui.editor#-packages
 - ROADMAP: we have a future vision for the project and we will communicate it a bit later
 - CODE_OF_CONDUCT (read https://opensource.guide/starting-a-project/#establishing-a-code-of-conduct, https://opensource.guide/code-of-conduct/)
 - JSON visualizer: https://jsoncrack.com/#features
-
-review again:
-
-- getting started
-- Coding Rules
-- Commit Message Format`
-- **Software Architecture**
-  We think it's important to communicate how we are planning to build a software system or how an existing software system works. If software development team doesn't think about architecture all sort of problems can appear (inconsistent approaches to solving the same problems, deployment problems, maintenance issues, code that hard to scale, etc).
-  We document our software system architecture using **[C4 Model](https://c4model.com/)** approach and **[Structurizr](https://structurizr.com/)** tool.
-- Code Structure (folder structure)
-- [README.md]() for demo projects
-  For every `ag-forms` lib we have demo project that shows lib setup and usage example. In README for demo projects we explain how to setup and run demo projects, and how to understand package.json (it's different from regular Angular project because we use Monorepo setup).
-- **[Architecture Decision Records]()**
