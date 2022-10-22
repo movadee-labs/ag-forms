@@ -44,6 +44,12 @@ Storybook: `@nrwl/storybook` `@storybook/addon-essentials` `@storybook/angular` 
 
 📚 **References:**
 
+[Starting an Open Source Project](https://opensource.guide/starting-a-project/)  
+[Best Practices for Maintainers](https://opensource.guide/best-practices/)  
+[Leadership and Governance](https://opensource.guide/leadership-and-governance/)  
+[Building Welcoming Communities](https://opensource.guide/building-community/)  
+[How to Build a CONTRIBUTING.md](https://mozillascience.github.io/working-open-workshop/contributing/)
+
 Architecture:  
 [C4 Model site](https://c4model.com/)  
 [Simon Brown site (author of C4 Model)](https://simonbrown.je/)  
@@ -66,24 +72,17 @@ Good docs examples:
 [Atom](https://github.com/atom/atom/blob/master/CONTRIBUTING.md#styleguides)  
 [Awesome READMEs](https://github.com/matiassingers/awesome-readme)
 
-Other:  
-[Starting an Open Source Project](https://opensource.guide/starting-a-project/)  
-[Best Practices for Maintainers](https://opensource.guide/best-practices/)  
-[Leadership and Governance](https://opensource.guide/leadership-and-governance/)  
-[Building Welcoming Communities](https://opensource.guide/building-community/)  
-[How to Build a CONTRIBUTING.md](https://mozillascience.github.io/working-open-workshop/contributing/)
-
 Storybook:  
 [Storybook](https://storybook.js.org/)  
 [Video Tutorial: Storybook for React Apps](https://www.newline.co/courses/storybook-for-react-apps/theming-the-storybook-app)
 
 https://blog.logrocket.com/next-level-component-showcasing-with-storybook-controls/  
- https://atanasstoyanov.medium.com/custom-documentation-pages-for-storybookjs-13eb9637d6ab  
- https://mistica-web.vercel.app/?path=/story/components-popover--default  
- https://www.apideck.design/?path=/story/card--with-icons  
- https://github.com/xavierlefevre/shared-react-components-example  
- https://github.com/lauthieb/awesome-storybook  
- builsing and testing https://github.com/angular/angular/blob/main/docs/DEVELOPER.md
+https://atanasstoyanov.medium.com/custom-documentation-pages-for-storybookjs-13eb9637d6ab  
+https://mistica-web.vercel.app/?path=/story/components-popover--default  
+https://www.apideck.design/?path=/story/card--with-icons  
+https://github.com/xavierlefevre/shared-react-components-example  
+https://github.com/lauthieb/awesome-storybook  
+builsing and testing https://github.com/angular/angular/blob/main/docs/DEVELOPER.md
 
 </details>
 </br>
@@ -96,9 +95,9 @@ Option 2: Local
 
 <details>
 <summary>Read more</summary></br>
-codespaces
-https://github.com/firstcontributions/first-contributions 
-https://github.com/nayafia/contributing-template/blob/HEAD/CONTRIBUTING-template.md
+codespaces  
+https://github.com/firstcontributions/first-contributions  
+https://github.com/nayafia/contributing-template/blob/HEAD/CONTRIBUTING-template.md  
 </details>
 </br>
 
@@ -109,7 +108,8 @@ clickable diagram
 <details>
 <summary>Read more</summary></br>
 
-We think it's important to communicate how we are planning to build a software system or how an existing software system works. If software development team doesn't think about architecture all sort of problems can appear (inconsistent approaches to solving the same problems, deployment problems, maintenance issues, code that hard to scale, etc).  
+We think it's important to communicate how we are planning to build a software system or how an existing software system works. If software development team doesn't think about architecture all sort of problems can appear (inconsistent approaches to solving the same problems, deployment problems, maintenance issues, code that hard to scale, etc).
+
 We document our software system architecture using **[C4 Model](https://c4model.com/)** approach and **[Structurizr](https://structurizr.com/)** tool.
 
 https://github.com/angular/angular/blob/main/docs/DEVELOPER.md
