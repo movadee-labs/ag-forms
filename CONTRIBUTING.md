@@ -205,8 +205,8 @@ We wrote libraries specifically for Angular applications. We do not use backend 
 UI components libs:
 
 - [Angular CDK](https://material.angular.io/cdk/categories)
-- [TailwindCSS](https://tailwindcss.com/)
 - [Angular Material](https://material.angular.io/)
+- [TailwindCSS](https://tailwindcss.com/)
 - [Bootstrap](https://ng-bootstrap.github.io/#/home)
 
 <details>
@@ -323,7 +323,7 @@ ng-mocks: `ng-mocks`
 [Testing Angular: A Guide to Robust Angular Applications](https://testing-angular.com/introduction/#introduction)  
 [Cypress Component Testing in Nx](https://nx.dev/cypress/cypress-component-testing)  
 [Nx support for Cypress 10](https://youtu.be/QDWN4C7T-Ck?t=320)  
-[Web Performance Testing With Cypress and Google Lighthouse](https://www.lambdatest.com/blog/using-cypress-google-lighthouse-performance-testing/)
+[Web Performance Testing With Cypress and Google Lighthouse](https://www.lambdatest.com/blog/using-cypress-google-lighthouse-performance-testing/)  
 [Why you should use open-source component libraries in your Design System](https://backlight.dev/mastery/why-you-should-use-open-source-component-libraries-in-your-design-system)  
 [Angular Testing Overview: Unit, Integration & E2E Tests](https://onthecode.co.uk/blog/angular-testing-overview/)
 
