@@ -40,7 +40,7 @@ Features
 
 The `ag-forms` team builds and maintains several packages that helps build Angular Reactive Forms controls and optionally UI view.
 
-#### Option 1: `@ng-forms/core` (form controls only, no framework)
+#### Option 1: `@ag-forms/core` (form controls only, no framework)
 
 <div>👀 <a href="url">Live Demo on StackBlitz</a></div>
 <div>⚙️ <a href="url">Live configure tool</a></div>
@@ -113,7 +113,7 @@ That's it, the above example will render...
 
 </details>
 
-#### Option 2: `@ng-forms/tailwind` (form with Tailwind)
+#### Option 2: `@ag-forms/tailwind` (form with Tailwind)
 
 <div>👀 <a href="url">Live Demo on StackBlitz</a></div>
 <div>⚙️ <a href="url">Live configure tool</a></div>
@@ -122,7 +122,7 @@ That's it, the above example will render...
 <summary>Implementation and usage details</summary>
 </details>
 
-#### Option 3: `@ng-forms/material` (form with Material)
+#### Option 3: `@ag-forms/material` (form with Material)
 
 <div>👀 <a href="url">Live Demo on StackBlitz</a></div>
 <div>⚙️ <a href="url">Live configure tool</a></div>
@@ -131,7 +131,7 @@ That's it, the above example will render...
 <summary>Implementation and usage details</summary>
 </details>
 
-#### Option 4: `@ng-forms/bootstrap` (form with Bootstrap)
+#### Option 4: `@ag-forms/bootstrap` (form with Bootstrap)
 
 <div>👀 <a href="url">Live Demo on StackBlitz</a></div>
 <div>⚙️ <a href="url">Live configure tool</a></div>
