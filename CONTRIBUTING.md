@@ -359,22 +359,25 @@ git flow https://docs.aws.amazon.com/prescriptive-guidance/latest/architectural-
 </details>
 </br>
 
-## Shipping and automation
+## Automation
 
-- ci
-- shipping & cd
-- other cool automations
+#### Continuous integration (CI)
+
+[Nx Cloud](https://nx.app/)
+[GitHub Actions](https://github.com/features/actions)
+
+#### Continuous deployment (CD)
+
+[Semantic Release](https://github.com/semantic-release/semantic-release)
+[GitHub Actions](https://github.com/features/actions)
 
 <details>
 <summary>Read more</summary></br>
 
-🛠 **Tools:**
+📦 **Packages:**
 
-- [Semantic Release](https://github.com/semantic-release/semantic-release)
-  📦 _packages:_ [`@theunderscorer/nx-semantic-release`](https://github.com/TheUnderScorer/nx-semantic-release) [`ng-packagr`](https://www.npmjs.com/package/ng-packagr)
-- [Nx Cloud](https://nx.app/)
-  📦 _packages:_ [`@nrwl/nx-cloud`](https://www.npmjs.com/package/@nrwl/nx-cloud)
-- [GitHub Actions](https://github.com/features/actions)
+- Semantic Release: `@theunderscorer/nx-semantic-release` `ng-packagr`
+- Nx Cloud: `@nrwl/nx-cloud`
 
 We use [Semantic Versioning](https://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/PurpleBooth/a-good-readme-template/tags).  
 https://keepachangelog.com/en/1.0.0/  
