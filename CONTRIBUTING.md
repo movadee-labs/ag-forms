@@ -16,15 +16,15 @@ Have a look at existing [Issues]() and [Pull Requests]() that you could help wit
 
 The following resources helps us communicate expectations, manage contributions, and protect everyone’s legal rights.
 
-**How to use @ag-forms:**
+**Using @ag-forms:**
 
 - [README.md](README.md) introduces and explains the project, and what users can do with it
 - [ag-forms.com](ag-forms.com) here you can find working live demo (created with Storybook) of all libraries including field descriptions for every form element. Configure your foms and copy metadata to populate form in your project (see [how-to]() use)
-- [CHANGELOG.md](CHANGELOG.md) keeps track of changes in latest releases, and how that affects your builds. We use SemVer for versioning.
+- [CHANGELOG.md](CHANGELOG.md) keeps track of changes in latest releases, and how that affects your builds. We use SemVer for versioning
 
-**How to contribute to @ag-forms:**
+**Contributing to @ag-forms:**
 
-- [CONTRIBUTING.md](CONTRIBUTING.md) (this document) describes development setup of the project including documentation, architecture, code standards, setup of testing, automation, github flow.
+- [CONTRIBUTING.md](CONTRIBUTING.md) (this document) describes development setup of the project including documentation, architecture, code standards, setup of testing, automation, github flow
 - [Code Tour](https://marketplace.visualstudio.com/items?itemName=vsls-contrib.codetour#recording-tours) (VSCode Extension): to quickly review step-by-step code implementation (see [how-to]() use)
 - [StackBlitz]() (online IDE): to open codebase online (see [how-to]() use)
 - [Github Issues]() used for bugs ONLY
