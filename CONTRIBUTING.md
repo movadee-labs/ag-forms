@@ -14,22 +14,22 @@ Have a look at existing [Issues]() and [Pull Requests]() that you could help wit
 
 ## Important Resources
 
-The following documents helps us communicate expectations, manage contributions, and protect everyone’s legal rights.
+The following resources helps us communicate expectations, manage contributions, and protect everyone’s legal rights.
 
 **How to use @ag-forms:**
 
 - [README.md](README.md) introduces and explains the project, and what users can do with it
-- [ag-forms.com](ag-forms.com) here you can find working live demo (created with Storybook) of all libraries including field descriptions for every form element. Configure your foms and copy metadata to populate form in your project.
+- [ag-forms.com](ag-forms.com) here you can find working live demo (created with Storybook) of all libraries including field descriptions for every form element. Configure your foms and copy metadata to populate form in your project (see [how-to]() use)
 - [CHANGELOG.md](CHANGELOG.md) keeps track of changes in latest releases, and how that affects your builds. We use SemVer for versioning.
 
 **How to contribute to @ag-forms:**
 
 - [CONTRIBUTING.md](CONTRIBUTING.md) (this document) describes development setup of the project including documentation, architecture, code standards, setup of testing, automation, github flow.
-- [Code Tour](https://marketplace.visualstudio.com/items?itemName=vsls-contrib.codetour#recording-tours) (VSCode Extension): to quickly review step-by-step code implementation. [How to use]()
-- [StackBlitz]() (online IDE): to open codebase online. [How to use]()
-- [Github Issues]() used for bugs ONLY.
-- [Github Discussions]() we’re using Discussions as a place to connect with other members of our community. Here you can ask questions, share ideas, engage with other community members and read how-tos.
-- [LICENSE.md](LICENSE.md) we adopt MIT open source license that allows @ag-forms to be used as a dependency by other projects. It guarantees that people can use, copy, modify, and contribute back to this project without repercussions.
+- [Code Tour](https://marketplace.visualstudio.com/items?itemName=vsls-contrib.codetour#recording-tours) (VSCode Extension): to quickly review step-by-step code implementation (see [how-to]() use)
+- [StackBlitz]() (online IDE): to open codebase online (see [how-to]() use)
+- [Github Issues]() used for bugs ONLY
+- [Github Discussions]() we’re using Discussions as a place to connect with other members of our community. Here you can ask questions, share ideas, engage with other community members and read how-tos
+- [LICENSE.md](LICENSE.md) we adopt MIT open source license that allows @ag-forms to be used as a dependency by other projects. It guarantees that people can use, copy, modify, and contribute back to this project without repercussions
 
 <details>
 <summary>Read more</summary></br>
@@ -361,6 +361,8 @@ git flow https://docs.aws.amazon.com/prescriptive-guidance/latest/architectural-
 
 ## Automation
 
+[Git Hooks](https://git-scm.com/book/en/v2/Customizing-Git-Git-Hooks)
+
 #### Continuous integration (CI)
 
 [Nx Cloud](https://nx.app/)
@@ -374,11 +376,18 @@ git flow https://docs.aws.amazon.com/prescriptive-guidance/latest/architectural-
 <details>
 <summary>Read more</summary></br>
 
+"Git has a way to fire off custom scripts when certain important actions occur. There are two groups of these hooks: client-side and server-side. Client-side hooks are triggered by operations such as committing and merging, while server-side hooks run on network operations such as receiving pushed commits."
+
 📦 **Packages:**
 
 - Semantic Release: `@theunderscorer/nx-semantic-release` `ng-packagr`
 - Nx Cloud: `@nrwl/nx-cloud`
 
+📚 **References:**
+
+---
+
+https://interrupt.memfault.com/blog/pre-commit  
 We use [Semantic Versioning](https://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/PurpleBooth/a-good-readme-template/tags).  
 https://keepachangelog.com/en/1.0.0/  
 github commits names, pr's etc  
