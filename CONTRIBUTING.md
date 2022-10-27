@@ -44,12 +44,6 @@ Storybook: `@nrwl/storybook` `@storybook/addon-essentials` `@storybook/angular` 
 
 📚 **References:**
 
-[Starting an Open Source Project](https://opensource.guide/starting-a-project/)  
-[Best Practices for Maintainers](https://opensource.guide/best-practices/)  
-[Leadership and Governance](https://opensource.guide/leadership-and-governance/)  
-[Building Welcoming Communities](https://opensource.guide/building-community/)  
-[How to Build a CONTRIBUTING.md](https://mozillascience.github.io/working-open-workshop/contributing/)
-
 Architecture:  
 [C4 Model site](https://c4model.com/)  
 [Simon Brown site (author of C4 Model)](https://simonbrown.je/)  
@@ -75,6 +69,13 @@ Good docs examples:
 Storybook:  
 [Storybook](https://storybook.js.org/)  
 [Video Tutorial: Storybook for React Apps](https://www.newline.co/courses/storybook-for-react-apps/theming-the-storybook-app)
+
+Other:  
+[Starting an Open Source Project](https://opensource.guide/starting-a-project/)  
+[Best Practices for Maintainers](https://opensource.guide/best-practices/)  
+[Leadership and Governance](https://opensource.guide/leadership-and-governance/)  
+[Building Welcoming Communities](https://opensource.guide/building-community/)  
+[How to Build a CONTRIBUTING.md](https://mozillascience.github.io/working-open-workshop/contributing/)
 
 https://blog.logrocket.com/next-level-component-showcasing-with-storybook-controls/  
 https://atanasstoyanov.medium.com/custom-documentation-pages-for-storybookjs-13eb9637d6ab  
