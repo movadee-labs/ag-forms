@@ -240,7 +240,7 @@ TailwindCSS: `tailwindcss`
 
 The team uses tools to automatically format code; automatic formatting is enforced by CI and pre-commit hooks. Few importand things to note:
 
-##### Types
+#### Types
 
 ✔️ Always use a **`readonly`** property instead of a getter (with no setter) when possible.
 
@@ -248,7 +248,7 @@ The team uses tools to automatically format code; automatic formatting is enforc
 
 **X**&nbsp; Avoid **`any`** variable type where possible.
 
-##### Names
+#### Names
 
 ✔️ Use **PascalCase** for type names and enum values.
 
@@ -303,7 +303,7 @@ get active(): boolean {
 }
 ```
 
-##### Comments
+#### Comments
 
 ✔️ **Comments** that explain why some block of code exists at all, or does something the way it does, are invaluable.
 
@@ -349,7 +349,7 @@ Boolean properties and return values should use "Whether..." as opposed to "True
 disabled: boolean = false;
 ```
 
-##### Other
+#### Other
 
 ✔️ Within a file, **type definitions** should come first.
 
