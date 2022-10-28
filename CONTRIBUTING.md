@@ -191,6 +191,13 @@ Nx: `nx` `@nrwl/cli` `@nrwl/workspace`
 [Nx-based monorepo — pains and gains](https://fyodor.io/nx-based-monorepo-pains-and-gains/)  
 [Nx: Extensible Dev Tools for Monorepos](https://blog.nrwl.io/nx-angular-cli-power-ups-for-modern-development-37b42e4c8b16)
 
+data first moel https://github.com/arachne-framework/architecture/blob/master/adr-002-configuration.md  
+push detection strategy  
+app modules vs standalone components  
+custom form component https://carlosefrfloresta.medium.com/three-ways-to-create-an-angular-custom-form-component-e4fd9e8354c2  
+https://backstage.io/docs/architecture-decisions/adrs-adr004  
+https://github.com/arachne-framework/architecture/blob/master/adr-008-abstract-modules.md
+
 </details>
 </br>
 
@@ -199,9 +206,9 @@ Nx: `nx` `@nrwl/cli` `@nrwl/workspace`
 We wrote libraries specifically for Angular applications. We do not use backend or database. Here is a list of languages and frameworks and explanation why we use them:
 
 - [HTML5](https://html.spec.whatwg.org/multipage/) is a standard markup language for web pages
-- [SASS](https://sass-lang.com/) allows us to use features that do not exist in CSS, like variables, nested rules, mixins, imports, inheritance, built-in functions, and other stuff. SASS is a preprocessor scripting language that is compiled into [CSS](https://www.w3.org/Style/CSS/Overview.en.html)
+- [SASS](https://sass-lang.com/) allows us to use features that do not exist in CSS, like variables, nested rules, mixins, imports, inheritance, built-in functions, and other stuff. SASS is a preprocessor scripting language that is compiled into CSS
 - [TypeScript](https://www.typescriptlang.org/) helps us catch mistakes early through a type system and to make JavaScript development more efficient. Angular projects are written in TypeScript. Overall, it's easier and faster to code in compare to JavaScript since TypeScript.
-- [Angular](https://angular.io/docs): Angular rocks!!
+- [Angular](https://angular.io/docs) is a very good front-end framework and we love it!
 
 UI components libs:
 
@@ -231,26 +238,152 @@ TailwindCSS: `tailwindcss`
 
 ## Coding standards
 
-- [Angular Framework Coding Standards](https://github.com/angular/angular/blob/main/docs/CODING_STANDARDS.md), Naming Conventions https://github.com/angular/angular/blob/main/docs/NAMING.md
-- [Google JavaScript Style Guide](https://google.github.io/styleguide/jsguide.html)
-- [Coding guidelines TypeScript](https://github.com/Microsoft/TypeScript/wiki/Coding-guidelines)
+The team uses tools to automatically format code; automatic formatting is enforced by CI and pre-commit hooks. Few importand things to note:
+
+##### Types
+
+✔️ Always use a **`readonly`** property instead of a getter (with no setter) when possible.
+
+✔️ Prefer **`const`** wherever possible, only using **`let`** when a value must change.
+
+**X**&nbsp; Avoid **`any`** variable type where possible.
+
+##### Names
+
+✔️ Use **PascalCase** for type names and enum values.
+
+✔️ Use **camelCase** for function names, property names and local variables.
+
+✔️ Use **SNAKE_CASE** for constants.
+
+✔️ Use **`is`** and **`has`** prefixes for boolean properties / methods (except for `@Input()` properties).
+
+✔️ The **method name** should capture the action performed _by_ that method rather than describing when the method will be called.
+
+```typescript
+// NO: does not describe what the function does.
+handleClick() { ... }
+// YES: describes the action performed by the function.
+activateRipple() { ... }
+```
+
+✔️ Use descriptive **test names**. Ideally, test names should read as a sentence, often of the form "it should...".
+
+```typescript
+// NO: does not fully describe the scenario under test.
+describe('Router', () => {
+  describe('default strategy', () => {
+    it('should work', () => {
+      // ...
+    });
+  });
+});
+// YES: describes the scenario under test.
+describe('Router', () => {
+  describe('with the default route reuse strategy', () => {
+    it('should not reuse routes upon location change', () => {
+      // ...
+    });
+  });
+});
+```
+
+**X**&nbsp; Don't suffix observables with **`$`**.
+
+**X**&nbsp; Do not use **`I`** as a prefix for interface names.
+
+**X**&nbsp; Don't use **abbreviations** or **short names** in naming properties / methods, instead write out words. For example, `labelPosition` is better than `align` because the former much more exactly communicates what the property means.
+
+```typescript
+// YES
+readonly active: boolean;
+// NO
+get active(): boolean {
+   return this._active;
+}
+```
+
+##### Comments
+
+✔️ **Comments** that explain why some block of code exists at all, or does something the way it does, are invaluable.
+
+```typescript
+// NO
+// Set default tabindex.
+if (!attributes['tabindex']) {
+  element.setAttribute('tabindex', '-1');
+}
+// YES
+// Unless the user specifies otherwise, the calendar should not be a tab stop.
+// This prevents ngAria from overzealously adding a tabindex to anything with an ng-model.
+if (!attributes['tabindex']) {
+  element.setAttribute('tabindex', '-1');
+}
+```
+
+✔️ All public APIs must have user-facing **JsDoc-style comments**. These are extracted for API documentation and shown in IDEs.
+
+Properties should have a concise description of what the property means:
+
+```typescript
+  /** The label position relative to the checkbox. Defaults to 'after' */
+  @Input() labelPosition: 'before' | 'after' = 'after';
+```
+
+Methods blocks should describe what the function does and provide a description for each parameter and the return value:
+
+```typescript
+  /**
+   * Opens a modal dialog containing the given component.
+   * @param component Type of the component to load into the dialog.
+   * @param config Dialog configuration options.
+   * @returns Reference to the newly-opened dialog.
+   */
+  open<T>(component: ComponentType<T>, config?: MatDialogConfig): MatDialogRef<T> { ... }
+```
+
+Boolean properties and return values should use "Whether..." as opposed to "True if...":
+
+```ts
+/** Whether the button is disabled. */
+disabled: boolean = false;
+```
+
+##### Other
+
+✔️ Within a file, **type definitions** should come first.
+
+**X**&nbsp; Don't use **optional function arguments** merely for convenience in implementation. Use optional function arguments only when such an argument makes sense for an API.
+
+```typescript
+// NO
+function getTargetElement(createIfNotFound = false) { ... }
+// YES
+function getExistingTargetElement()  { ... }
+function createTargetElement()  { ... }
+```
 
 <details>
 <summary>Read more</summary></br>
 
-use moment lib? https://backstage.io/docs/architecture-decisions/adrs-adr010  
-localization https://backstage.io/docs/architecture-decisions/adrs-adr012
-data first moel https://github.com/arachne-framework/architecture/blob/master/adr-002-configuration.md
-push detection strategy
-app modules vs standalone components
-custom form component https://carlosefrfloresta.medium.com/three-ways-to-create-an-angular-custom-form-component-e4fd9e8354c2
-https://backstage.io/docs/architecture-decisions/adrs-adr004
-https://github.com/arachne-framework/architecture/blob/master/adr-008-abstract-modules.md
+We refer to the following standards as the basis for our coding style:
+
+- [Angular Framework Coding Standards](https://github.com/angular/angular/blob/main/docs/CODING_STANDARDS.md)
+- [Google JavaScript Style Guide](https://google.github.io/styleguide/jsguide.html)
+- [Coding guidelines TypeScript](https://github.com/Microsoft/TypeScript/wiki/Coding-guidelines)
+
+📚 **References:**
+
+[Naming Conventions in Angular](https://github.com/angular/angular/blob/main/docs/NAMING.md)  
+[Use the Luxon Date Library](https://backstage.io/docs/architecture-decisions/adrs-adr010)  
+[Use Luxon.toLocaleString and date/time presets](https://backstage.io/docs/architecture-decisions/adrs-adr012)
 
 </details>
 </br>
 
 ## Testing and debugging
+
+The team uses `prettier` to automatically format code; automatic formatting is enforced by CI.
 
 Summary of tools we use for the following software testing:
 
